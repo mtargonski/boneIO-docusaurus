@@ -1,0 +1,15 @@
+{
+  "unversionedId": "input",
+  "id": "input",
+  "title": "Input Board",
+  "description": "Input Board BBB",
+  "source": "@site/boards/01-input.md",
+  "sourceDirName": ".",
+  "slug": "/input",
+  "permalink": "/boards/input",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar"
+}

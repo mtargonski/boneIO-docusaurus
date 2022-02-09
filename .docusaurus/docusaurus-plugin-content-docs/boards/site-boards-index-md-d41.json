@@ -1,0 +1,18 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "index",
+  "description": "ha",
+  "source": "@site/boards/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/boards/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Input Board",
+    "permalink": "/boards/input"
+  }
+}

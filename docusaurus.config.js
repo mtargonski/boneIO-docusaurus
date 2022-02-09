@@ -75,7 +75,7 @@ const config = {
             type: 'docsVersionDropdown',
           },
           {
-            to: '/boards/input-boards',
+            to: '/boards/input',
             label: 'Boards',
             position: 'left',
             activeBaseRegex: `/boards/`,
