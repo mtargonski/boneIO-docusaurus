@@ -1,0 +1,39 @@
+{
+  "pluginId": "case",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Preparing the Case",
+        "href": "/case/case",
+        "docId": "case"
+      },
+      {
+        "type": "link",
+        "label": "Test",
+        "href": "/case/",
+        "docId": "index"
+      }
+    ]
+  },
+  "docs": {
+    "case": {
+      "id": "case",
+      "title": "Preparing the Case",
+      "description": "3D Model",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Test",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

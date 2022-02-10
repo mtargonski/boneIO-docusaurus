@@ -1,0 +1,28 @@
+{
+  "unversionedId": "output",
+  "id": "output",
+  "title": "Output Boards v0.2",
+  "description": "Relay Board 24z16A",
+  "source": "@site/boards/02-output.md",
+  "sourceDirName": ".",
+  "slug": "/output",
+  "permalink": "/boards/output",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/boards/"
+  },
+  "next": {
+    "title": "Input Board v0.3",
+    "permalink": "/boards/inputv0.3"
+  }
+}

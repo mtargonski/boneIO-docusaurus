@@ -3,7 +3,7 @@
   "id": "input",
   "title": "Input Board v0.3",
   "description": "Input Board BBB",
-  "source": "@site/boards/01-input.md",
+  "source": "@site/boards/03-input.md",
   "sourceDirName": ".",
   "slug": "/input",
   "permalink": "/boards/input",
@@ -12,15 +12,13 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "10/14/2018",
-  "sidebarPosition": 1,
-  "frontMatter": {},
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Intro",
-    "permalink": "/boards/"
-  },
-  "next": {
-    "title": "Input Board v0.2",
-    "permalink": "/boards/v0.2/input"
+    "title": "Output Boards v0.2",
+    "permalink": "/boards/output"
   }
 }

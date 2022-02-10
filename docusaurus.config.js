@@ -29,6 +29,19 @@ const config = {
         showLastUpdateTime: true,
       }),
     ],
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'case',
+        path: 'case',
+        routeBasePath: 'case',
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./sidebars.js'),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+      }),
+    ],
   ],
   presets: [
     [
@@ -75,12 +88,18 @@ const config = {
             type: 'docsVersionDropdown',
           },
           {
-            to: '/boards/input',
+            to: '/boards',
             label: 'Boards',
             position: 'left',
             activeBaseRegex: `/boards/`,
           },
-          { to: '/blog', label: 'Case', position: 'left' },
+          {
+            to: '/case',
+            label: 'Case',
+            position: 'left',
+            activeBaseRegex: `/case/`,
+          },
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/boneio-eu/boneIO',
             label: 'GitHub',

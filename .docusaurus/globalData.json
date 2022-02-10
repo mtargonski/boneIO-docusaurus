@@ -1,32 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "boards": {
-      "path": "/boards",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/boards",
-          "mainDocId": "input",
-          "docs": [
-            {
-              "id": "input",
-              "path": "/boards/input",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/boards/input",
-                "label": "input"
-              }
-            }
-          }
-        }
-      ]
-    },
     "default": {
       "path": "/docs",
       "versions": [
@@ -38,18 +11,18 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "Installation/first-start",
-              "path": "/docs/next/Installation/first-start",
+              "id": "install/first-start",
+              "path": "/docs/next/install/first-start",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Installation/update",
-              "path": "/docs/next/Installation/update",
+              "id": "install/update",
+              "path": "/docs/next/install/update",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Installation/video",
-              "path": "/docs/next/Installation/video",
+              "id": "install/video",
+              "path": "/docs/next/install/video",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -180,6 +153,80 @@
               "link": {
                 "path": "/docs/intro",
                 "label": "version-0.2.0/intro"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "boards": {
+      "path": "/boards",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/boards",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/boards/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "v0.2/input",
+              "path": "/boards/v0.2/input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "v0.2/output",
+              "path": "/boards/v0.2/output",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "v0.3/input",
+              "path": "/boards/v0.3/input",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/boards/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "case": {
+      "path": "/case",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/case",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "case",
+              "path": "/case/case",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/case/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/case/case",
+                "label": "case"
               }
             }
           }

@@ -10,9 +10,35 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Intro",
         "href": "/docs/next/intro",
         "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Installation",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Software Installation",
+            "href": "/docs/next/install/first-start",
+            "docId": "install/first-start"
+          },
+          {
+            "type": "link",
+            "label": "Video guide",
+            "href": "/docs/next/install/video",
+            "docId": "install/video"
+          },
+          {
+            "type": "link",
+            "label": "Software Update",
+            "href": "/docs/next/install/update",
+            "docId": "install/update"
+          }
+        ]
       },
       {
         "type": "category",
@@ -77,57 +103,31 @@
             "docId": "tutorial-extras/translate-your-site"
           }
         ]
-      },
-      {
-        "type": "category",
-        "label": "Installation",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Software Installation",
-            "href": "/docs/next/Installation/first-start",
-            "docId": "Installation/first-start"
-          },
-          {
-            "type": "link",
-            "label": "Video guide",
-            "href": "/docs/next/Installation/video",
-            "docId": "Installation/video"
-          },
-          {
-            "type": "link",
-            "label": "Software Update",
-            "href": "/docs/next/Installation/update",
-            "docId": "Installation/update"
-          }
-        ]
       }
     ]
   },
   "docs": {
-    "Installation/first-start": {
-      "id": "Installation/first-start",
+    "install/first-start": {
+      "id": "install/first-start",
       "title": "Software Installation",
       "description": "BeagleBone shortcut is BBB.",
       "sidebar": "tutorialSidebar"
     },
-    "Installation/update": {
-      "id": "Installation/update",
+    "install/update": {
+      "id": "install/update",
       "title": "Software Update",
       "description": "You need to know your boneIO installation path eg. ~/boneio",
       "sidebar": "tutorialSidebar"
     },
-    "Installation/video": {
-      "id": "Installation/video",
+    "install/video": {
+      "id": "install/video",
       "title": "Video guide",
       "description": "Below you will find complete instruction how to install the software and run the boneIO. If you prefer video tutorial you can find it here also:",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
+      "title": "Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },

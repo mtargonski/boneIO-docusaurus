@@ -1,18 +1,24 @@
 {
   "unversionedId": "index",
   "id": "index",
-  "title": "index",
-  "description": "ha",
+  "title": "Intro",
+  "description": "There are 2 working versions of boards. v0.2 and v0.3. v0.3 is improved version of v0.2.",
   "source": "@site/boards/index.md",
   "sourceDirName": ".",
   "slug": "/",
   "permalink": "/boards/",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
   "sidebar": "tutorialSidebar",
-  "previous": {
+  "next": {
     "title": "Input Board",
-    "permalink": "/boards/input"
+    "permalink": "/boards/v0.2/input"
   }
 }

@@ -15,5 +15,9 @@
   "previous": {
     "title": "Video guide",
     "permalink": "/docs/next/Installation/video"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docs/next/tutorial-basics/create-a-page"
   }
 }

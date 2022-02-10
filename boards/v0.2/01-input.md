@@ -1,4 +1,10 @@
+---
+sidebar_position: 2
+---
+
 # Input Board
+
+Version: 0.2
 
 ## Input Board BBB
 

@@ -25,6 +25,18 @@ export default {
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true
       }
+    ],
+    [
+      "content-docs",
+      {
+        "id": "case",
+        "path": "case",
+        "routeBasePath": "case",
+        "editCurrentVersion": true,
+        "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
+        "showLastUpdateAuthor": false,
+        "showLastUpdateTime": false
+      }
     ]
   ],
   "presets": [
@@ -66,14 +78,20 @@ export default {
           "dropdownItemsAfter": []
         },
         {
-          "to": "/boards/input",
+          "to": "/boards",
           "label": "Boards",
           "position": "left",
           "activeBaseRegex": "/boards/"
         },
         {
-          "to": "/blog",
+          "to": "/case",
           "label": "Case",
+          "position": "left",
+          "activeBaseRegex": "/case/"
+        },
+        {
+          "to": "/blog",
+          "label": "Blog",
           "position": "left"
         },
         {

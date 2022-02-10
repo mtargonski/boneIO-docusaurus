@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v0.2/inputv0.2",
+  "id": "v0.2/inputv0.2",
+  "title": "Input Board v0.2",
+  "description": "Input Board BBB",
+  "source": "@site/boards/v0.2/02-inputv0.2.md",
+  "sourceDirName": "v0.2",
+  "slug": "/v0.2/inputv0.2",
+  "permalink": "/boards/v0.2/inputv0.2",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/boards/"
+  },
+  "next": {
+    "title": "Output Boards v0.2",
+    "permalink": "/boards/v0.2/output"
+  }
+}

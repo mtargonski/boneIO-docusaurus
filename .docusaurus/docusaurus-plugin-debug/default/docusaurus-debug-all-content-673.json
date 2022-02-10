@@ -18,15 +18,15 @@
           "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "Installation/first-start",
-              "id": "Installation/first-start",
+              "unversionedId": "install/first-start",
+              "id": "install/first-start",
               "title": "Software Installation",
               "description": "BeagleBone shortcut is BBB.",
-              "source": "@site/docs/Installation/first-start.md",
-              "sourceDirName": "Installation",
-              "slug": "/Installation/first-start",
-              "permalink": "/docs/next/Installation/first-start",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Installation/first-start.md",
+              "source": "@site/docs/01-install/first-start.md",
+              "sourceDirName": "01-install",
+              "slug": "/install/first-start",
+              "permalink": "/docs/next/install/first-start",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/first-start.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -35,43 +35,47 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/next/tutorial-extras/translate-your-site"
+                "title": "Intro",
+                "permalink": "/docs/next/intro"
               },
               "next": {
                 "title": "Video guide",
-                "permalink": "/docs/next/Installation/video"
+                "permalink": "/docs/next/install/video"
               }
             },
             {
-              "unversionedId": "Installation/update",
-              "id": "Installation/update",
+              "unversionedId": "install/update",
+              "id": "install/update",
               "title": "Software Update",
               "description": "You need to know your boneIO installation path eg. ~/boneio",
-              "source": "@site/docs/Installation/update.md",
-              "sourceDirName": "Installation",
-              "slug": "/Installation/update",
-              "permalink": "/docs/next/Installation/update",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Installation/update.md",
+              "source": "@site/docs/01-install/update.md",
+              "sourceDirName": "01-install",
+              "slug": "/install/update",
+              "permalink": "/docs/next/install/update",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/update.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Video guide",
-                "permalink": "/docs/next/Installation/video"
+                "permalink": "/docs/next/install/video"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/next/tutorial-basics/create-a-page"
               }
             },
             {
-              "unversionedId": "Installation/video",
-              "id": "Installation/video",
+              "unversionedId": "install/video",
+              "id": "install/video",
               "title": "Video guide",
               "description": "Below you will find complete instruction how to install the software and run the boneIO. If you prefer video tutorial you can find it here also:",
-              "source": "@site/docs/Installation/video.md",
-              "sourceDirName": "Installation",
-              "slug": "/Installation/video",
-              "permalink": "/docs/next/Installation/video",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Installation/video.md",
+              "source": "@site/docs/01-install/video.md",
+              "sourceDirName": "01-install",
+              "slug": "/install/video",
+              "permalink": "/docs/next/install/video",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/video.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -81,17 +85,17 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Installation",
-                "permalink": "/docs/next/Installation/first-start"
+                "permalink": "/docs/next/install/first-start"
               },
               "next": {
                 "title": "Software Update",
-                "permalink": "/docs/next/Installation/update"
+                "permalink": "/docs/next/install/update"
               }
             },
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Tutorial Intro",
+              "title": "Intro",
               "description": "Let's discover Docusaurus in less than 5 minutes.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -106,8 +110,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/next/tutorial-basics/create-a-page"
+                "title": "Software Installation",
+                "permalink": "/docs/next/install/first-start"
               }
             },
             {
@@ -206,8 +210,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/next/intro"
+                "title": "Software Update",
+                "permalink": "/docs/next/install/update"
               },
               "next": {
                 "title": "Create a Document",
@@ -312,10 +316,6 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/docs/next/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
-                "title": "Software Installation",
-                "permalink": "/docs/next/Installation/first-start"
               }
             }
           ],
@@ -324,6 +324,26 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Installation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "install/first-start"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "install/video"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "install/update"
+                  }
+                ]
               },
               {
                 "type": "category",
@@ -370,26 +390,6 @@
                   {
                     "type": "doc",
                     "id": "tutorial-extras/translate-your-site"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Installation",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Installation/first-start"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Installation/video"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Installation/update"
                   }
                 ]
               }
@@ -816,8 +816,8 @@
             {
               "unversionedId": "index",
               "id": "index",
-              "title": "index",
-              "description": "ha",
+              "title": "Intro",
+              "description": "There are 2 working versions of boards. v0.2 and v0.3. v0.3 is improved version of v0.2.",
               "source": "@site/boards/index.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -827,33 +827,94 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "10/14/2018",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
-              "previous": {
+              "next": {
                 "title": "Input Board",
-                "permalink": "/boards/input"
+                "permalink": "/boards/v0.2/input"
               }
             },
             {
-              "unversionedId": "input",
-              "id": "input",
+              "unversionedId": "v0.2/input",
+              "id": "v0.2/input",
               "title": "Input Board",
-              "description": "Input Board BBB",
-              "source": "@site/boards/01-input.md",
-              "sourceDirName": ".",
-              "slug": "/input",
-              "permalink": "/boards/input",
+              "description": "Version: 0.2",
+              "source": "@site/boards/v0.2/01-input.md",
+              "sourceDirName": "v0.2",
+              "slug": "/v0.2/input",
+              "permalink": "/boards/v0.2/input",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "10/14/2018",
-              "sidebarPosition": 1,
-              "frontMatter": {},
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
               "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "index",
+              "previous": {
+                "title": "Intro",
                 "permalink": "/boards/"
+              },
+              "next": {
+                "title": "Output Boards",
+                "permalink": "/boards/v0.2/output"
+              }
+            },
+            {
+              "unversionedId": "v0.2/output",
+              "id": "v0.2/output",
+              "title": "Output Boards",
+              "description": "Version: 0.2",
+              "source": "@site/boards/v0.2/02-output.md",
+              "sourceDirName": "v0.2",
+              "slug": "/v0.2/output",
+              "permalink": "/boards/v0.2/output",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Input Board",
+                "permalink": "/boards/v0.2/input"
+              },
+              "next": {
+                "title": "Input Board",
+                "permalink": "/boards/v0.3/input"
+              }
+            },
+            {
+              "unversionedId": "v0.3/input",
+              "id": "v0.3/input",
+              "title": "Input Board",
+              "description": "Version: 0.3",
+              "source": "@site/boards/v0.3/01-input.md",
+              "sourceDirName": "v0.3",
+              "slug": "/v0.3/input",
+              "permalink": "/boards/v0.3/input",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Output Boards",
+                "permalink": "/boards/v0.2/output"
               }
             }
           ],
@@ -861,7 +922,104 @@
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "input"
+                "id": "index"
+              },
+              {
+                "type": "category",
+                "label": "v0.2",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "v0.2/input"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "v0.2/output"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "v0.3",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "v0.3/input"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "index",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    },
+    "case": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/case",
+          "tagsPath": "/case/tags",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
+          "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/case",
+          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs-case/current",
+          "docs": [
+            {
+              "unversionedId": "case",
+              "id": "case",
+              "title": "Preparing the Case",
+              "description": "3D Model",
+              "source": "@site/case/case.md",
+              "sourceDirName": ".",
+              "slug": "/case",
+              "permalink": "/case/case",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Test",
+                "permalink": "/case/"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Test",
+              "description": "",
+              "source": "@site/case/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/case/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Preparing the Case",
+                "permalink": "/case/case"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "case"
               },
               {
                 "type": "doc",
