@@ -44,7 +44,7 @@
               "unversionedId": "configuration/logger",
               "id": "configuration/logger",
               "title": "Logger",
-              "description": "The logger component automatically logs all log messages to STDOUT.",
+              "description": "Logger",
               "source": "@site/docs/02-configuration/logger.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/logger",
@@ -208,7 +208,7 @@
               },
               {
                 "type": "category",
-                "label": "configuration",
+                "label": "Configuration",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [

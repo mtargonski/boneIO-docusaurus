@@ -42,7 +42,7 @@
       },
       {
         "type": "category",
-        "label": "configuration",
+        "label": "Configuration",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -73,7 +73,7 @@
     "configuration/logger": {
       "id": "configuration/logger",
       "title": "Logger",
-      "description": "The logger component automatically logs all log messages to STDOUT.",
+      "description": "Logger",
       "sidebar": "tutorialSidebar"
     },
     "configuration/mqtt": {
