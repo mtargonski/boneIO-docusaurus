@@ -6,7 +6,7 @@
   "source": "@site/docs/01-install/update.md",
   "sourceDirName": "01-install",
   "slug": "/install/update",
-  "permalink": "/docs/next/install/update",
+  "permalink": "/docs/install/update",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/update.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Video guide",
-    "permalink": "/docs/next/install/video"
+    "permalink": "/docs/install/video"
   },
   "next": {
     "title": "Configuration",
-    "permalink": "/docs/next/configuration/"
+    "permalink": "/docs/configuration/"
   }
 }

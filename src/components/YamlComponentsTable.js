@@ -13,6 +13,16 @@ const YamlComponentsTable = () => {
       name: 'Logger',
       url: 'configuration/logger',
     },
+    {
+      img: '/img/oled.jpg',
+      name: 'OLED',
+      url: 'configuration/oled',
+    },
+    {
+      img: '/img/modbus.png',
+      name: 'Modbus',
+      url: 'configuration/modbus',
+    },
   ];
   return (
     <div

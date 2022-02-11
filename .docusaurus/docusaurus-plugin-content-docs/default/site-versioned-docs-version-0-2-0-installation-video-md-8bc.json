@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-0.2.0/Installation/video.md",
   "sourceDirName": "Installation",
   "slug": "/Installation/video",
-  "permalink": "/docs/Installation/video",
+  "permalink": "/docs/0.2.0/Installation/video",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/Installation/video.md",
   "tags": [],
   "version": "0.2.0",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Software Installation",
-    "permalink": "/docs/Installation/first-start"
+    "permalink": "/docs/0.2.0/Installation/first-start"
   },
   "next": {
     "title": "Software Update",
-    "permalink": "/docs/Installation/update"
+    "permalink": "/docs/0.2.0/Installation/update"
   }
 }

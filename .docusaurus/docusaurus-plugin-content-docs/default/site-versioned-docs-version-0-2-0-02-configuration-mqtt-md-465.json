@@ -1,0 +1,19 @@
+{
+  "unversionedId": "configuration/mqtt",
+  "id": "version-0.2.0/configuration/mqtt",
+  "title": "MQTT Client",
+  "description": "MQTT",
+  "source": "@site/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
+  "sourceDirName": "02-configuration",
+  "slug": "/configuration/mqtt",
+  "permalink": "/docs/0.2.0/configuration/mqtt",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
+  "tags": [],
+  "version": "0.2.0",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Logger",
+    "permalink": "/docs/0.2.0/configuration/logger"
+  }
+}

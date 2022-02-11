@@ -1,6 +1,11 @@
+---
+sidebar_position: 2
+---
+
 # Logger
 
-![Logger](/img/logger.png)
+<img src="/img/logger.png"  width="120" height="120" />
+
 The logger component automatically logs all log messages to STDOUT.
 
 If you are running boneIO as service then all logs should be visible via `journalctl -u boneio` or `journalctl -f`.

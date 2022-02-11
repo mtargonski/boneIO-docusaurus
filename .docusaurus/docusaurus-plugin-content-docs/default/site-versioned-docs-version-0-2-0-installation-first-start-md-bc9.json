@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-0.2.0/Installation/first-start.md",
   "sourceDirName": "Installation",
   "slug": "/Installation/first-start",
-  "permalink": "/docs/Installation/first-start",
+  "permalink": "/docs/0.2.0/Installation/first-start",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/Installation/first-start.md",
   "tags": [],
   "version": "0.2.0",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "permalink": "/docs/0.2.0/tutorial-extras/translate-your-site"
   },
   "next": {
     "title": "Video guide",
-    "permalink": "/docs/Installation/video"
+    "permalink": "/docs/0.2.0/Installation/video"
   }
 }

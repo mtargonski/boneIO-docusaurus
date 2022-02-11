@@ -1,15 +1,15 @@
 {
   "unversionedId": "install/video",
-  "id": "install/video",
+  "id": "version-0.2.0/install/video",
   "title": "Video guide",
   "description": "Below you will find complete instruction how to install the software and run the boneIO. If you prefer video tutorial you can find it here also:",
-  "source": "@site/docs/01-install/video.md",
+  "source": "@site/versioned_docs/version-0.2.0/01-install/video.md",
   "sourceDirName": "01-install",
   "slug": "/install/video",
-  "permalink": "/docs/install/video",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/video.md",
+  "permalink": "/docs/0.2.0/install/video",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/01-install/video.md",
   "tags": [],
-  "version": "current",
+  "version": "0.2.0",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Software Installation",
-    "permalink": "/docs/install/first-start"
+    "permalink": "/docs/0.2.0/install/first-start"
   },
   "next": {
     "title": "Software Update",
-    "permalink": "/docs/install/update"
+    "permalink": "/docs/0.2.0/install/update"
   }
 }

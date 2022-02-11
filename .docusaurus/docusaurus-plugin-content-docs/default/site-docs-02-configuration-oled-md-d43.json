@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/oled",
+  "id": "configuration/oled",
+  "title": "OLED",
+  "description": "OLED",
+  "source": "@site/docs/02-configuration/oled.md",
+  "sourceDirName": "02-configuration",
+  "slug": "/configuration/oled",
+  "permalink": "/docs/configuration/oled",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/oled.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Logger",
+    "permalink": "/docs/configuration/logger"
+  },
+  "next": {
+    "title": "Modbus",
+    "permalink": "/docs/configuration/modbus"
+  }
+}

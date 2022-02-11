@@ -5,14 +5,15 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs/next",
-          "tagsPath": "/docs/next/tags",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
           "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
-          "versionBanner": "unreleased",
+          "versionBanner": null,
           "versionBadge": true,
           "versionClassName": "docs-version-current",
-          "isLast": false,
+          "isLast": true,
+          "routePriority": -1,
           "sidebarFilePath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
           "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/docs",
           "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/current",
@@ -25,7 +26,7 @@
               "source": "@site/docs/02-configuration/index.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/",
-              "permalink": "/docs/next/configuration/",
+              "permalink": "/docs/configuration/",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/index.md",
               "tags": [],
               "version": "current",
@@ -33,34 +34,59 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Update",
-                "permalink": "/docs/next/install/update"
+                "permalink": "/docs/install/update"
               },
               "next": {
-                "title": "Logger",
-                "permalink": "/docs/next/configuration/logger"
+                "title": "MQTT Client",
+                "permalink": "/docs/configuration/mqtt"
               }
             },
             {
               "unversionedId": "configuration/logger",
               "id": "configuration/logger",
               "title": "Logger",
-              "description": "Logger",
+              "description": "The logger component automatically logs all log messages to STDOUT.",
               "source": "@site/docs/02-configuration/logger.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/logger",
-              "permalink": "/docs/next/configuration/logger",
+              "permalink": "/docs/configuration/logger",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/logger.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Configuration",
-                "permalink": "/docs/next/configuration/"
+                "title": "MQTT Client",
+                "permalink": "/docs/configuration/mqtt"
               },
               "next": {
-                "title": "MQTT Client",
-                "permalink": "/docs/next/configuration/mqtt"
+                "title": "OLED",
+                "permalink": "/docs/configuration/oled"
+              }
+            },
+            {
+              "unversionedId": "configuration/modbus",
+              "id": "configuration/modbus",
+              "title": "Modbus",
+              "description": "Modbus",
+              "source": "@site/docs/02-configuration/modbus.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/modbus",
+              "permalink": "/docs/configuration/modbus",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/modbus.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "OLED",
+                "permalink": "/docs/configuration/oled"
               }
             },
             {
@@ -71,15 +97,48 @@
               "source": "@site/docs/02-configuration/mqtt.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mqtt",
-              "permalink": "/docs/next/configuration/mqtt",
+              "permalink": "/docs/configuration/mqtt",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/mqtt.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration",
+                "permalink": "/docs/configuration/"
+              },
+              "next": {
+                "title": "Logger",
+                "permalink": "/docs/configuration/logger"
+              }
+            },
+            {
+              "unversionedId": "configuration/oled",
+              "id": "configuration/oled",
+              "title": "OLED",
+              "description": "OLED",
+              "source": "@site/docs/02-configuration/oled.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/oled",
+              "permalink": "/docs/configuration/oled",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/oled.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Logger",
-                "permalink": "/docs/next/configuration/logger"
+                "permalink": "/docs/configuration/logger"
+              },
+              "next": {
+                "title": "Modbus",
+                "permalink": "/docs/configuration/modbus"
               }
             },
             {
@@ -90,7 +149,7 @@
               "source": "@site/docs/01-install/first-start.md",
               "sourceDirName": "01-install",
               "slug": "/install/first-start",
-              "permalink": "/docs/next/install/first-start",
+              "permalink": "/docs/install/first-start",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/first-start.md",
               "tags": [],
               "version": "current",
@@ -101,11 +160,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Intro",
-                "permalink": "/docs/next/intro"
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Video guide",
-                "permalink": "/docs/next/install/video"
+                "permalink": "/docs/install/video"
               }
             },
             {
@@ -116,7 +175,7 @@
               "source": "@site/docs/01-install/update.md",
               "sourceDirName": "01-install",
               "slug": "/install/update",
-              "permalink": "/docs/next/install/update",
+              "permalink": "/docs/install/update",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/update.md",
               "tags": [],
               "version": "current",
@@ -124,11 +183,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Video guide",
-                "permalink": "/docs/next/install/video"
+                "permalink": "/docs/install/video"
               },
               "next": {
                 "title": "Configuration",
-                "permalink": "/docs/next/configuration/"
+                "permalink": "/docs/configuration/"
               }
             },
             {
@@ -139,7 +198,7 @@
               "source": "@site/docs/01-install/video.md",
               "sourceDirName": "01-install",
               "slug": "/install/video",
-              "permalink": "/docs/next/install/video",
+              "permalink": "/docs/install/video",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01-install/video.md",
               "tags": [],
               "version": "current",
@@ -150,11 +209,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Installation",
-                "permalink": "/docs/next/install/first-start"
+                "permalink": "/docs/install/first-start"
               },
               "next": {
                 "title": "Software Update",
-                "permalink": "/docs/next/install/update"
+                "permalink": "/docs/install/update"
               }
             },
             {
@@ -165,7 +224,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/next/intro",
+              "permalink": "/docs/intro",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -176,7 +235,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Software Installation",
-                "permalink": "/docs/next/install/first-start"
+                "permalink": "/docs/install/first-start"
               }
             }
           ],
@@ -214,11 +273,19 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "configuration/mqtt"
+                  },
+                  {
+                    "type": "doc",
                     "id": "configuration/logger"
                   },
                   {
                     "type": "doc",
-                    "id": "configuration/mqtt"
+                    "id": "configuration/oled"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/modbus"
                   }
                 ],
                 "link": {
@@ -234,29 +301,93 @@
         {
           "versionName": "0.2.0",
           "versionLabel": "0.2.0",
-          "versionPath": "/docs",
-          "tagsPath": "/docs/tags",
+          "versionPath": "/docs/0.2.0",
+          "tagsPath": "/docs/0.2.0/tags",
           "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0",
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/version-0.2.0",
-          "versionBanner": null,
+          "versionBanner": "unmaintained",
           "versionBadge": true,
           "versionClassName": "docs-version-0.2.0",
-          "isLast": true,
-          "routePriority": -1,
+          "isLast": false,
           "sidebarFilePath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/versioned_sidebars/version-0.2.0-sidebars.json",
           "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/versioned_docs/version-0.2.0",
           "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/version-0.2.0",
           "docs": [
             {
-              "unversionedId": "Installation/first-start",
-              "id": "version-0.2.0/Installation/first-start",
+              "unversionedId": "configuration/index",
+              "id": "version-0.2.0/configuration/index",
+              "title": "Configuration",
+              "description": "Configuration is based on yaml file. By default it's called config.yaml or configuration.yaml.",
+              "source": "@site/versioned_docs/version-0.2.0/02-configuration/index.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/",
+              "permalink": "/docs/0.2.0/configuration/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/index.md",
+              "tags": [],
+              "version": "0.2.0",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Software Update",
+                "permalink": "/docs/0.2.0/install/update"
+              },
+              "next": {
+                "title": "Logger",
+                "permalink": "/docs/0.2.0/configuration/logger"
+              }
+            },
+            {
+              "unversionedId": "configuration/logger",
+              "id": "version-0.2.0/configuration/logger",
+              "title": "Logger",
+              "description": "Logger",
+              "source": "@site/versioned_docs/version-0.2.0/02-configuration/logger.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/logger",
+              "permalink": "/docs/0.2.0/configuration/logger",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/logger.md",
+              "tags": [],
+              "version": "0.2.0",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration",
+                "permalink": "/docs/0.2.0/configuration/"
+              },
+              "next": {
+                "title": "MQTT Client",
+                "permalink": "/docs/0.2.0/configuration/mqtt"
+              }
+            },
+            {
+              "unversionedId": "configuration/mqtt",
+              "id": "version-0.2.0/configuration/mqtt",
+              "title": "MQTT Client",
+              "description": "MQTT",
+              "source": "@site/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/mqtt",
+              "permalink": "/docs/0.2.0/configuration/mqtt",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
+              "tags": [],
+              "version": "0.2.0",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Logger",
+                "permalink": "/docs/0.2.0/configuration/logger"
+              }
+            },
+            {
+              "unversionedId": "install/first-start",
+              "id": "version-0.2.0/install/first-start",
               "title": "Software Installation",
               "description": "BeagleBone shortcut is BBB.",
-              "source": "@site/versioned_docs/version-0.2.0/Installation/first-start.md",
-              "sourceDirName": "Installation",
-              "slug": "/Installation/first-start",
-              "permalink": "/docs/Installation/first-start",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/Installation/first-start.md",
+              "source": "@site/versioned_docs/version-0.2.0/01-install/first-start.md",
+              "sourceDirName": "01-install",
+              "slug": "/install/first-start",
+              "permalink": "/docs/0.2.0/install/first-start",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/01-install/first-start.md",
               "tags": [],
               "version": "0.2.0",
               "sidebarPosition": 1,
@@ -265,43 +396,47 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
+                "title": "Intro",
+                "permalink": "/docs/0.2.0/intro"
               },
               "next": {
                 "title": "Video guide",
-                "permalink": "/docs/Installation/video"
+                "permalink": "/docs/0.2.0/install/video"
               }
             },
             {
-              "unversionedId": "Installation/update",
-              "id": "version-0.2.0/Installation/update",
+              "unversionedId": "install/update",
+              "id": "version-0.2.0/install/update",
               "title": "Software Update",
               "description": "You need to know your boneIO installation path eg. ~/boneio",
-              "source": "@site/versioned_docs/version-0.2.0/Installation/update.md",
-              "sourceDirName": "Installation",
-              "slug": "/Installation/update",
-              "permalink": "/docs/Installation/update",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/Installation/update.md",
+              "source": "@site/versioned_docs/version-0.2.0/01-install/update.md",
+              "sourceDirName": "01-install",
+              "slug": "/install/update",
+              "permalink": "/docs/0.2.0/install/update",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/01-install/update.md",
               "tags": [],
               "version": "0.2.0",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Video guide",
-                "permalink": "/docs/Installation/video"
+                "permalink": "/docs/0.2.0/install/video"
+              },
+              "next": {
+                "title": "Configuration",
+                "permalink": "/docs/0.2.0/configuration/"
               }
             },
             {
-              "unversionedId": "Installation/video",
-              "id": "version-0.2.0/Installation/video",
+              "unversionedId": "install/video",
+              "id": "version-0.2.0/install/video",
               "title": "Video guide",
               "description": "Below you will find complete instruction how to install the software and run the boneIO. If you prefer video tutorial you can find it here also:",
-              "source": "@site/versioned_docs/version-0.2.0/Installation/video.md",
-              "sourceDirName": "Installation",
-              "slug": "/Installation/video",
-              "permalink": "/docs/Installation/video",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/Installation/video.md",
+              "source": "@site/versioned_docs/version-0.2.0/01-install/video.md",
+              "sourceDirName": "01-install",
+              "slug": "/install/video",
+              "permalink": "/docs/0.2.0/install/video",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/01-install/video.md",
               "tags": [],
               "version": "0.2.0",
               "sidebarPosition": 1,
@@ -311,22 +446,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Installation",
-                "permalink": "/docs/Installation/first-start"
+                "permalink": "/docs/0.2.0/install/first-start"
               },
               "next": {
                 "title": "Software Update",
-                "permalink": "/docs/Installation/update"
+                "permalink": "/docs/0.2.0/install/update"
               }
             },
             {
               "unversionedId": "intro",
               "id": "version-0.2.0/intro",
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "title": "Intro",
+              "description": "Let's discover boneio application.",
               "source": "@site/versioned_docs/version-0.2.0/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/intro",
+              "permalink": "/docs/0.2.0/intro",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/intro.md",
               "tags": [],
               "version": "0.2.0",
@@ -336,216 +471,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "version-0.2.0/tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "version-0.2.0/tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "version-0.2.0/tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "version-0.2.0/tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "version-0.2.0/tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "version-0.2.0/tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "version-0.2.0/tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "version-0.2.0/tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/versioned_docs/version-0.2.0/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "0.2.0",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
                 "title": "Software Installation",
-                "permalink": "/docs/Installation/first-start"
+                "permalink": "/docs/0.2.0/install/first-start"
               }
             }
           ],
@@ -557,71 +484,43 @@
               },
               {
                 "type": "category",
-                "label": "Tutorial - Basics",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-basics/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-basics/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-basics/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-basics/congratulations"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.2.0/tutorial-extras/translate-your-site"
-                  }
-                ]
-              },
-              {
-                "type": "category",
                 "label": "Installation",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/Installation/first-start"
+                    "id": "version-0.2.0/install/first-start"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/Installation/video"
+                    "id": "version-0.2.0/install/video"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/Installation/update"
+                    "id": "version-0.2.0/install/update"
                   }
                 ]
+              },
+              {
+                "type": "category",
+                "label": "Configuration",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-0.2.0/configuration/logger"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.2.0/configuration/mqtt"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-0.2.0/configuration/index"
+                }
               }
             ]
           },

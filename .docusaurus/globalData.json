@@ -6,50 +6,60 @@
         {
           "name": "current",
           "label": "Next",
-          "isLast": false,
-          "path": "/docs/next",
+          "isLast": true,
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "configuration/index",
-              "path": "/docs/next/configuration/",
+              "path": "/docs/configuration/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "configuration/logger",
-              "path": "/docs/next/configuration/logger",
+              "path": "/docs/configuration/logger",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/modbus",
+              "path": "/docs/configuration/modbus",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "configuration/mqtt",
-              "path": "/docs/next/configuration/mqtt",
+              "path": "/docs/configuration/mqtt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/oled",
+              "path": "/docs/configuration/oled",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "install/first-start",
-              "path": "/docs/next/install/first-start",
+              "path": "/docs/install/first-start",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "install/update",
-              "path": "/docs/next/install/update",
+              "path": "/docs/install/update",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "install/video",
-              "path": "/docs/next/install/video",
+              "path": "/docs/install/video",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/next/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/next/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }
@@ -58,108 +68,51 @@
         {
           "name": "0.2.0",
           "label": "0.2.0",
-          "isLast": true,
-          "path": "/docs",
+          "isLast": false,
+          "path": "/docs/0.2.0",
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "Installation/first-start",
-              "path": "/docs/Installation/first-start",
+              "id": "configuration/index",
+              "path": "/docs/0.2.0/configuration/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Installation/update",
-              "path": "/docs/Installation/update",
+              "id": "configuration/logger",
+              "path": "/docs/0.2.0/configuration/logger",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Installation/video",
-              "path": "/docs/Installation/video",
+              "id": "configuration/mqtt",
+              "path": "/docs/0.2.0/configuration/mqtt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install/first-start",
+              "path": "/docs/0.2.0/install/first-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install/update",
+              "path": "/docs/0.2.0/install/update",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install/video",
+              "path": "/docs/0.2.0/install/video",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "path": "/docs/0.2.0/intro",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/docs/0.2.0/intro",
                 "label": "version-0.2.0/intro"
-              }
-            }
-          }
-        }
-      ]
-    },
-    "case": {
-      "path": "/case",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/case",
-          "mainDocId": "index",
-          "docs": [
-            {
-              "id": "case",
-              "path": "/case/case",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "index",
-              "path": "/case/",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/case/case",
-                "label": "case"
               }
             }
           }
@@ -202,6 +155,38 @@
               "link": {
                 "path": "/boards/",
                 "label": "index"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "case": {
+      "path": "/case",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/case",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "case",
+              "path": "/case/case",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/case/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/case/case",
+                "label": "case"
               }
             }
           }

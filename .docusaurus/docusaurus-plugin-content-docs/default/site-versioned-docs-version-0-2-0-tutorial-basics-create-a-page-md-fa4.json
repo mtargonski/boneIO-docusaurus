@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-0.2.0/tutorial-basics/create-a-page.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-page",
-  "permalink": "/docs/tutorial-basics/create-a-page",
+  "permalink": "/docs/0.2.0/tutorial-basics/create-a-page",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/tutorial-basics/create-a-page.md",
   "tags": [],
   "version": "0.2.0",
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "title": "MQTT Client",
+    "permalink": "/docs/0.2.0/configuration/mqtt"
   },
   "next": {
     "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "permalink": "/docs/0.2.0/tutorial-basics/create-a-document"
   }
 }

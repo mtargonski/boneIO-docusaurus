@@ -99,48 +99,48 @@ export default [
     exact: true
   },
   {
-    path: '/docs/next',
-    component: ComponentCreator('/docs/next','ea5'),
+    path: '/docs/0.2.0',
+    component: ComponentCreator('/docs/0.2.0','b51'),
     routes: [
       {
-        path: '/docs/next/configuration/',
-        component: ComponentCreator('/docs/next/configuration/','325'),
+        path: '/docs/0.2.0/configuration/',
+        component: ComponentCreator('/docs/0.2.0/configuration/','230'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/configuration/logger',
-        component: ComponentCreator('/docs/next/configuration/logger','c43'),
+        path: '/docs/0.2.0/configuration/logger',
+        component: ComponentCreator('/docs/0.2.0/configuration/logger','da5'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/configuration/mqtt',
-        component: ComponentCreator('/docs/next/configuration/mqtt','04a'),
+        path: '/docs/0.2.0/configuration/mqtt',
+        component: ComponentCreator('/docs/0.2.0/configuration/mqtt','889'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/install/first-start',
-        component: ComponentCreator('/docs/next/install/first-start','d1f'),
+        path: '/docs/0.2.0/install/first-start',
+        component: ComponentCreator('/docs/0.2.0/install/first-start','095'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/install/update',
-        component: ComponentCreator('/docs/next/install/update','561'),
+        path: '/docs/0.2.0/install/update',
+        component: ComponentCreator('/docs/0.2.0/install/update','5bb'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/install/video',
-        component: ComponentCreator('/docs/next/install/video','3c1'),
+        path: '/docs/0.2.0/install/video',
+        component: ComponentCreator('/docs/0.2.0/install/video','b73'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/intro',
-        component: ComponentCreator('/docs/next/intro','8d4'),
+        path: '/docs/0.2.0/intro',
+        component: ComponentCreator('/docs/0.2.0/intro','c53'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
@@ -196,77 +196,59 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d4e'),
+    component: ComponentCreator('/docs','7f1'),
     routes: [
       {
-        path: '/docs/Installation/first-start',
-        component: ComponentCreator('/docs/Installation/first-start','eb0'),
+        path: '/docs/configuration/',
+        component: ComponentCreator('/docs/configuration/','d60'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Installation/update',
-        component: ComponentCreator('/docs/Installation/update','b55'),
+        path: '/docs/configuration/logger',
+        component: ComponentCreator('/docs/configuration/logger','df4'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Installation/video',
-        component: ComponentCreator('/docs/Installation/video','bdd'),
+        path: '/docs/configuration/modbus',
+        component: ComponentCreator('/docs/configuration/modbus','8c2'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/mqtt',
+        component: ComponentCreator('/docs/configuration/mqtt','8f5'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/oled',
+        component: ComponentCreator('/docs/configuration/oled','749'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/install/first-start',
+        component: ComponentCreator('/docs/install/first-start','6a1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/install/update',
+        component: ComponentCreator('/docs/install/update','1a9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/install/video',
+        component: ComponentCreator('/docs/install/video','60e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
         path: '/docs/intro',
-        component: ComponentCreator('/docs/intro','aba'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations','bc9'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','bc1'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document','682'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page','fa0'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','f6c'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features','855'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','9b7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site','ea4'),
+        component: ComponentCreator('/docs/intro','aed'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

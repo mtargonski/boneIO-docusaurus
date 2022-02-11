@@ -125,37 +125,37 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs/next-ea5": {
+  "/docs/0.2.0-b51": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-next-935-7db"
+    "versionMetadata": "versionMetadata---docs-0-2-0799-bb1"
   },
-  "/docs/next/configuration/-325": {
+  "/docs/0.2.0/configuration/-230": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-b-25-2b3"
+    "content": "content---docs-0-2-0-configuration-e-73-cf4"
   },
-  "/docs/next/configuration/logger-c43": {
+  "/docs/0.2.0/configuration/logger-da5": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-loggeradb-3bc"
+    "content": "content---docs-0-2-0-configuration-loggerd-86-508"
   },
-  "/docs/next/configuration/mqtt-04a": {
+  "/docs/0.2.0/configuration/mqtt-889": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-mqtte-19-4be"
+    "content": "content---docs-0-2-0-configuration-mqtt-465-aa4"
   },
-  "/docs/next/install/first-start-d1f": {
+  "/docs/0.2.0/install/first-start-095": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-install-first-start-43-a-9a9"
+    "content": "content---docs-0-2-0-install-first-start-865-238"
   },
-  "/docs/next/install/update-561": {
+  "/docs/0.2.0/install/update-5bb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-install-update-784-250"
+    "content": "content---docs-0-2-0-install-update-145-0b4"
   },
-  "/docs/next/install/video-3c1": {
+  "/docs/0.2.0/install/video-b73": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-install-video-083-d76"
+    "content": "content---docs-0-2-0-install-video-158-38e"
   },
-  "/docs/next/intro-8d4": {
+  "/docs/0.2.0/intro-c53": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-intro-0-e-3-e8b"
+    "content": "content---docs-0-2-0-introb-75-eb4"
   },
   "/boards-cf7": {
     "component": "component---theme-doc-page-1-be-9be",
@@ -189,57 +189,45 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---case-case-26-f-475"
   },
-  "/docs-d4e": {
+  "/docs-7f1": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-799-cc6"
+    "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/Installation/first-start-eb0": {
+  "/docs/configuration/-d60": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-installation-first-startbc-9-0ff"
+    "content": "content---docs-configuration-b-25-ae8"
   },
-  "/docs/Installation/update-b55": {
+  "/docs/configuration/logger-df4": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-installation-update-855-bb8"
+    "content": "content---docs-configuration-loggeradb-e95"
   },
-  "/docs/Installation/video-bdd": {
+  "/docs/configuration/modbus-8c2": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-installation-video-8-bc-f94"
+    "content": "content---docs-configuration-modbusf-7-e-be3"
   },
-  "/docs/intro-aba": {
+  "/docs/configuration/mqtt-8f5": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-introb-75-42b"
+    "content": "content---docs-configuration-mqtte-19-a2f"
   },
-  "/docs/tutorial-basics/congratulations-bc9": {
+  "/docs/configuration/oled-749": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-968-dc5"
+    "content": "content---docs-configuration-oledd-43-e2f"
   },
-  "/docs/tutorial-basics/create-a-blog-post-bc1": {
+  "/docs/install/first-start-6a1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-postfdf-470"
+    "content": "content---docs-install-first-start-43-a-113"
   },
-  "/docs/tutorial-basics/create-a-document-682": {
+  "/docs/install/update-1a9": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-documentcbb-9c3"
+    "content": "content---docs-install-update-784-2f7"
   },
-  "/docs/tutorial-basics/create-a-page-fa0": {
+  "/docs/install/video-60e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-pagefa-4-f5e"
+    "content": "content---docs-install-video-083-e3f"
   },
-  "/docs/tutorial-basics/deploy-your-site-f6c": {
+  "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-site-8-cb-114"
-  },
-  "/docs/tutorial-basics/markdown-features-855": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-featurese-85-9e2"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-9b7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionse-67-a8d"
-  },
-  "/docs/tutorial-extras/translate-your-site-ea4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-site-41-b-87c"
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",
