@@ -134,6 +134,38 @@
         }
       ]
     },
+    "case": {
+      "path": "/case",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/case",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "case",
+              "path": "/case/case",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/case/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/case/case",
+                "label": "case"
+              }
+            }
+          }
+        }
+      ]
+    },
     "boards": {
       "path": "/boards",
       "versions": [
@@ -170,38 +202,6 @@
               "link": {
                 "path": "/boards/",
                 "label": "index"
-              }
-            }
-          }
-        }
-      ]
-    },
-    "case": {
-      "path": "/case",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/case",
-          "mainDocId": "index",
-          "docs": [
-            {
-              "id": "case",
-              "path": "/case/case",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "index",
-              "path": "/case/",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/case/case",
-                "label": "case"
               }
             }
           }

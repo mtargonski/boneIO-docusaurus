@@ -37,27 +37,33 @@ const YamlComponentsTable = () => {
           <div
             style={{
               height: '100%',
-              //   display: 'grid',
-              //   gridTemplateRows: '2fr 1fr',
+              alignItems: 'center',
+              display: 'grid',
+              gridTemplateRows: '80% 20%',
             }}
           >
-            <img
+            <div
               style={{
-                height: 'auto',
-                width: 'auto',
-                maxHeight: '70%',
-              }}
-              src={img}
-              alt={name}
-            />
-            <p
-              style={{
-                gridColumn: '1',
-                gridRow: '1/3',
+                height: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                verticalAlign: 'middle',
+                justifyContent: 'center',
               }}
             >
-              {name}
-            </p>
+              <img
+                style={{
+                  height: 'auto',
+                  width: 'auto',
+                  maxHeight: '70%',
+                }}
+                src={img}
+                alt={name}
+              />
+            </div>
+            <div>
+              <p>{name}</p>
+            </div>
           </div>
         </Link>
       ))}
