@@ -125,9 +125,21 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs/next-158": {
+  "/docs/next-ea5": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-next-935-7db"
+  },
+  "/docs/next/configuration/-325": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-b-25-2b3"
+  },
+  "/docs/next/configuration/logger-c43": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-loggeradb-3bc"
+  },
+  "/docs/next/configuration/mqtt-04a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-mqtte-19-4be"
   },
   "/docs/next/install/first-start-d1f": {
     "component": "component---theme-doc-item-178-a40",
@@ -144,38 +156,6 @@
   "/docs/next/intro-8d4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-next-intro-0-e-3-e8b"
-  },
-  "/docs/next/tutorial-basics/congratulations-942": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-basics-congratulations-822-dd8"
-  },
-  "/docs/next/tutorial-basics/create-a-blog-post-fbe": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-basics-create-a-blog-post-533-264"
-  },
-  "/docs/next/tutorial-basics/create-a-document-32a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-basics-create-a-document-1-e-4-9c5"
-  },
-  "/docs/next/tutorial-basics/create-a-page-24b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-basics-create-a-page-5-c-8-5e7"
-  },
-  "/docs/next/tutorial-basics/deploy-your-site-49e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-basics-deploy-your-sitef-55-46f"
-  },
-  "/docs/next/tutorial-basics/markdown-features-bca": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-basics-markdown-features-18-c-0e2"
-  },
-  "/docs/next/tutorial-extras/manage-docs-versions-a0f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-extras-manage-docs-versionsdff-edb"
-  },
-  "/docs/next/tutorial-extras/translate-your-site-84b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-tutorial-extras-translate-your-sitee-44-d48"
   },
   "/boards-cf7": {
     "component": "component---theme-doc-page-1-be-9be",

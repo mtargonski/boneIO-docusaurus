@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Software Update",
-    "permalink": "/docs/next/install/update"
+    "title": "Configuration",
+    "permalink": "/docs/next/configuration/"
   },
   "next": {
     "title": "Create a Document",

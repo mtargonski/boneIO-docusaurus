@@ -100,8 +100,26 @@ export default [
   },
   {
     path: '/docs/next',
-    component: ComponentCreator('/docs/next','158'),
+    component: ComponentCreator('/docs/next','ea5'),
     routes: [
+      {
+        path: '/docs/next/configuration/',
+        component: ComponentCreator('/docs/next/configuration/','325'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/logger',
+        component: ComponentCreator('/docs/next/configuration/logger','c43'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/mqtt',
+        component: ComponentCreator('/docs/next/configuration/mqtt','04a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/next/install/first-start',
         component: ComponentCreator('/docs/next/install/first-start','d1f'),
@@ -123,54 +141,6 @@ export default [
       {
         path: '/docs/next/intro',
         component: ComponentCreator('/docs/next/intro','8d4'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/next/tutorial-basics/congratulations','942'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/next/tutorial-basics/create-a-blog-post','fbe'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/next/tutorial-basics/create-a-document','32a'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/next/tutorial-basics/create-a-page','24b'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/next/tutorial-basics/deploy-your-site','49e'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/next/tutorial-basics/markdown-features','bca'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/next/tutorial-extras/manage-docs-versions','a0f'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/next/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/next/tutorial-extras/translate-your-site','84b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

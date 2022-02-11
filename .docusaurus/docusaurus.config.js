@@ -109,7 +109,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Start",
               "to": "/docs/intro"
             }
           ]

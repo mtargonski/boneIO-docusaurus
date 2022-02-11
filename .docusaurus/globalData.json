@@ -11,6 +11,21 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "configuration/index",
+              "path": "/docs/next/configuration/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/logger",
+              "path": "/docs/next/configuration/logger",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/mqtt",
+              "path": "/docs/next/configuration/mqtt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "install/first-start",
               "path": "/docs/next/install/first-start",
               "sidebar": "tutorialSidebar"
@@ -28,46 +43,6 @@
             {
               "id": "intro",
               "path": "/docs/next/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/next/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/next/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/next/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/next/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/next/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/next/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/next/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/next/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             }
           ],
