@@ -2,16 +2,16 @@
   "pluginId": "default",
   "version": "0.2.0",
   "label": "0.2.0",
-  "banner": "unmaintained",
-  "badge": true,
+  "banner": null,
+  "badge": false,
   "className": "docs-version-0.2.0",
-  "isLast": false,
+  "isLast": true,
   "docsSidebars": {
     "tutorialSidebar": [
       {
         "type": "link",
         "label": "Intro",
-        "href": "/docs/0.2.0/intro",
+        "href": "/docs/intro",
         "docId": "intro"
       },
       {
@@ -23,19 +23,19 @@
           {
             "type": "link",
             "label": "Software Installation",
-            "href": "/docs/0.2.0/install/first-start",
+            "href": "/docs/install/first-start",
             "docId": "install/first-start"
           },
           {
             "type": "link",
             "label": "Video guide",
-            "href": "/docs/0.2.0/install/video",
+            "href": "/docs/install/video",
             "docId": "install/video"
           },
           {
             "type": "link",
             "label": "Software Update",
-            "href": "/docs/0.2.0/install/update",
+            "href": "/docs/install/update",
             "docId": "install/update"
           }
         ]
@@ -49,37 +49,115 @@
           {
             "type": "link",
             "label": "MQTT Client",
-            "href": "/docs/0.2.0/configuration/mqtt",
+            "href": "/docs/configuration/mqtt",
             "docId": "configuration/mqtt"
           },
           {
             "type": "link",
             "label": "Logger",
-            "href": "/docs/0.2.0/configuration/logger",
+            "href": "/docs/configuration/logger",
             "docId": "configuration/logger"
           },
           {
             "type": "link",
             "label": "OLED",
-            "href": "/docs/0.2.0/configuration/oled",
+            "href": "/docs/configuration/oled",
             "docId": "configuration/oled"
           },
           {
             "type": "link",
             "label": "Modbus",
-            "href": "/docs/0.2.0/configuration/modbus",
+            "href": "/docs/configuration/modbus",
             "docId": "configuration/modbus"
+          },
+          {
+            "type": "link",
+            "label": "Modbus sensors",
+            "href": "/docs/configuration/modbus-sensors",
+            "docId": "configuration/modbus-sensors"
+          },
+          {
+            "type": "link",
+            "label": "LM75 temp sensor",
+            "href": "/docs/configuration/lm75",
+            "docId": "configuration/lm75"
+          },
+          {
+            "type": "link",
+            "label": "MCP23017 expander",
+            "href": "/docs/configuration/mcp23017",
+            "docId": "configuration/mcp23017"
+          },
+          {
+            "type": "link",
+            "label": "MCP9808 temp sensor",
+            "href": "/docs/configuration/mcp9808",
+            "docId": "configuration/mcp9808"
+          },
+          {
+            "type": "link",
+            "label": "Output module",
+            "href": "/docs/configuration/output",
+            "docId": "configuration/output"
+          },
+          {
+            "type": "link",
+            "label": "Input module",
+            "href": "/docs/configuration/input",
+            "docId": "configuration/input"
+          },
+          {
+            "type": "link",
+            "label": "ADC sensors",
+            "href": "/docs/configuration/adc",
+            "docId": "configuration/adc"
+          },
+          {
+            "type": "link",
+            "label": "Cover",
+            "href": "/docs/configuration/cover",
+            "docId": "configuration/cover"
           }
         ],
-        "href": "/docs/0.2.0/configuration/"
+        "href": "/docs/configuration/"
+      },
+      {
+        "type": "link",
+        "label": "Developer guide",
+        "href": "/docs/developer",
+        "docId": "developer"
       }
     ]
   },
   "docs": {
+    "configuration/adc": {
+      "id": "configuration/adc",
+      "title": "ADC sensors",
+      "description": "ADC",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/cover": {
+      "id": "configuration/cover",
+      "title": "Cover",
+      "description": "Cover",
+      "sidebar": "tutorialSidebar"
+    },
     "configuration/index": {
       "id": "configuration/index",
       "title": "Configuration",
       "description": "Configuration is based on yaml file. By default it's called config.yaml or configuration.yaml.",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/input": {
+      "id": "configuration/input",
+      "title": "Input module",
+      "description": "Input",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/lm75": {
+      "id": "configuration/lm75",
+      "title": "LM75 temp sensor",
+      "description": "LM75",
       "sidebar": "tutorialSidebar"
     },
     "configuration/logger": {
@@ -88,10 +166,28 @@
       "description": "The logger component automatically logs all log messages to STDOUT.",
       "sidebar": "tutorialSidebar"
     },
+    "configuration/mcp23017": {
+      "id": "configuration/mcp23017",
+      "title": "MCP23017 expander",
+      "description": "MCP23017",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/mcp9808": {
+      "id": "configuration/mcp9808",
+      "title": "MCP9808 temp sensor",
+      "description": "MCP9808",
+      "sidebar": "tutorialSidebar"
+    },
     "configuration/modbus": {
       "id": "configuration/modbus",
       "title": "Modbus",
       "description": "Modbus",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/modbus-sensors": {
+      "id": "configuration/modbus-sensors",
+      "title": "Modbus sensors",
+      "description": "Modbus sensors",
       "sidebar": "tutorialSidebar"
     },
     "configuration/mqtt": {
@@ -104,6 +200,18 @@
       "id": "configuration/oled",
       "title": "OLED",
       "description": "OLED",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/output": {
+      "id": "configuration/output",
+      "title": "Output module",
+      "description": "Output",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer": {
+      "id": "developer",
+      "title": "Developer guide",
+      "description": "Prepare VENV",
       "sidebar": "tutorialSidebar"
     },
     "install/first-start": {

@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/mqtt",
-  "permalink": "/docs/0.2.0/configuration/mqtt",
+  "permalink": "/docs/configuration/mqtt",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
   "tags": [],
   "version": "0.2.0",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Configuration",
-    "permalink": "/docs/0.2.0/configuration/"
+    "permalink": "/docs/configuration/"
   },
   "next": {
     "title": "Logger",
-    "permalink": "/docs/0.2.0/configuration/logger"
+    "permalink": "/docs/configuration/logger"
   }
 }

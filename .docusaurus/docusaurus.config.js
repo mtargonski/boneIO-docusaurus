@@ -34,7 +34,8 @@ export default {
         "docs": {
           "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          "lastVersion": "current"
+          "lastVersion": "0.2.0",
+          "includeCurrentVersion": false
         },
         "blog": {
           "showReadingTime": true,

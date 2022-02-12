@@ -59,121 +59,81 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs/0.2.0-497": {
+  "/docs-cd7": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-0-2-0799-bb1"
   },
-  "/docs/0.2.0/configuration/-230": {
+  "/docs/configuration/-f1a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-configuration-e-73-cf4"
   },
-  "/docs/0.2.0/configuration/logger-da5": {
+  "/docs/configuration/adc-fac": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-adcf-0-e-04a"
+  },
+  "/docs/configuration/cover-17c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-cover-397-eff"
+  },
+  "/docs/configuration/input-b25": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-input-145-4e8"
+  },
+  "/docs/configuration/lm75-0d8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-lm-7557-c-d50"
+  },
+  "/docs/configuration/logger-e63": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-configuration-loggerd-86-508"
   },
-  "/docs/0.2.0/configuration/modbus-96e": {
+  "/docs/configuration/mcp23017-9cc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-mcp-2301767-d-2fe"
+  },
+  "/docs/configuration/mcp9808-1ab": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-mcp-98083-d-1-081"
+  },
+  "/docs/configuration/modbus-185": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-configuration-modbus-547-70d"
   },
-  "/docs/0.2.0/configuration/mqtt-889": {
+  "/docs/configuration/modbus-sensors-1be": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-modbus-sensors-9-de-e3a"
+  },
+  "/docs/configuration/mqtt-c84": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-configuration-mqtt-465-aa4"
   },
-  "/docs/0.2.0/configuration/oled-6ba": {
+  "/docs/configuration/oled-5e4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-configuration-oledb-27-5ca"
   },
-  "/docs/0.2.0/install/first-start-095": {
+  "/docs/configuration/output-5a9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-configuration-output-076-8ee"
+  },
+  "/docs/developer-08f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-0-2-0-developer-66-d-688"
+  },
+  "/docs/install/first-start-669": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-install-first-start-865-238"
   },
-  "/docs/0.2.0/install/update-5bb": {
+  "/docs/install/update-f1f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-install-update-145-0b4"
   },
-  "/docs/0.2.0/install/video-b73": {
+  "/docs/install/video-c5e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-install-video-158-38e"
   },
-  "/docs/0.2.0/intro-c53": {
+  "/docs/intro-aba": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-2-0-introb-75-eb4"
-  },
-  "/docs-56c": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
-  },
-  "/docs/configuration/-d60": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-b-25-ae8"
-  },
-  "/docs/configuration/adc-ae4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-adc-0-fe-396"
-  },
-  "/docs/configuration/cover-9ec": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-cover-6-a-9-e08"
-  },
-  "/docs/configuration/input-69f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-input-639-0c6"
-  },
-  "/docs/configuration/lm75-b58": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-lm-75-c-1-d-1e4"
-  },
-  "/docs/configuration/logger-df4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-loggeradb-e95"
-  },
-  "/docs/configuration/mcp23017-671": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-mcp-230178-c-3-56a"
-  },
-  "/docs/configuration/mcp9808-5aa": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-mcp-98080-a-3-d37"
-  },
-  "/docs/configuration/modbus-8c2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-modbusf-7-e-be3"
-  },
-  "/docs/configuration/modbus-sensors-55f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-modbus-sensorse-64-ada"
-  },
-  "/docs/configuration/mqtt-8f5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-mqtte-19-a2f"
-  },
-  "/docs/configuration/oled-749": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-oledd-43-e2f"
-  },
-  "/docs/configuration/output-5eb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-outputfac-1a7"
-  },
-  "/docs/developer-c2d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-developerb-6-c-f9f"
-  },
-  "/docs/install/first-start-6a1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-install-first-start-43-a-113"
-  },
-  "/docs/install/update-1a9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-install-update-784-2f7"
-  },
-  "/docs/install/video-60e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-install-video-083-e3f"
-  },
-  "/docs/intro-aed": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
   },
   "/hardware-e8c": {
     "component": "component---theme-doc-page-1-be-9be",
