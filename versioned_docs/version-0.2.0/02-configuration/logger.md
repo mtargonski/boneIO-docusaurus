@@ -24,6 +24,8 @@ boneio run -c config.yaml -dd
 
 Debug logger can be configured via yaml as well.
 
+## Example config
+
 ```yaml title="Example config"
 logger:
   default: DEBUG
@@ -34,4 +36,4 @@ logger:
 ## Configuration variables:
 
 - **default** (Optional, string) - Default log level for application.
-- **logs**: Manually specify log level for submodules of application as dict, where key is name of the logger module and value is log level to set.
+- **logs**- Manually specify log level for submodules of application as dict, where key is name of the logger module and value is log level to set.

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "power",
+  "id": "power",
+  "title": "Powering boneIO",
+  "description": "Power Consumption",
+  "source": "@site/hardware/power.md",
+  "sourceDirName": ".",
+  "slug": "/power",
+  "permalink": "/hardware/power",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Case",
+    "permalink": "/hardware/case"
+  },
+  "next": {
+    "title": "Input Board",
+    "permalink": "/hardware/v0.2/input"
+  }
+}

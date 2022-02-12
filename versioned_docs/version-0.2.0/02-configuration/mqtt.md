@@ -10,6 +10,8 @@ Mqtt client component connects to your mqtt broker.
 
 This broker for most cases should be the same broker as Home Assistant broker, so you can't directly see new device with HA MQTT discovery option.
 
+## Example config
+
 ```yaml title="Example config"
 mqtt:
   host: localhost

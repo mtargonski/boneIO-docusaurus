@@ -8,6 +8,8 @@ sidebar_position: 4
 
 Modbus component to use for modbus sensor usage.
 
+## Example config
+
 ```yaml title="Example config"
 modbus:
   uart: uart1

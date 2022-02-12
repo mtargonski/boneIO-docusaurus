@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration copy/modbus",
+  "id": "configuration copy/modbus",
+  "title": "Modbus",
+  "description": "Modbus",
+  "source": "@site/docs/02-configuration copy/modbus.md",
+  "sourceDirName": "02-configuration copy",
+  "slug": "/configuration copy/modbus",
+  "permalink": "/docs/configuration copy/modbus",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration copy/modbus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "OLED",
+    "permalink": "/docs/configuration copy/oled"
+  },
+  "next": {
+    "title": "Modbus sensors",
+    "permalink": "/docs/configuration copy/modbus-sensors"
+  }
+}

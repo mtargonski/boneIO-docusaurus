@@ -40,7 +40,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','520'),
+    component: ComponentCreator('/blog','ac3'),
     exact: true
   },
   {
@@ -49,48 +49,18 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post','6c7'),
-    exact: true
-  },
-  {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post','f06'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post','bee'),
-    exact: true
-  },
-  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags','e13'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus','ddf'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook','ede'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','4c2'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola','752'),
+    path: '/blog/tags/boneio',
+    component: ComponentCreator('/blog/tags/boneio','c0b'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome','bfa'),
+    component: ComponentCreator('/blog/welcome','f0a'),
     exact: true
   },
   {
@@ -100,7 +70,7 @@ export default [
   },
   {
     path: '/docs/0.2.0',
-    component: ComponentCreator('/docs/0.2.0','b51'),
+    component: ComponentCreator('/docs/0.2.0','497'),
     routes: [
       {
         path: '/docs/0.2.0/configuration/',
@@ -115,8 +85,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/0.2.0/configuration/modbus',
+        component: ComponentCreator('/docs/0.2.0/configuration/modbus','96e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/0.2.0/configuration/mqtt',
         component: ComponentCreator('/docs/0.2.0/configuration/mqtt','889'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/0.2.0/configuration/oled',
+        component: ComponentCreator('/docs/0.2.0/configuration/oled','6ba'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -147,60 +129,36 @@ export default [
     ]
   },
   {
-    path: '/boards',
-    component: ComponentCreator('/boards','cf7'),
-    routes: [
-      {
-        path: '/boards/',
-        component: ComponentCreator('/boards/','6e2'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/boards/v0.2/input',
-        component: ComponentCreator('/boards/v0.2/input','ded'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/boards/v0.2/output',
-        component: ComponentCreator('/boards/v0.2/output','56a'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/boards/v0.3/input',
-        component: ComponentCreator('/boards/v0.3/input','d7d'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      }
-    ]
-  },
-  {
-    path: '/case',
-    component: ComponentCreator('/case','4c3'),
-    routes: [
-      {
-        path: '/case/',
-        component: ComponentCreator('/case/','4f7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/case/case',
-        component: ComponentCreator('/case/case','b66'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      }
-    ]
-  },
-  {
     path: '/docs',
-    component: ComponentCreator('/docs','7f1'),
+    component: ComponentCreator('/docs','56c'),
     routes: [
       {
         path: '/docs/configuration/',
         component: ComponentCreator('/docs/configuration/','d60'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/adc',
+        component: ComponentCreator('/docs/configuration/adc','ae4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/cover',
+        component: ComponentCreator('/docs/configuration/cover','9ec'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/input',
+        component: ComponentCreator('/docs/configuration/input','69f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/lm75',
+        component: ComponentCreator('/docs/configuration/lm75','b58'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -211,8 +169,26 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/configuration/mcp23017',
+        component: ComponentCreator('/docs/configuration/mcp23017','671'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/mcp9808',
+        component: ComponentCreator('/docs/configuration/mcp9808','5aa'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/configuration/modbus',
         component: ComponentCreator('/docs/configuration/modbus','8c2'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/modbus-sensors',
+        component: ComponentCreator('/docs/configuration/modbus-sensors','55f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -225,6 +201,18 @@ export default [
       {
         path: '/docs/configuration/oled',
         component: ComponentCreator('/docs/configuration/oled','749'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/configuration/output',
+        component: ComponentCreator('/docs/configuration/output','5eb'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/developer',
+        component: ComponentCreator('/docs/developer','c2d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -249,6 +237,48 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }
+    ]
+  },
+  {
+    path: '/hardware',
+    component: ComponentCreator('/hardware','e8c'),
+    routes: [
+      {
+        path: '/hardware/',
+        component: ComponentCreator('/hardware/','dfa'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/hardware/case',
+        component: ComponentCreator('/hardware/case','243'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/hardware/power',
+        component: ComponentCreator('/hardware/power','5b6'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/hardware/v0.2/input',
+        component: ComponentCreator('/hardware/v0.2/input','9a1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/hardware/v0.2/output',
+        component: ComponentCreator('/hardware/v0.2/output','47f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/hardware/v0.3/input',
+        component: ComponentCreator('/hardware/v0.3/input','a26'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

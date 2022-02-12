@@ -20,28 +20,28 @@ const config = {
       'content-docs',
       /** @type {import('@docusaurus/plugin-content-docs').Options} */
       ({
-        id: 'boards',
-        path: 'boards',
-        routeBasePath: 'boards',
+        id: 'hardware',
+        path: 'hardware',
+        routeBasePath: 'hardware',
         editCurrentVersion: true,
         sidebarPath: require.resolve('./sidebars.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       }),
     ],
-    [
-      'content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      ({
-        id: 'case',
-        path: 'case',
-        routeBasePath: 'case',
-        editCurrentVersion: true,
-        sidebarPath: require.resolve('./sidebars.js'),
-        showLastUpdateAuthor: false,
-        showLastUpdateTime: false,
-      }),
-    ],
+    // [
+    //   'content-docs',
+    //   /** @type {import('@docusaurus/plugin-content-docs').Options} */
+    //   ({
+    //     id: 'case',
+    //     path: 'case',
+    //     routeBasePath: 'case',
+    //     editCurrentVersion: true,
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //     showLastUpdateAuthor: false,
+    //     showLastUpdateTime: false,
+    //   }),
+    // ],
   ],
   presets: [
     [
@@ -89,16 +89,10 @@ const config = {
             type: 'docsVersionDropdown',
           },
           {
-            to: '/boards',
-            label: 'Boards',
+            to: '/hardware',
+            label: 'Hardware',
             position: 'left',
-            activeBaseRegex: `/boards/`,
-          },
-          {
-            to: '/case',
-            label: 'Case',
-            position: 'left',
-            activeBaseRegex: `/case/`,
+            activeBaseRegex: `/hardware/`,
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {

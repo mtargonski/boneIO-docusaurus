@@ -19,6 +19,58 @@
           "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "configuration/adc",
+              "id": "configuration/adc",
+              "title": "ADC sensors",
+              "description": "ADC",
+              "source": "@site/docs/02-configuration/adc.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/adc",
+              "permalink": "/docs/configuration/adc",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/adc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Input module",
+                "permalink": "/docs/configuration/input"
+              },
+              "next": {
+                "title": "Cover",
+                "permalink": "/docs/configuration/cover"
+              }
+            },
+            {
+              "unversionedId": "configuration/cover",
+              "id": "configuration/cover",
+              "title": "Cover",
+              "description": "Cover",
+              "source": "@site/docs/02-configuration/cover.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/cover",
+              "permalink": "/docs/configuration/cover",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/cover.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ADC sensors",
+                "permalink": "/docs/configuration/adc"
+              },
+              "next": {
+                "title": "Developer guide",
+                "permalink": "/docs/developer"
+              }
+            },
+            {
               "unversionedId": "configuration/index",
               "id": "configuration/index",
               "title": "Configuration",
@@ -39,6 +91,58 @@
               "next": {
                 "title": "MQTT Client",
                 "permalink": "/docs/configuration/mqtt"
+              }
+            },
+            {
+              "unversionedId": "configuration/input",
+              "id": "configuration/input",
+              "title": "Input module",
+              "description": "Input",
+              "source": "@site/docs/02-configuration/input.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/input",
+              "permalink": "/docs/configuration/input",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/input.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Output module",
+                "permalink": "/docs/configuration/output"
+              },
+              "next": {
+                "title": "ADC sensors",
+                "permalink": "/docs/configuration/adc"
+              }
+            },
+            {
+              "unversionedId": "configuration/lm75",
+              "id": "configuration/lm75",
+              "title": "LM75 temp sensor",
+              "description": "LM75",
+              "source": "@site/docs/02-configuration/lm75.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/lm75",
+              "permalink": "/docs/configuration/lm75",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/lm75.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Modbus sensors",
+                "permalink": "/docs/configuration/modbus-sensors"
+              },
+              "next": {
+                "title": "MCP23017 expander",
+                "permalink": "/docs/configuration/mcp23017"
               }
             },
             {
@@ -68,6 +172,58 @@
               }
             },
             {
+              "unversionedId": "configuration/mcp23017",
+              "id": "configuration/mcp23017",
+              "title": "MCP23017 expander",
+              "description": "MCP23017",
+              "source": "@site/docs/02-configuration/mcp23017.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/mcp23017",
+              "permalink": "/docs/configuration/mcp23017",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/mcp23017.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "LM75 temp sensor",
+                "permalink": "/docs/configuration/lm75"
+              },
+              "next": {
+                "title": "MCP9808 temp sensor",
+                "permalink": "/docs/configuration/mcp9808"
+              }
+            },
+            {
+              "unversionedId": "configuration/mcp9808",
+              "id": "configuration/mcp9808",
+              "title": "MCP9808 temp sensor",
+              "description": "MCP9808",
+              "source": "@site/docs/02-configuration/mcp9808.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/mcp9808",
+              "permalink": "/docs/configuration/mcp9808",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/mcp9808.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MCP23017 expander",
+                "permalink": "/docs/configuration/mcp23017"
+              },
+              "next": {
+                "title": "Output module",
+                "permalink": "/docs/configuration/output"
+              }
+            },
+            {
               "unversionedId": "configuration/modbus",
               "id": "configuration/modbus",
               "title": "Modbus",
@@ -87,6 +243,36 @@
               "previous": {
                 "title": "OLED",
                 "permalink": "/docs/configuration/oled"
+              },
+              "next": {
+                "title": "Modbus sensors",
+                "permalink": "/docs/configuration/modbus-sensors"
+              }
+            },
+            {
+              "unversionedId": "configuration/modbus-sensors",
+              "id": "configuration/modbus-sensors",
+              "title": "Modbus sensors",
+              "description": "Modbus sensors",
+              "source": "@site/docs/02-configuration/modbus-sensors.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/modbus-sensors",
+              "permalink": "/docs/configuration/modbus-sensors",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/modbus-sensors.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Modbus",
+                "permalink": "/docs/configuration/modbus"
+              },
+              "next": {
+                "title": "LM75 temp sensor",
+                "permalink": "/docs/configuration/lm75"
               }
             },
             {
@@ -139,6 +325,54 @@
               "next": {
                 "title": "Modbus",
                 "permalink": "/docs/configuration/modbus"
+              }
+            },
+            {
+              "unversionedId": "configuration/output",
+              "id": "configuration/output",
+              "title": "Output module",
+              "description": "Output",
+              "source": "@site/docs/02-configuration/output.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/output",
+              "permalink": "/docs/configuration/output",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/output.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MCP9808 temp sensor",
+                "permalink": "/docs/configuration/mcp9808"
+              },
+              "next": {
+                "title": "Input module",
+                "permalink": "/docs/configuration/input"
+              }
+            },
+            {
+              "unversionedId": "developer",
+              "id": "developer",
+              "title": "Developer guide",
+              "description": "Prepare VENV",
+              "source": "@site/docs/developer.md",
+              "sourceDirName": ".",
+              "slug": "/developer",
+              "permalink": "/docs/developer",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cover",
+                "permalink": "/docs/configuration/cover"
               }
             },
             {
@@ -286,12 +520,48 @@
                   {
                     "type": "doc",
                     "id": "configuration/modbus"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/modbus-sensors"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/lm75"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/mcp23017"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/mcp9808"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/output"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/input"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/adc"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/cover"
                   }
                 ],
                 "link": {
                   "type": "doc",
                   "id": "configuration/index"
                 }
+              },
+              {
+                "type": "doc",
+                "id": "developer"
               }
             ]
           },
@@ -332,15 +602,15 @@
                 "permalink": "/docs/0.2.0/install/update"
               },
               "next": {
-                "title": "Logger",
-                "permalink": "/docs/0.2.0/configuration/logger"
+                "title": "MQTT Client",
+                "permalink": "/docs/0.2.0/configuration/mqtt"
               }
             },
             {
               "unversionedId": "configuration/logger",
               "id": "version-0.2.0/configuration/logger",
               "title": "Logger",
-              "description": "Logger",
+              "description": "The logger component automatically logs all log messages to STDOUT.",
               "source": "@site/versioned_docs/version-0.2.0/02-configuration/logger.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/logger",
@@ -348,15 +618,40 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/logger.md",
               "tags": [],
               "version": "0.2.0",
-              "frontMatter": {},
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Configuration",
-                "permalink": "/docs/0.2.0/configuration/"
-              },
-              "next": {
                 "title": "MQTT Client",
                 "permalink": "/docs/0.2.0/configuration/mqtt"
+              },
+              "next": {
+                "title": "OLED",
+                "permalink": "/docs/0.2.0/configuration/oled"
+              }
+            },
+            {
+              "unversionedId": "configuration/modbus",
+              "id": "version-0.2.0/configuration/modbus",
+              "title": "Modbus",
+              "description": "Modbus",
+              "source": "@site/versioned_docs/version-0.2.0/02-configuration/modbus.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/modbus",
+              "permalink": "/docs/0.2.0/configuration/modbus",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/modbus.md",
+              "tags": [],
+              "version": "0.2.0",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "OLED",
+                "permalink": "/docs/0.2.0/configuration/oled"
               }
             },
             {
@@ -371,11 +666,44 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
               "tags": [],
               "version": "0.2.0",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration",
+                "permalink": "/docs/0.2.0/configuration/"
+              },
+              "next": {
+                "title": "Logger",
+                "permalink": "/docs/0.2.0/configuration/logger"
+              }
+            },
+            {
+              "unversionedId": "configuration/oled",
+              "id": "version-0.2.0/configuration/oled",
+              "title": "OLED",
+              "description": "OLED",
+              "source": "@site/versioned_docs/version-0.2.0/02-configuration/oled.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/oled",
+              "permalink": "/docs/0.2.0/configuration/oled",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/oled.md",
+              "tags": [],
+              "version": "0.2.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Logger",
                 "permalink": "/docs/0.2.0/configuration/logger"
+              },
+              "next": {
+                "title": "Modbus",
+                "permalink": "/docs/0.2.0/configuration/modbus"
               }
             },
             {
@@ -510,11 +838,19 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "version-0.2.0/configuration/mqtt"
+                  },
+                  {
+                    "type": "doc",
                     "id": "version-0.2.0/configuration/logger"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/mqtt"
+                    "id": "version-0.2.0/configuration/oled"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.2.0/configuration/modbus"
                   }
                 ],
                 "link": {
@@ -529,31 +865,60 @@
         }
       ]
     },
-    "boards": {
+    "hardware": {
       "loadedVersions": [
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/boards",
-          "tagsPath": "/boards/tags",
+          "versionPath": "/hardware",
+          "tagsPath": "/hardware/tags",
           "versionBanner": null,
           "versionBadge": false,
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
-          "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/boards",
-          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs-boards/current",
+          "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/hardware",
+          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs-hardware/current",
           "docs": [
+            {
+              "unversionedId": "case",
+              "id": "case",
+              "title": "Case",
+              "description": "3D Model",
+              "source": "@site/hardware/case.md",
+              "sourceDirName": ".",
+              "slug": "/case",
+              "permalink": "/hardware/case",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Case"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/hardware/"
+              },
+              "next": {
+                "title": "Powering boneIO",
+                "permalink": "/hardware/power"
+              }
+            },
             {
               "unversionedId": "index",
               "id": "index",
-              "title": "Intro",
+              "title": "Introduction",
               "description": "There are 2 working versions of boards. v0.2 and v0.3. v0.3 is improved version of v0.2.",
-              "source": "@site/boards/index.md",
+              "source": "@site/hardware/index.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/boards/",
+              "permalink": "/hardware/",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -565,8 +930,36 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
+                "title": "Case",
+                "permalink": "/hardware/case"
+              }
+            },
+            {
+              "unversionedId": "power",
+              "id": "power",
+              "title": "Powering boneIO",
+              "description": "Power Consumption",
+              "source": "@site/hardware/power.md",
+              "sourceDirName": ".",
+              "slug": "/power",
+              "permalink": "/hardware/power",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Case",
+                "permalink": "/hardware/case"
+              },
+              "next": {
                 "title": "Input Board",
-                "permalink": "/boards/v0.2/input"
+                "permalink": "/hardware/v0.2/input"
               }
             },
             {
@@ -574,10 +967,10 @@
               "id": "v0.2/input",
               "title": "Input Board",
               "description": "Version: 0.2",
-              "source": "@site/boards/v0.2/01-input.md",
+              "source": "@site/hardware/v0.2/01-input.md",
               "sourceDirName": "v0.2",
               "slug": "/v0.2/input",
-              "permalink": "/boards/v0.2/input",
+              "permalink": "/hardware/v0.2/input",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -589,12 +982,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Intro",
-                "permalink": "/boards/"
+                "title": "Powering boneIO",
+                "permalink": "/hardware/power"
               },
               "next": {
                 "title": "Output Boards",
-                "permalink": "/boards/v0.2/output"
+                "permalink": "/hardware/v0.2/output"
               }
             },
             {
@@ -602,10 +995,10 @@
               "id": "v0.2/output",
               "title": "Output Boards",
               "description": "Version: 0.2",
-              "source": "@site/boards/v0.2/02-output.md",
+              "source": "@site/hardware/v0.2/02-output.md",
               "sourceDirName": "v0.2",
               "slug": "/v0.2/output",
-              "permalink": "/boards/v0.2/output",
+              "permalink": "/hardware/v0.2/output",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -618,11 +1011,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Input Board",
-                "permalink": "/boards/v0.2/input"
+                "permalink": "/hardware/v0.2/input"
               },
               "next": {
                 "title": "Input Board",
-                "permalink": "/boards/v0.3/input"
+                "permalink": "/hardware/v0.3/input"
               }
             },
             {
@@ -630,10 +1023,10 @@
               "id": "v0.3/input",
               "title": "Input Board",
               "description": "Version: 0.3",
-              "source": "@site/boards/v0.3/01-input.md",
+              "source": "@site/hardware/v0.3/01-input.md",
               "sourceDirName": "v0.3",
               "slug": "/v0.3/input",
-              "permalink": "/boards/v0.3/input",
+              "permalink": "/hardware/v0.3/input",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -646,7 +1039,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Output Boards",
-                "permalink": "/boards/v0.2/output"
+                "permalink": "/hardware/v0.2/output"
               }
             }
           ],
@@ -655,6 +1048,14 @@
               {
                 "type": "doc",
                 "id": "index"
+              },
+              {
+                "type": "doc",
+                "id": "case"
+              },
+              {
+                "type": "doc",
+                "id": "power"
               },
               {
                 "type": "category",
@@ -690,79 +1091,6 @@
           "categoryGeneratedIndices": []
         }
       ]
-    },
-    "case": {
-      "loadedVersions": [
-        {
-          "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/case",
-          "tagsPath": "/case/tags",
-          "versionBanner": null,
-          "versionBadge": false,
-          "versionClassName": "docs-version-current",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
-          "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/case",
-          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs-case/current",
-          "docs": [
-            {
-              "unversionedId": "case",
-              "id": "case",
-              "title": "Preparing the Case",
-              "description": "3D Model",
-              "source": "@site/case/case.md",
-              "sourceDirName": ".",
-              "slug": "/case",
-              "permalink": "/case/case",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Test",
-                "permalink": "/case/"
-              }
-            },
-            {
-              "unversionedId": "index",
-              "id": "index",
-              "title": "Test",
-              "description": "",
-              "source": "@site/case/index.md",
-              "sourceDirName": ".",
-              "slug": "/",
-              "permalink": "/case/",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Preparing the Case",
-                "permalink": "/case/case"
-              }
-            }
-          ],
-          "sidebars": {
-            "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "case"
-              },
-              {
-                "type": "doc",
-                "id": "index"
-              }
-            ]
-          },
-          "mainDocId": "index",
-          "categoryGeneratedIndices": []
-        }
-      ]
     }
   },
   "docusaurus-plugin-content-blog": {
@@ -773,215 +1101,57 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-02-11-welcome/index.md",
+            "source": "@site/blog/2022-02-11-welcome/index.md",
             "title": "Welcome",
-            "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
+            "description": "Hi, this will be blog about best ideas around smart home!",
+            "date": "2022-02-11T00:00:00.000Z",
+            "formattedDate": "February 11, 2022",
             "tags": [
               {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "label": "boneio",
+                "permalink": "/blog/tags/boneio"
               }
             ],
-            "readingTime": 0.405,
+            "readingTime": 0.055,
             "truncated": false,
             "authors": [
               {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
+                "name": "Maciej Krasuski",
+                "title": "boneIO Founder",
+                "url": "https://github.com/maciejkrasuski",
+                "imageURL": "https://github.com/maciejkrasuski.png",
+                "key": "maciejk"
               },
               {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
+                "name": "Kamil Bożyk",
+                "title": "Main engineer",
+                "url": "https://github.com/kamil2466",
+                "imageURL": "https://github.com/kamil2466.png",
+                "key": "kamilb"
+              },
+              {
+                "name": "Paweł Szafer",
+                "title": "Developer of boneIO app",
+                "url": "https://github.com/pszafer",
+                "imageURL": "https://github.com/pszafer.png",
+                "key": "pszafer"
               }
             ],
             "frontMatter": {
               "slug": "welcome",
               "title": "Welcome",
               "authors": [
-                "slorber",
-                "yangshun"
+                "maciejk",
+                "kamilb",
+                "pszafer"
               ],
               "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
+                "boneio"
               ]
-            },
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
             }
           },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "frontMatter": {
-              "slug": "mdx-blog-post",
-              "title": "MDX Blog Post",
-              "authors": [
-                "slorber"
-              ],
-              "tags": [
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "Long Blog Post",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
-            "truncated": true,
-            "authors": [
-              {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
-              }
-            ],
-            "frontMatter": {
-              "slug": "long-blog-post",
-              "title": "Long Blog Post",
-              "authors": "endi",
-              "tags": [
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
-            }
-          },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+          "content": "Hi, this will be blog about best ideas around smart home!"
         }
       ],
       "blogListPaginated": [
@@ -991,52 +1161,24 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 1,
             "previousPage": null,
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "welcome"
           ]
         }
       ],
       "blogTags": {
-        "/blog/tags/facebook": {
-          "name": "facebook",
+        "/blog/tags/boneio": {
+          "name": "boneio",
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/facebook"
-        },
-        "/blog/tags/hello": {
-          "name": "hello",
-          "items": [
-            "welcome",
-            "long-blog-post"
-          ],
-          "permalink": "/blog/tags/hello"
-        },
-        "/blog/tags/docusaurus": {
-          "name": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/docusaurus"
-        },
-        "/blog/tags/hola": {
-          "name": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/hola"
+          "permalink": "/blog/tags/boneio"
         }
       },
       "blogTagsListPath": "/blog/tags"

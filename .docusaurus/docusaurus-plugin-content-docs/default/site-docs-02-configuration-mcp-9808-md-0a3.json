@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/mcp9808",
+  "id": "configuration/mcp9808",
+  "title": "MCP9808 temp sensor",
+  "description": "MCP9808",
+  "source": "@site/docs/02-configuration/mcp9808.md",
+  "sourceDirName": "02-configuration",
+  "slug": "/configuration/mcp9808",
+  "permalink": "/docs/configuration/mcp9808",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/mcp9808.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MCP23017 expander",
+    "permalink": "/docs/configuration/mcp23017"
+  },
+  "next": {
+    "title": "Output module",
+    "permalink": "/docs/configuration/output"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "developer/developer",
+  "id": "developer/developer",
+  "title": "Develop on BBB",
+  "description": "Prepare VENV",
+  "source": "@site/docs/03-developer/developer.md",
+  "sourceDirName": "03-developer",
+  "slug": "/developer/developer",
+  "permalink": "/docs/developer/developer",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-developer/developer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modbus",
+    "permalink": "/docs/configuration/modbus"
+  }
+}

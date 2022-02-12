@@ -48,15 +48,27 @@
         "items": [
           {
             "type": "link",
+            "label": "MQTT Client",
+            "href": "/docs/0.2.0/configuration/mqtt",
+            "docId": "configuration/mqtt"
+          },
+          {
+            "type": "link",
             "label": "Logger",
             "href": "/docs/0.2.0/configuration/logger",
             "docId": "configuration/logger"
           },
           {
             "type": "link",
-            "label": "MQTT Client",
-            "href": "/docs/0.2.0/configuration/mqtt",
-            "docId": "configuration/mqtt"
+            "label": "OLED",
+            "href": "/docs/0.2.0/configuration/oled",
+            "docId": "configuration/oled"
+          },
+          {
+            "type": "link",
+            "label": "Modbus",
+            "href": "/docs/0.2.0/configuration/modbus",
+            "docId": "configuration/modbus"
           }
         ],
         "href": "/docs/0.2.0/configuration/"
@@ -73,13 +85,25 @@
     "configuration/logger": {
       "id": "configuration/logger",
       "title": "Logger",
-      "description": "Logger",
+      "description": "The logger component automatically logs all log messages to STDOUT.",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/modbus": {
+      "id": "configuration/modbus",
+      "title": "Modbus",
+      "description": "Modbus",
       "sidebar": "tutorialSidebar"
     },
     "configuration/mqtt": {
       "id": "configuration/mqtt",
       "title": "MQTT Client",
       "description": "MQTT",
+      "sidebar": "tutorialSidebar"
+    },
+    "configuration/oled": {
+      "id": "configuration/oled",
+      "title": "OLED",
+      "description": "OLED",
       "sidebar": "tutorialSidebar"
     },
     "install/first-start": {

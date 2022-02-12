@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/modbus-sensors copy",
+  "id": "configuration/modbus-sensors copy",
+  "title": "Modbus sensors",
+  "description": "Modbus sensors",
+  "source": "@site/docs/02-configuration/modbus-sensors copy.md",
+  "sourceDirName": "02-configuration",
+  "slug": "/configuration/modbus-sensors copy",
+  "permalink": "/docs/configuration/modbus-sensors copy",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/modbus-sensors copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modbus",
+    "permalink": "/docs/configuration/modbus"
+  },
+  "next": {
+    "title": "Modbus sensors",
+    "permalink": "/docs/configuration/modbus-sensors"
+  }
+}

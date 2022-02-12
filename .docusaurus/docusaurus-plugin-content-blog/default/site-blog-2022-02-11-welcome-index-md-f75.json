@@ -1,0 +1,52 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-02-11-welcome/index.md",
+  "source": "@site/blog/2022-02-11-welcome/index.md",
+  "title": "Welcome",
+  "description": "Hi, this will be blog about best ideas around smart home!",
+  "date": "2022-02-11T00:00:00.000Z",
+  "formattedDate": "February 11, 2022",
+  "tags": [
+    {
+      "label": "boneio",
+      "permalink": "/blog/tags/boneio"
+    }
+  ],
+  "readingTime": 0.055,
+  "truncated": false,
+  "authors": [
+    {
+      "name": "Maciej Krasuski",
+      "title": "boneIO Founder",
+      "url": "https://github.com/maciejkrasuski",
+      "imageURL": "https://github.com/maciejkrasuski.png",
+      "key": "maciejk"
+    },
+    {
+      "name": "Kamil Bożyk",
+      "title": "Main engineer",
+      "url": "https://github.com/kamil2466",
+      "imageURL": "https://github.com/kamil2466.png",
+      "key": "kamilb"
+    },
+    {
+      "name": "Paweł Szafer",
+      "title": "Developer of boneIO app",
+      "url": "https://github.com/pszafer",
+      "imageURL": "https://github.com/pszafer.png",
+      "key": "pszafer"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "maciejk",
+      "kamilb",
+      "pszafer"
+    ],
+    "tags": [
+      "boneio"
+    ]
+  }
+}

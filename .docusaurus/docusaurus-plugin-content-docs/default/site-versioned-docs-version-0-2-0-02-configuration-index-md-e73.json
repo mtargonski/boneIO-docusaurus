@@ -17,7 +17,7 @@
     "permalink": "/docs/0.2.0/install/update"
   },
   "next": {
-    "title": "Logger",
-    "permalink": "/docs/0.2.0/configuration/logger"
+    "title": "MQTT Client",
+    "permalink": "/docs/0.2.0/configuration/mqtt"
   }
 }

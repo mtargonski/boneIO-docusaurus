@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/output copy",
+  "id": "configuration/output copy",
+  "title": "Output module",
+  "description": "Output",
+  "source": "@site/docs/02-configuration/output copy.md",
+  "sourceDirName": "02-configuration",
+  "slug": "/configuration/output copy",
+  "permalink": "/docs/configuration/output copy",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/output copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MCP9808 temp sensor",
+    "permalink": "/docs/configuration/mcp9808"
+  },
+  "next": {
+    "title": "Output module",
+    "permalink": "/docs/configuration/output"
+  }
+}

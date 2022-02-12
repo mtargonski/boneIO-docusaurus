@@ -10,7 +10,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Intro",
+        "label": "Introduction",
         "href": "/boards/",
         "docId": "index"
       },
@@ -53,7 +53,7 @@
   "docs": {
     "index": {
       "id": "index",
-      "title": "Intro",
+      "title": "Introduction",
       "description": "There are 2 working versions of boards. v0.2 and v0.3. v0.3 is improved version of v0.2.",
       "sidebar": "tutorialSidebar"
     },

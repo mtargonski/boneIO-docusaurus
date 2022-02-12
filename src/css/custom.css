@@ -41,3 +41,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .nohover_link:hover {
   text-decoration: none;
 }
+
+.markdown > p:first-of-type img {
+  max-height: 200px;
+  width: auto;
+}

@@ -18,5 +18,9 @@
   "previous": {
     "title": "OLED",
     "permalink": "/docs/configuration/oled"
+  },
+  "next": {
+    "title": "Modbus sensors",
+    "permalink": "/docs/configuration/modbus-sensors"
   }
 }

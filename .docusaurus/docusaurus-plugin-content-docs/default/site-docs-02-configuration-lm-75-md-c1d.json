@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/lm75",
+  "id": "configuration/lm75",
+  "title": "LM75 temp sensor",
+  "description": "LM75",
+  "source": "@site/docs/02-configuration/lm75.md",
+  "sourceDirName": "02-configuration",
+  "slug": "/configuration/lm75",
+  "permalink": "/docs/configuration/lm75",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/lm75.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modbus sensors",
+    "permalink": "/docs/configuration/modbus-sensors"
+  },
+  "next": {
+    "title": "MCP23017 expander",
+    "permalink": "/docs/configuration/mcp23017"
+  }
+}

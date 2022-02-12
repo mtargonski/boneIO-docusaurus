@@ -1,0 +1,103 @@
+{
+  "pluginId": "hardware",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/hardware/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "Case",
+        "href": "/hardware/case",
+        "docId": "case"
+      },
+      {
+        "type": "link",
+        "label": "Powering boneIO",
+        "href": "/hardware/power",
+        "docId": "power"
+      },
+      {
+        "type": "category",
+        "label": "v0.2",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Input Board",
+            "href": "/hardware/v0.2/input",
+            "docId": "v0.2/input"
+          },
+          {
+            "type": "link",
+            "label": "Output Boards",
+            "href": "/hardware/v0.2/output",
+            "docId": "v0.2/output"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "v0.3",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Input Board",
+            "href": "/hardware/v0.3/input",
+            "docId": "v0.3/input"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "case": {
+      "id": "case",
+      "title": "Case",
+      "description": "3D Model",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Introduction",
+      "description": "There are 2 working versions of boards. v0.2 and v0.3. v0.3 is improved version of v0.2.",
+      "sidebar": "tutorialSidebar"
+    },
+    "power": {
+      "id": "power",
+      "title": "Powering boneIO",
+      "description": "Power Consumption",
+      "sidebar": "tutorialSidebar"
+    },
+    "v0.2/input": {
+      "id": "v0.2/input",
+      "title": "Input Board",
+      "description": "Version: 0.2",
+      "sidebar": "tutorialSidebar"
+    },
+    "v0.2/output": {
+      "id": "v0.2/output",
+      "title": "Output Boards",
+      "description": "Version: 0.2",
+      "sidebar": "tutorialSidebar"
+    },
+    "v0.3/input": {
+      "id": "v0.3/input",
+      "title": "Input Board",
+      "description": "Version: 0.3",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

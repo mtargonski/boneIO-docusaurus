@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/adc",
+  "id": "configuration/adc",
+  "title": "ADC sensors",
+  "description": "ADC",
+  "source": "@site/docs/02-configuration/adc.md",
+  "sourceDirName": "02-configuration",
+  "slug": "/configuration/adc",
+  "permalink": "/docs/configuration/adc",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/adc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Input module",
+    "permalink": "/docs/configuration/input"
+  },
+  "next": {
+    "title": "Cover",
+    "permalink": "/docs/configuration/cover"
+  }
+}

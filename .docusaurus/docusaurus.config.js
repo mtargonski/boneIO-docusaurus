@@ -17,25 +17,13 @@ export default {
     [
       "content-docs",
       {
-        "id": "boards",
-        "path": "boards",
-        "routeBasePath": "boards",
+        "id": "hardware",
+        "path": "hardware",
+        "routeBasePath": "hardware",
         "editCurrentVersion": true,
         "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true
-      }
-    ],
-    [
-      "content-docs",
-      {
-        "id": "case",
-        "path": "case",
-        "routeBasePath": "case",
-        "editCurrentVersion": true,
-        "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
-        "showLastUpdateAuthor": false,
-        "showLastUpdateTime": false
       }
     ]
   ],
@@ -79,16 +67,10 @@ export default {
           "dropdownItemsAfter": []
         },
         {
-          "to": "/boards",
-          "label": "Boards",
+          "to": "/hardware",
+          "label": "Hardware",
           "position": "left",
-          "activeBaseRegex": "/boards/"
-        },
-        {
-          "to": "/case",
-          "label": "Case",
-          "position": "left",
-          "activeBaseRegex": "/case/"
+          "activeBaseRegex": "/hardware/"
         },
         {
           "to": "/blog",

@@ -8,6 +8,8 @@ sidebar_position: 3
 
 OLED display uses I2C communication.
 
+## Example config
+
 ```yaml title="Example config"
 oled:
   enabled: yes

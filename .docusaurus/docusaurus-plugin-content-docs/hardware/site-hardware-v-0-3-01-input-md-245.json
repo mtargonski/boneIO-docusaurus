@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v0.3/input",
+  "id": "v0.3/input",
+  "title": "Input Board",
+  "description": "Version: 0.3",
+  "source": "@site/hardware/v0.3/01-input.md",
+  "sourceDirName": "v0.3",
+  "slug": "/v0.3/input",
+  "permalink": "/hardware/v0.3/input",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Output Boards",
+    "permalink": "/hardware/v0.2/output"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "case",
+  "id": "case",
+  "title": "Case",
+  "description": "3D Model",
+  "source": "@site/hardware/case.md",
+  "sourceDirName": ".",
+  "slug": "/case",
+  "permalink": "/hardware/case",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Case"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/hardware/"
+  },
+  "next": {
+    "title": "Powering boneIO",
+    "permalink": "/hardware/power"
+  }
+}
