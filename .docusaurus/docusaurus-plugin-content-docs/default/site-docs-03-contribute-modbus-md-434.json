@@ -1,0 +1,22 @@
+{
+  "unversionedId": "contribute/modbus",
+  "id": "contribute/modbus",
+  "title": "Modbus sensor",
+  "description": "Adding modbus sensor is pretty easy.",
+  "source": "@site/docs/03-contribute/modbus.md",
+  "sourceDirName": "03-contribute",
+  "slug": "/contribute/modbus",
+  "permalink": "/docs/contribute/modbus",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-contribute/modbus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer guide",
+    "permalink": "/docs/contribute/developer"
+  }
+}

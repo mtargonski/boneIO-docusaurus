@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-0.2.0/01-install/first-start.md",
   "sourceDirName": "01-install",
   "slug": "/install/first-start",
-  "permalink": "/docs/install/first-start",
+  "permalink": "/docs/0.2.0/install/first-start",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/01-install/first-start.md",
   "tags": [],
   "version": "0.2.0",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Intro",
-    "permalink": "/docs/intro"
+    "permalink": "/docs/0.2.0/intro"
   },
   "next": {
     "title": "Video guide",
-    "permalink": "/docs/install/video"
+    "permalink": "/docs/0.2.0/install/video"
   }
 }

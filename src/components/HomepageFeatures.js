@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Open Source',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    image: 'img/boneIO_v0_2_full_without_case.jpg',
     description: (
       <>
         boneIO is an Open HSP initiative where everything is open on GPL-3.0
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Low price',
-    image: 'img/frontpanel.png',
+    image: 'img/boneIO_v0.2render.png',
     description: (
       <>
         You can print case in your 3d printer, all electronics you can buy
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'DIN rail compatibility',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    image: 'img/input_board_text.jpg',
     description: <>Compact size (27x11x6)cm - 15 DIN modules</>,
   },
 ];

@@ -122,10 +122,30 @@
         "href": "/docs/configuration/"
       },
       {
-        "type": "link",
-        "label": "Developer guide",
-        "href": "/docs/developer",
-        "docId": "developer"
+        "type": "category",
+        "label": "Contribute",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Testing dev version",
+            "href": "/docs/contribute/dev-version",
+            "docId": "contribute/dev-version"
+          },
+          {
+            "type": "link",
+            "label": "Developer guide",
+            "href": "/docs/contribute/developer",
+            "docId": "contribute/developer"
+          },
+          {
+            "type": "link",
+            "label": "Modbus sensor",
+            "href": "/docs/contribute/modbus",
+            "docId": "contribute/modbus"
+          }
+        ]
       }
     ]
   },
@@ -208,10 +228,22 @@
       "description": "Output",
       "sidebar": "tutorialSidebar"
     },
-    "developer": {
-      "id": "developer",
+    "contribute/dev-version": {
+      "id": "contribute/dev-version",
+      "title": "Testing dev version",
+      "description": "Prepare VENV",
+      "sidebar": "tutorialSidebar"
+    },
+    "contribute/developer": {
+      "id": "contribute/developer",
       "title": "Developer guide",
       "description": "Prepare VENV",
+      "sidebar": "tutorialSidebar"
+    },
+    "contribute/modbus": {
+      "id": "contribute/modbus",
+      "title": "Modbus sensor",
+      "description": "Adding modbus sensor is pretty easy.",
       "sidebar": "tutorialSidebar"
     },
     "install/first-start": {

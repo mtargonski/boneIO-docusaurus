@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-0.2.0/02-configuration/cover.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/cover",
-  "permalink": "/docs/configuration/cover",
+  "permalink": "/docs/0.2.0/configuration/cover",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/cover.md",
   "tags": [],
   "version": "0.2.0",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ADC sensors",
-    "permalink": "/docs/configuration/adc"
+    "permalink": "/docs/0.2.0/configuration/adc"
   },
   "next": {
     "title": "Developer guide",
-    "permalink": "/docs/developer"
+    "permalink": "/docs/0.2.0/developer"
   }
 }

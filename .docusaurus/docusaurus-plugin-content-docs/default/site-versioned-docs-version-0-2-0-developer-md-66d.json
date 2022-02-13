@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-0.2.0/developer.md",
   "sourceDirName": ".",
   "slug": "/developer",
-  "permalink": "/docs/developer",
+  "permalink": "/docs/0.2.0/developer",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/developer.md",
   "tags": [],
   "version": "0.2.0",
@@ -17,6 +17,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Cover",
-    "permalink": "/docs/configuration/cover"
+    "permalink": "/docs/0.2.0/configuration/cover"
   }
 }

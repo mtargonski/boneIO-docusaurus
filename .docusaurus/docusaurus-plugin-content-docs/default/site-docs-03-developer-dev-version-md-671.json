@@ -1,0 +1,19 @@
+{
+  "unversionedId": "developer/dev-version",
+  "id": "developer/dev-version",
+  "title": "Testing dev version",
+  "description": "Prepare VENV",
+  "source": "@site/docs/03-developer/dev-version.md",
+  "sourceDirName": "03-developer",
+  "slug": "/developer/dev-version",
+  "permalink": "/docs/developer/dev-version",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-developer/dev-version.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer gid",
+    "permalink": "/docs/developer/developer"
+  }
+}

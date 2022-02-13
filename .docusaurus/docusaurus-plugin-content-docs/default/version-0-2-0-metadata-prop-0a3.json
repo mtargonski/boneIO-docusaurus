@@ -2,16 +2,16 @@
   "pluginId": "default",
   "version": "0.2.0",
   "label": "0.2.0",
-  "banner": null,
-  "badge": false,
+  "banner": "unmaintained",
+  "badge": true,
   "className": "docs-version-0.2.0",
-  "isLast": true,
+  "isLast": false,
   "docsSidebars": {
     "tutorialSidebar": [
       {
         "type": "link",
         "label": "Intro",
-        "href": "/docs/intro",
+        "href": "/docs/0.2.0/intro",
         "docId": "intro"
       },
       {
@@ -23,19 +23,19 @@
           {
             "type": "link",
             "label": "Software Installation",
-            "href": "/docs/install/first-start",
+            "href": "/docs/0.2.0/install/first-start",
             "docId": "install/first-start"
           },
           {
             "type": "link",
             "label": "Video guide",
-            "href": "/docs/install/video",
+            "href": "/docs/0.2.0/install/video",
             "docId": "install/video"
           },
           {
             "type": "link",
             "label": "Software Update",
-            "href": "/docs/install/update",
+            "href": "/docs/0.2.0/install/update",
             "docId": "install/update"
           }
         ]
@@ -49,82 +49,82 @@
           {
             "type": "link",
             "label": "MQTT Client",
-            "href": "/docs/configuration/mqtt",
+            "href": "/docs/0.2.0/configuration/mqtt",
             "docId": "configuration/mqtt"
           },
           {
             "type": "link",
             "label": "Logger",
-            "href": "/docs/configuration/logger",
+            "href": "/docs/0.2.0/configuration/logger",
             "docId": "configuration/logger"
           },
           {
             "type": "link",
             "label": "OLED",
-            "href": "/docs/configuration/oled",
+            "href": "/docs/0.2.0/configuration/oled",
             "docId": "configuration/oled"
           },
           {
             "type": "link",
             "label": "Modbus",
-            "href": "/docs/configuration/modbus",
+            "href": "/docs/0.2.0/configuration/modbus",
             "docId": "configuration/modbus"
           },
           {
             "type": "link",
             "label": "Modbus sensors",
-            "href": "/docs/configuration/modbus-sensors",
+            "href": "/docs/0.2.0/configuration/modbus-sensors",
             "docId": "configuration/modbus-sensors"
           },
           {
             "type": "link",
             "label": "LM75 temp sensor",
-            "href": "/docs/configuration/lm75",
+            "href": "/docs/0.2.0/configuration/lm75",
             "docId": "configuration/lm75"
           },
           {
             "type": "link",
             "label": "MCP23017 expander",
-            "href": "/docs/configuration/mcp23017",
+            "href": "/docs/0.2.0/configuration/mcp23017",
             "docId": "configuration/mcp23017"
           },
           {
             "type": "link",
             "label": "MCP9808 temp sensor",
-            "href": "/docs/configuration/mcp9808",
+            "href": "/docs/0.2.0/configuration/mcp9808",
             "docId": "configuration/mcp9808"
           },
           {
             "type": "link",
             "label": "Output module",
-            "href": "/docs/configuration/output",
+            "href": "/docs/0.2.0/configuration/output",
             "docId": "configuration/output"
           },
           {
             "type": "link",
             "label": "Input module",
-            "href": "/docs/configuration/input",
+            "href": "/docs/0.2.0/configuration/input",
             "docId": "configuration/input"
           },
           {
             "type": "link",
             "label": "ADC sensors",
-            "href": "/docs/configuration/adc",
+            "href": "/docs/0.2.0/configuration/adc",
             "docId": "configuration/adc"
           },
           {
             "type": "link",
             "label": "Cover",
-            "href": "/docs/configuration/cover",
+            "href": "/docs/0.2.0/configuration/cover",
             "docId": "configuration/cover"
           }
         ],
-        "href": "/docs/configuration/"
+        "href": "/docs/0.2.0/configuration/"
       },
       {
         "type": "link",
         "label": "Developer guide",
-        "href": "/docs/developer",
+        "href": "/docs/0.2.0/developer",
         "docId": "developer"
       }
     ]

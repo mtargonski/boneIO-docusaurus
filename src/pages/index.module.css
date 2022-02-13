@@ -10,6 +10,13 @@
   overflow: hidden;
 }
 
+.bonePart {
+  color: rgb(28, 27, 23);
+}
+
+.ioPart {
+  color: rgb(5, 94, 139);
+}
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;

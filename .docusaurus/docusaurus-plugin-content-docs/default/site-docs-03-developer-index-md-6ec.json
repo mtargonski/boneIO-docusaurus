@@ -1,8 +1,8 @@
 {
   "unversionedId": "developer/index",
   "id": "developer/index",
-  "title": "Develop on BBB",
-  "description": "Prepare VENV",
+  "title": "Start",
+  "description": "Hello hello",
   "source": "@site/docs/03-developer/index.md",
   "sourceDirName": "03-developer",
   "slug": "/developer/",
@@ -13,7 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Modbus",
-    "permalink": "/docs/configuration/modbus"
+    "title": "Cover",
+    "permalink": "/docs/configuration/cover"
+  },
+  "next": {
+    "title": "Testing dev version",
+    "permalink": "/docs/developer/dev-version"
   }
 }
