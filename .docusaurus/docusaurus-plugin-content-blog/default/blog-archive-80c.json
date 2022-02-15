@@ -4,7 +4,7 @@
       "id": "welcome",
       "metadata": {
         "permalink": "/blog/welcome",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-02-11-welcome/index.md",
+        "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/blog/2022-02-11-welcome/index.md",
         "source": "@site/blog/2022-02-11-welcome/index.md",
         "title": "Welcome",
         "description": "Hi, this will be blog about best ideas around smart home!",
@@ -34,6 +34,13 @@
             "key": "kamilb"
           },
           {
+            "name": "Mariusz",
+            "title": "Case design",
+            "url": "https://github.com/Mx0xM",
+            "imageURL": "https://github.com/Mx0xM.png",
+            "key": "mariusz"
+          },
+          {
             "name": "Paweł Szafer",
             "title": "Developer of boneIO app",
             "url": "https://github.com/pszafer",
@@ -47,6 +54,7 @@
           "authors": [
             "maciejk",
             "kamilb",
+            "mariusz",
             "pszafer"
           ],
           "tags": [

@@ -6,8 +6,8 @@
   "source": "@site/versioned_docs/version-0.2.0/02-configuration/input.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/input",
-  "permalink": "/docs/0.2.0/configuration/input",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/input.md",
+  "permalink": "/docs/configuration/input",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/input.md",
   "tags": [],
   "version": "0.2.0",
   "sidebarPosition": 9,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Output module",
-    "permalink": "/docs/0.2.0/configuration/output"
+    "permalink": "/docs/configuration/output"
   },
   "next": {
     "title": "ADC sensors",
-    "permalink": "/docs/0.2.0/configuration/adc"
+    "permalink": "/docs/configuration/adc"
   }
 }

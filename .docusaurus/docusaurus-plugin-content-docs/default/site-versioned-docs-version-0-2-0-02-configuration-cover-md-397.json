@@ -6,8 +6,8 @@
   "source": "@site/versioned_docs/version-0.2.0/02-configuration/cover.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/cover",
-  "permalink": "/docs/0.2.0/configuration/cover",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/cover.md",
+  "permalink": "/docs/configuration/cover",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/cover.md",
   "tags": [],
   "version": "0.2.0",
   "sidebarPosition": 11,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ADC sensors",
-    "permalink": "/docs/0.2.0/configuration/adc"
+    "permalink": "/docs/configuration/adc"
   },
   "next": {
-    "title": "Developer guide",
-    "permalink": "/docs/0.2.0/developer"
+    "title": "Testing dev version",
+    "permalink": "/docs/contribute/dev-version"
   }
 }

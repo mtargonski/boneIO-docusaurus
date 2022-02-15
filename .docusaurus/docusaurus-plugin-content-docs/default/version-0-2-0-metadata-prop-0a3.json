@@ -2,16 +2,16 @@
   "pluginId": "default",
   "version": "0.2.0",
   "label": "0.2.0",
-  "banner": "unmaintained",
-  "badge": true,
+  "banner": null,
+  "badge": false,
   "className": "docs-version-0.2.0",
-  "isLast": false,
+  "isLast": true,
   "docsSidebars": {
     "tutorialSidebar": [
       {
         "type": "link",
         "label": "Intro",
-        "href": "/docs/0.2.0/intro",
+        "href": "/docs/intro",
         "docId": "intro"
       },
       {
@@ -23,19 +23,19 @@
           {
             "type": "link",
             "label": "Software Installation",
-            "href": "/docs/0.2.0/install/first-start",
+            "href": "/docs/install/first-start",
             "docId": "install/first-start"
           },
           {
             "type": "link",
             "label": "Video guide",
-            "href": "/docs/0.2.0/install/video",
+            "href": "/docs/install/video",
             "docId": "install/video"
           },
           {
             "type": "link",
             "label": "Software Update",
-            "href": "/docs/0.2.0/install/update",
+            "href": "/docs/install/update",
             "docId": "install/update"
           }
         ]
@@ -49,83 +49,103 @@
           {
             "type": "link",
             "label": "MQTT Client",
-            "href": "/docs/0.2.0/configuration/mqtt",
+            "href": "/docs/configuration/mqtt",
             "docId": "configuration/mqtt"
           },
           {
             "type": "link",
             "label": "Logger",
-            "href": "/docs/0.2.0/configuration/logger",
+            "href": "/docs/configuration/logger",
             "docId": "configuration/logger"
           },
           {
             "type": "link",
             "label": "OLED",
-            "href": "/docs/0.2.0/configuration/oled",
+            "href": "/docs/configuration/oled",
             "docId": "configuration/oled"
           },
           {
             "type": "link",
             "label": "Modbus",
-            "href": "/docs/0.2.0/configuration/modbus",
+            "href": "/docs/configuration/modbus",
             "docId": "configuration/modbus"
           },
           {
             "type": "link",
             "label": "Modbus sensors",
-            "href": "/docs/0.2.0/configuration/modbus-sensors",
+            "href": "/docs/configuration/modbus-sensors",
             "docId": "configuration/modbus-sensors"
           },
           {
             "type": "link",
             "label": "LM75 temp sensor",
-            "href": "/docs/0.2.0/configuration/lm75",
+            "href": "/docs/configuration/lm75",
             "docId": "configuration/lm75"
           },
           {
             "type": "link",
             "label": "MCP23017 expander",
-            "href": "/docs/0.2.0/configuration/mcp23017",
+            "href": "/docs/configuration/mcp23017",
             "docId": "configuration/mcp23017"
           },
           {
             "type": "link",
             "label": "MCP9808 temp sensor",
-            "href": "/docs/0.2.0/configuration/mcp9808",
+            "href": "/docs/configuration/mcp9808",
             "docId": "configuration/mcp9808"
           },
           {
             "type": "link",
             "label": "Output module",
-            "href": "/docs/0.2.0/configuration/output",
+            "href": "/docs/configuration/output",
             "docId": "configuration/output"
           },
           {
             "type": "link",
             "label": "Input module",
-            "href": "/docs/0.2.0/configuration/input",
+            "href": "/docs/configuration/input",
             "docId": "configuration/input"
           },
           {
             "type": "link",
             "label": "ADC sensors",
-            "href": "/docs/0.2.0/configuration/adc",
+            "href": "/docs/configuration/adc",
             "docId": "configuration/adc"
           },
           {
             "type": "link",
             "label": "Cover",
-            "href": "/docs/0.2.0/configuration/cover",
+            "href": "/docs/configuration/cover",
             "docId": "configuration/cover"
           }
         ],
-        "href": "/docs/0.2.0/configuration/"
+        "href": "/docs/configuration/"
       },
       {
-        "type": "link",
-        "label": "Developer guide",
-        "href": "/docs/0.2.0/developer",
-        "docId": "developer"
+        "type": "category",
+        "label": "Contribute",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Testing dev version",
+            "href": "/docs/contribute/dev-version",
+            "docId": "contribute/dev-version"
+          },
+          {
+            "type": "link",
+            "label": "Developer guide",
+            "href": "/docs/contribute/developer",
+            "docId": "contribute/developer"
+          },
+          {
+            "type": "link",
+            "label": "Modbus sensor",
+            "href": "/docs/contribute/modbus",
+            "docId": "contribute/modbus"
+          }
+        ]
       }
     ]
   },
@@ -208,10 +228,22 @@
       "description": "Output",
       "sidebar": "tutorialSidebar"
     },
-    "developer": {
-      "id": "developer",
+    "contribute/dev-version": {
+      "id": "contribute/dev-version",
+      "title": "Testing dev version",
+      "description": "Prepare VENV",
+      "sidebar": "tutorialSidebar"
+    },
+    "contribute/developer": {
+      "id": "contribute/developer",
       "title": "Developer guide",
       "description": "Prepare VENV",
+      "sidebar": "tutorialSidebar"
+    },
+    "contribute/modbus": {
+      "id": "contribute/modbus",
+      "title": "Modbus sensor",
+      "description": "Adding modbus sensor is pretty easy.",
       "sidebar": "tutorialSidebar"
     },
     "install/first-start": {

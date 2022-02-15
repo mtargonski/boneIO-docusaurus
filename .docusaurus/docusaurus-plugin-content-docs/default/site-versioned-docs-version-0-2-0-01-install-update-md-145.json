@@ -6,18 +6,18 @@
   "source": "@site/versioned_docs/version-0.2.0/01-install/update.md",
   "sourceDirName": "01-install",
   "slug": "/install/update",
-  "permalink": "/docs/0.2.0/install/update",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/01-install/update.md",
+  "permalink": "/docs/install/update",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/01-install/update.md",
   "tags": [],
   "version": "0.2.0",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Video guide",
-    "permalink": "/docs/0.2.0/install/video"
+    "permalink": "/docs/install/video"
   },
   "next": {
     "title": "Configuration",
-    "permalink": "/docs/0.2.0/configuration/"
+    "permalink": "/docs/configuration/"
   }
 }

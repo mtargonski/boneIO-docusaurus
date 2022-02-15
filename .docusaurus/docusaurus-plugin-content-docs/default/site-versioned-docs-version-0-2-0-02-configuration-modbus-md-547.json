@@ -6,8 +6,8 @@
   "source": "@site/versioned_docs/version-0.2.0/02-configuration/modbus.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/modbus",
-  "permalink": "/docs/0.2.0/configuration/modbus",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/modbus.md",
+  "permalink": "/docs/configuration/modbus",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/modbus.md",
   "tags": [],
   "version": "0.2.0",
   "sidebarPosition": 4,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "OLED",
-    "permalink": "/docs/0.2.0/configuration/oled"
+    "permalink": "/docs/configuration/oled"
   },
   "next": {
     "title": "Modbus sensors",
-    "permalink": "/docs/0.2.0/configuration/modbus-sensors"
+    "permalink": "/docs/configuration/modbus-sensors"
   }
 }

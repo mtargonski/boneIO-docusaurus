@@ -1,0 +1,22 @@
+{
+  "unversionedId": "contribute/modbus",
+  "id": "version-0.2.0/contribute/modbus",
+  "title": "Modbus sensor",
+  "description": "Adding modbus sensor is pretty easy.",
+  "source": "@site/versioned_docs/version-0.2.0/03-contribute/modbus.md",
+  "sourceDirName": "03-contribute",
+  "slug": "/contribute/modbus",
+  "permalink": "/docs/contribute/modbus",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/03-contribute/modbus.md",
+  "tags": [],
+  "version": "0.2.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer guide",
+    "permalink": "/docs/contribute/developer"
+  }
+}

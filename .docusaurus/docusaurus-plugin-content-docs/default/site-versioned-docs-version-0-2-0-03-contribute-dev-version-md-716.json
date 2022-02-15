@@ -1,0 +1,26 @@
+{
+  "unversionedId": "contribute/dev-version",
+  "id": "version-0.2.0/contribute/dev-version",
+  "title": "Testing dev version",
+  "description": "Prepare VENV",
+  "source": "@site/versioned_docs/version-0.2.0/03-contribute/dev-version.md",
+  "sourceDirName": "03-contribute",
+  "slug": "/contribute/dev-version",
+  "permalink": "/docs/contribute/dev-version",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/03-contribute/dev-version.md",
+  "tags": [],
+  "version": "0.2.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cover",
+    "permalink": "/docs/configuration/cover"
+  },
+  "next": {
+    "title": "Developer guide",
+    "permalink": "/docs/contribute/developer"
+  }
+}

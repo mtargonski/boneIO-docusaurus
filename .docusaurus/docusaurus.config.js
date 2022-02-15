@@ -4,312 +4,363 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  title: 'boneIO',
-  tagline: 'Open Source Smart Home Automation project.',
-  url: 'https://boneio.eu',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'boneio-eu',
-  projectName: 'docusaurus',
-  plugins: [
+  "title": "boneIO",
+  "tagline": "Open Source Smart Home Automation project.",
+  "url": "https://boneio.eu",
+  "baseUrl": "/",
+  "onBrokenLinks": "throw",
+  "onBrokenMarkdownLinks": "warn",
+  "favicon": "img/favicon.ico",
+  "organizationName": "boneio-eu",
+  "projectName": "docusaurus",
+  "plugins": [
     [
-      'content-docs',
+      "content-docs",
       {
-        id: 'hardware',
-        path: 'hardware',
-        routeBasePath: 'hardware',
-        editCurrentVersion: true,
-        sidebarPath:
-          '/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js',
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
-      },
-    ],
+        "id": "hardware",
+        "path": "hardware",
+        "routeBasePath": "hardware",
+        "editCurrentVersion": true,
+        "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
+        "showLastUpdateAuthor": true,
+        "showLastUpdateTime": true
+      }
+    ]
   ],
-  presets: [
+  "presets": [
     [
-      'classic',
+      "classic",
       {
-        docs: {
-          sidebarPath:
-            '/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js',
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          lastVersion: 'current',
+        "docs": {
+          "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
+          "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/",
+          "lastVersion": "0.2.0",
+          "includeCurrentVersion": false
         },
-        blog: {
-          showReadingTime: true,
-          path: 'blog',
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        "blog": {
+          "showReadingTime": true,
+          "path": "blog",
+          "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/"
         },
-        theme: {
-          customCss:
-            '/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/src/css/custom.css',
-        },
-      },
-    ],
+        "theme": {
+          "customCss": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/src/css/custom.css"
+        }
+      }
+    ]
   ],
-  themeConfig: {
-    navbar: {
-      logo: {
-        alt: 'boneIO',
-        src: 'img/logo.png',
-        srcDark: 'img/logo_white.png',
-        href: 'https://boneio.eu/',
-        target: '_self',
+  "themeConfig": {
+    "navbar": {
+      "logo": {
+        "alt": "boneIO",
+        "src": "img/logo.png"
       },
-      items: [
+      "items": [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'App for BBB',
+          "type": "doc",
+          "docId": "intro",
+          "position": "left",
+          "label": "App for BBB"
         },
         {
-          type: 'docsVersionDropdown',
-          position: 'left',
-          dropdownItemsBefore: [],
-          dropdownItemsAfter: [],
+          "type": "docsVersionDropdown",
+          "position": "left",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         },
         {
-          to: '/hardware',
-          label: 'Hardware',
-          position: 'left',
-          activeBaseRegex: '/hardware/',
+          "to": "/hardware",
+          "label": "Hardware",
+          "position": "left",
+          "activeBaseRegex": "/hardware/"
         },
         {
-          to: '/blog',
-          label: 'Blog',
-          position: 'left',
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
         },
         {
-          href: 'https://github.com/boneio-eu/boneIO',
-          label: 'GitHub',
-          position: 'right',
-        },
+          "href": "https://github.com/boneio-eu/boneIO",
+          "label": "GitHub",
+          "position": "right"
+        }
       ],
-      hideOnScroll: false,
+      "hideOnScroll": false
     },
-    footer: {
-      style: 'dark',
-      links: [
+    "footer": {
+      "style": "dark",
+      "links": [
         {
-          title: 'Docs',
-          items: [
+          "title": "Docs",
+          "items": [
             {
-              label: 'Start',
-              to: '/docs/intro',
-            },
-          ],
+              "label": "Start",
+              "to": "/docs/intro"
+            }
+          ]
         },
         {
-          title: 'Community',
-          items: [
+          "title": "Community",
+          "items": [
             {
-              label: 'Facebook Group',
-              href: 'https://facebook.com/groups/boneio',
+              "label": "Facebook Group",
+              "href": "https://facebook.com/groups/boneio"
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/PsrXEz9CBp',
+              "label": "Discord",
+              "href": "https://discord.gg/PsrXEz9CBp"
             },
             {
-              label: 'Youtube playlist',
-              href: 'https://www.youtube.com/playlist?list=PLjW3u5l4eAd2qtv4A4kIWntlwjxupNBip',
-            },
-          ],
+              "label": "Youtube playlist",
+              "href": "https://www.youtube.com/playlist?list=PLjW3u5l4eAd2qtv4A4kIWntlwjxupNBip"
+            }
+          ]
         },
         {
-          title: 'More',
-          items: [
+          "title": "More",
+          "items": [
             {
-              label: 'Blog',
-              to: '/blog',
+              "label": "Blog",
+              "to": "/blog"
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+              "label": "GitHub",
+              "href": "https://github.com/facebook/docusaurus"
+            }
+          ]
+        }
       ],
-      copyright: 'Copyright © 2022 boneIO.',
+      "copyright": "Copyright © 2022 boneIO."
     },
-    prism: {
-      theme: {
-        plain: {
-          color: '#393A34',
-          backgroundColor: '#f6f8fa',
+    "prism": {
+      "theme": {
+        "plain": {
+          "color": "#393A34",
+          "backgroundColor": "#f6f8fa"
         },
-        styles: [
+        "styles": [
           {
-            types: ['comment', 'prolog', 'doctype', 'cdata'],
-            style: {
-              color: '#999988',
-              fontStyle: 'italic',
-            },
-          },
-          {
-            types: ['namespace'],
-            style: {
-              opacity: 0.7,
-            },
-          },
-          {
-            types: ['string', 'attr-value'],
-            style: {
-              color: '#e3116c',
-            },
-          },
-          {
-            types: ['punctuation', 'operator'],
-            style: {
-              color: '#393A34',
-            },
-          },
-          {
-            types: [
-              'entity',
-              'url',
-              'symbol',
-              'number',
-              'boolean',
-              'variable',
-              'constant',
-              'property',
-              'regex',
-              'inserted',
+            "types": [
+              "comment",
+              "prolog",
+              "doctype",
+              "cdata"
             ],
-            style: {
-              color: '#36acaa',
-            },
+            "style": {
+              "color": "#999988",
+              "fontStyle": "italic"
+            }
           },
           {
-            types: ['atrule', 'keyword', 'attr-name', 'selector'],
-            style: {
-              color: '#00a4db',
-            },
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "opacity": 0.7
+            }
           },
           {
-            types: ['function', 'deleted', 'tag'],
-            style: {
-              color: '#d73a49',
-            },
+            "types": [
+              "string",
+              "attr-value"
+            ],
+            "style": {
+              "color": "#e3116c"
+            }
           },
           {
-            types: ['function-variable'],
-            style: {
-              color: '#6f42c1',
-            },
+            "types": [
+              "punctuation",
+              "operator"
+            ],
+            "style": {
+              "color": "#393A34"
+            }
           },
           {
-            types: ['tag', 'selector', 'keyword'],
-            style: {
-              color: '#00009f',
-            },
+            "types": [
+              "entity",
+              "url",
+              "symbol",
+              "number",
+              "boolean",
+              "variable",
+              "constant",
+              "property",
+              "regex",
+              "inserted"
+            ],
+            "style": {
+              "color": "#36acaa"
+            }
           },
-        ],
+          {
+            "types": [
+              "atrule",
+              "keyword",
+              "attr-name",
+              "selector"
+            ],
+            "style": {
+              "color": "#00a4db"
+            }
+          },
+          {
+            "types": [
+              "function",
+              "deleted",
+              "tag"
+            ],
+            "style": {
+              "color": "#d73a49"
+            }
+          },
+          {
+            "types": [
+              "function-variable"
+            ],
+            "style": {
+              "color": "#6f42c1"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "selector",
+              "keyword"
+            ],
+            "style": {
+              "color": "#00009f"
+            }
+          }
+        ]
       },
-      darkTheme: {
-        plain: {
-          color: '#F8F8F2',
-          backgroundColor: '#282A36',
+      "darkTheme": {
+        "plain": {
+          "color": "#F8F8F2",
+          "backgroundColor": "#282A36"
         },
-        styles: [
+        "styles": [
           {
-            types: ['prolog', 'constant', 'builtin'],
-            style: {
-              color: 'rgb(189, 147, 249)',
-            },
+            "types": [
+              "prolog",
+              "constant",
+              "builtin"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)"
+            }
           },
           {
-            types: ['inserted', 'function'],
-            style: {
-              color: 'rgb(80, 250, 123)',
-            },
+            "types": [
+              "inserted",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(80, 250, 123)"
+            }
           },
           {
-            types: ['deleted'],
-            style: {
-              color: 'rgb(255, 85, 85)',
-            },
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 85)"
+            }
           },
           {
-            types: ['changed'],
-            style: {
-              color: 'rgb(255, 184, 108)',
-            },
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(255, 184, 108)"
+            }
           },
           {
-            types: ['punctuation', 'symbol'],
-            style: {
-              color: 'rgb(248, 248, 242)',
-            },
+            "types": [
+              "punctuation",
+              "symbol"
+            ],
+            "style": {
+              "color": "rgb(248, 248, 242)"
+            }
           },
           {
-            types: ['string', 'char', 'tag', 'selector'],
-            style: {
-              color: 'rgb(255, 121, 198)',
-            },
+            "types": [
+              "string",
+              "char",
+              "tag",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(255, 121, 198)"
+            }
           },
           {
-            types: ['keyword', 'variable'],
-            style: {
-              color: 'rgb(189, 147, 249)',
-              fontStyle: 'italic',
-            },
+            "types": [
+              "keyword",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)",
+              "fontStyle": "italic"
+            }
           },
           {
-            types: ['comment'],
-            style: {
-              color: 'rgb(98, 114, 164)',
-            },
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(98, 114, 164)"
+            }
           },
           {
-            types: ['attr-name'],
-            style: {
-              color: 'rgb(241, 250, 140)',
-            },
-          },
-        ],
+            "types": [
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(241, 250, 140)"
+            }
+          }
+        ]
       },
-      additionalLanguages: [],
+      "additionalLanguages": []
     },
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-      switchConfig: {
-        darkIcon: '🌜',
-        darkIconStyle: {},
-        lightIcon: '🌞',
-        lightIconStyle: {},
-      },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": false,
+      "switchConfig": {
+        "darkIcon": "🌜",
+        "darkIconStyle": {},
+        "lightIcon": "🌞",
+        "lightIconStyle": {}
+      }
     },
-    docs: {
-      versionPersistence: 'localStorage',
+    "docs": {
+      "versionPersistence": "localStorage"
     },
-    metadata: [],
-    hideableSidebar: false,
-    autoCollapseSidebarCategories: false,
-    tableOfContents: {
-      minHeadingLevel: 2,
-      maxHeadingLevel: 3,
-    },
+    "metadata": [],
+    "hideableSidebar": false,
+    "autoCollapseSidebarCategories": false,
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 3
+    }
   },
-  baseUrlIssueBanner: true,
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-    localeConfigs: {},
+  "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
   },
-  onDuplicateRoutes: 'warn',
-  staticDirectories: ['static'],
-  customFields: {},
-  themes: [],
-  titleDelimiter: '|',
-  noIndex: false,
+  "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
+  "customFields": {},
+  "themes": [],
+  "titleDelimiter": "|",
+  "noIndex": false
 };

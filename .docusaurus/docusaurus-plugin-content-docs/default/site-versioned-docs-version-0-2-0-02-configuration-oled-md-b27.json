@@ -6,8 +6,8 @@
   "source": "@site/versioned_docs/version-0.2.0/02-configuration/oled.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/oled",
-  "permalink": "/docs/0.2.0/configuration/oled",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-0.2.0/02-configuration/oled.md",
+  "permalink": "/docs/configuration/oled",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/oled.md",
   "tags": [],
   "version": "0.2.0",
   "sidebarPosition": 3,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Logger",
-    "permalink": "/docs/0.2.0/configuration/logger"
+    "permalink": "/docs/configuration/logger"
   },
   "next": {
     "title": "Modbus",
-    "permalink": "/docs/0.2.0/configuration/modbus"
+    "permalink": "/docs/configuration/modbus"
   }
 }
