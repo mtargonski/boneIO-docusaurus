@@ -1,57 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "hardware": {
-      "path": "/hardware",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/hardware",
-          "mainDocId": "index",
-          "docs": [
-            {
-              "id": "case",
-              "path": "/hardware/case",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "index",
-              "path": "/hardware/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "power",
-              "path": "/hardware/power",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "v0.2/input",
-              "path": "/hardware/v0.2/input",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "v0.2/output",
-              "path": "/hardware/v0.2/output",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "v0.3/input",
-              "path": "/hardware/v0.3/input",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/hardware/",
-                "label": "index"
-              }
-            }
-          }
-        }
-      ]
-    },
     "default": {
       "path": "/docs",
       "versions": [
@@ -168,6 +116,58 @@
               "link": {
                 "path": "/docs/intro",
                 "label": "version-0.2.0/intro"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "hardware": {
+      "path": "/hardware",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/hardware",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "case",
+              "path": "/hardware/case",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/hardware/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "power",
+              "path": "/hardware/power",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "v0.2/input",
+              "path": "/hardware/v0.2/input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "v0.2/output",
+              "path": "/hardware/v0.2/output",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "v0.3/input",
+              "path": "/hardware/v0.3/input",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/hardware/",
+                "label": "index"
               }
             }
           }

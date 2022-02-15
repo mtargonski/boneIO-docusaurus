@@ -24,6 +24,7 @@ const config = {
         path: 'hardware',
         routeBasePath: 'hardware',
         editCurrentVersion: true,
+        editUrl: 'https://github.com/boneIO-eu/docusaurus/tree/main/',
         sidebarPath: require.resolve('./sidebars.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,

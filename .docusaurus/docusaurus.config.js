@@ -21,6 +21,7 @@ export default {
         "path": "hardware",
         "routeBasePath": "hardware",
         "editCurrentVersion": true,
+        "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/",
         "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true
@@ -124,7 +125,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/boneIO-eu/boneIO"
             }
           ]
         }
