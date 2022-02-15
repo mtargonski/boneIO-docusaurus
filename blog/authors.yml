@@ -1,9 +1,3 @@
-pszafer:
-  name: Paweł Szafer
-  title: Developer of boneIO app
-  url: https://github.com/pszafer
-  image_url: https://github.com/pszafer.png
-
 maciejk:
   name: Maciej Krasuski
   title: boneIO Founder
@@ -15,3 +9,15 @@ kamilb:
   title: Main engineer
   url: https://github.com/kamil2466
   image_url: https://github.com/kamil2466.png
+
+mariusz:
+  name: Mariusz
+  title: Case design
+  url: https://github.com/Mx0xM
+  image_url: https://github.com/Mx0xM.png
+
+pszafer:
+  name: Paweł Szafer
+  title: Developer of boneIO app
+  url: https://github.com/pszafer
+  image_url: https://github.com/pszafer.png

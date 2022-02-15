@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [maciejk, kamilb, pszafer]
+authors: [maciejk, kamilb, mariusz, pszafer]
 tags: [boneio]
 ---
 
