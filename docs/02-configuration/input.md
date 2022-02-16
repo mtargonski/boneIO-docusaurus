@@ -39,9 +39,10 @@ input:
 
 - **id** (_Optional_, string, default: value of `{pin}`) - ID to use to name this device in MQTT and Home Assistant.
 - **pin** (**Required**, string) - GPIO id of Beaglebone board eg `P9_33`.
-- **gpio_mode** (_Optional_, string, default: `gpio`, allowed_values: ['gpio', 'gpio_pu', 'gpio_pd', 'gpio_input']) - How to run this gpio. gpio means default gpio mode. gpio_pu = gpio pull up, gpio_pd = gpio pull down, gpio_input - to be checked.
+- **gpio_mode** (_Optional_, string, default: `gpio`, allowed_values: `['gpio', 'gpio_pu', 'gpio_pd', 'gpio_input']`) - How to run this gpio. gpio means default gpio mode. gpio_pu = gpio pull up, gpio_pd = gpio pull down, gpio_input - to be checked.
+- **bounce_time** (_Optional_, integer, default: 25 ms) - bounce time for GPIO to invoke callback. Use if default doesn't work for you. Making it to high might break click events functions for switch kind.
 - **show_in_ha** (**Required**, boolean, default: True) - Send autodiscovery message to Home Assistant.
-- **kind** (_Optional_, string, default: switch, allowed_values: ['switch', 'sensor']) - Type of device to send to Home Assistant. This kind indicate actions you can use.
+- **kind** (_Optional_, string, default: switch, allowed_values: `['switch', 'sensor']`) - Type of device to send to Home Assistant. This kind indicate actions you can use.
 - **actions** (Optional, dictionary) - dictionary of actions.
 
 ## Action for kind SWITCH
@@ -57,9 +58,9 @@ input:
 
 ## Action variables for action list
 
-- **action** (_Optional_, string, default: output, allowed_values: ['mqtt', 'output', 'cover']) - action type. Output and cover means that command is send directly to output relay or cover. This mode doesn't need network to work. Mqtt mean that there is extra action send to mqtt. For example you can directly control second boneIO!
+- **action** (_Optional_, string, default: output, allowed_values: `['mqtt', 'output', 'cover']`) - action type. Output and cover means that command is send directly to output relay or cover. This mode doesn't need network to work. Mqtt mean that there is extra action send to mqtt. For example you can directly control second boneIO!
 - **pin** (Optional, string) - output pin id to perform action on. Use only with action type `output` or `cover`.
 - **topic** (Optional, string) - topic to use if `mqtt` action is chosen
-- **action_cover** (Optional, string, allowed_values: ['toggle', 'open', 'close', 'stop', 'toggle_open', 'toggle_close']) - action to perform on `cover` type action. `toggle` is actions between open/close. `toggle_open` means actions between open/stop, `toggle_close` means actions between close/stop.
-- **action_output** (Optional, string, allowed_values: ['toggle', 'on', 'off']) - action to perform on `output` type action.
+- **action_cover** (Optional, string, allowed_values: `['toggle', 'open', 'close', 'stop', 'toggle_open', 'toggle_close']`) - action to perform on `cover` type action. `toggle` is actions between open/close. `toggle_open` means actions between open/stop, `toggle_close` means actions between close/stop.
+- **action_output** (Optional, string, allowed_values: `['toggle', 'on', 'off']`) - action to perform on `output` type action.
 - **action_mqtt_msg** (Optional, string) - message to send to mqtt topic if action is `mqtt`.

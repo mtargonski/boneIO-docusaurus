@@ -59,6 +59,94 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
+  "/docs/next-287": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-next-935-7db"
+  },
+  "/docs/next/configuration/-325": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-b-25-2b3"
+  },
+  "/docs/next/configuration/adc-31d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-adc-0-fe-65d"
+  },
+  "/docs/next/configuration/cover-e6f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-cover-6-a-9-7cd"
+  },
+  "/docs/next/configuration/input-403": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-input-639-0dd"
+  },
+  "/docs/next/configuration/lm75-248": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-lm-75-c-1-d-fbf"
+  },
+  "/docs/next/configuration/logger-c43": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-loggeradb-3bc"
+  },
+  "/docs/next/configuration/mcp23017-bb5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-mcp-230178-c-3-e5a"
+  },
+  "/docs/next/configuration/mcp9808-1e9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-mcp-98080-a-3-346"
+  },
+  "/docs/next/configuration/modbus-c2c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-modbusf-7-e-38c"
+  },
+  "/docs/next/configuration/modbus-sensors-fea": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-modbus-sensorse-64-4ae"
+  },
+  "/docs/next/configuration/mqtt-04a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-mqtte-19-4be"
+  },
+  "/docs/next/configuration/oled-509": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-oledd-43-c8b"
+  },
+  "/docs/next/configuration/output-e24": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-configuration-outputfac-3fe"
+  },
+  "/docs/next/contribute/dev-version-53d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-contribute-dev-version-10-f-0cd"
+  },
+  "/docs/next/contribute/developer-295": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-contribute-developer-95-c-5a2"
+  },
+  "/docs/next/contribute/modbus-b4a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-contribute-modbus-434-4da"
+  },
+  "/docs/next/install/first-start-d1f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-install-first-start-43-a-9a9"
+  },
+  "/docs/next/install/update-561": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-install-update-784-250"
+  },
+  "/docs/next/install/video-3c1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-install-video-083-d76"
+  },
+  "/docs/next/intro-8d4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-intro-0-e-3-e8b"
+  },
+  "/docs/next/troubleshooting-723": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-troubleshooting-9-d-9-ba2"
+  },
   "/docs-e7f": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-799-cc6"

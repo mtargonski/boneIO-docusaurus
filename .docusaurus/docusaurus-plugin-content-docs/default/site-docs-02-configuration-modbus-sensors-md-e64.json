@@ -6,8 +6,8 @@
   "source": "@site/docs/02-configuration/modbus-sensors.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/modbus-sensors",
-  "permalink": "/docs/configuration/modbus-sensors",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/modbus-sensors.md",
+  "permalink": "/docs/next/configuration/modbus-sensors",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/modbus-sensors.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Modbus",
-    "permalink": "/docs/configuration/modbus"
+    "permalink": "/docs/next/configuration/modbus"
   },
   "next": {
     "title": "LM75 temp sensor",
-    "permalink": "/docs/configuration/lm75"
+    "permalink": "/docs/next/configuration/lm75"
   }
 }

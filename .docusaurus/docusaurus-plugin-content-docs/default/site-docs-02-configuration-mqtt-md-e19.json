@@ -6,8 +6,8 @@
   "source": "@site/docs/02-configuration/mqtt.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/mqtt",
-  "permalink": "/docs/configuration/mqtt",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/mqtt.md",
+  "permalink": "/docs/next/configuration/mqtt",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/mqtt.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Configuration",
-    "permalink": "/docs/configuration/"
+    "permalink": "/docs/next/configuration/"
   },
   "next": {
     "title": "Logger",
-    "permalink": "/docs/configuration/logger"
+    "permalink": "/docs/next/configuration/logger"
   }
 }

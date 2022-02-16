@@ -65,25 +65,9 @@ const YamlComponentsTable = () => {
     },
   ];
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '25% 25% 25% 25%',
-        gridTemplateRows: '9em',
-        padding: '0.2rem',
-      }}
-    >
+    <div className="component_grid">
       {elements.map(({ img, name, url }, i) => (
-        <Link
-          key={i}
-          to={url}
-          className="nohover_link"
-          style={{
-            textAlign: 'center',
-            border: '1px solid var(--ifm-color-primary-darkest)',
-            height: '9em',
-          }}
-        >
+        <Link key={i} to={url} className="nohover_link">
           <div
             style={{
               height: '100%',

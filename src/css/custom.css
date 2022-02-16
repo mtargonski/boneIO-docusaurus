@@ -38,6 +38,13 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.component_grid .nohover_link {
+  text-align: center;
+  border: 1px solid var(--ifm-color-primary-darkest);
+  height: 9em;
+  line-height: 'normal';
+}
+
 .nohover_link:hover {
   text-decoration: none;
 }
@@ -45,4 +52,21 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .markdown > p:first-of-type img {
   max-height: 200px;
   width: auto;
+}
+
+.component_grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.2rem;
+}
+
+@media screen and (max-width: 966px) {
+  .component_grid {
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .component_grid .nohover_link {
+    height: 11em;
+    line-height: 'normal';
+  }
 }

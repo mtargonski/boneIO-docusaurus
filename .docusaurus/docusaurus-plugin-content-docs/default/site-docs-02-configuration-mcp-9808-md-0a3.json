@@ -6,8 +6,8 @@
   "source": "@site/docs/02-configuration/mcp9808.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/mcp9808",
-  "permalink": "/docs/configuration/mcp9808",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/mcp9808.md",
+  "permalink": "/docs/next/configuration/mcp9808",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/mcp9808.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "MCP23017 expander",
-    "permalink": "/docs/configuration/mcp23017"
+    "permalink": "/docs/next/configuration/mcp23017"
   },
   "next": {
     "title": "Output module",
-    "permalink": "/docs/configuration/output"
+    "permalink": "/docs/next/configuration/output"
   }
 }

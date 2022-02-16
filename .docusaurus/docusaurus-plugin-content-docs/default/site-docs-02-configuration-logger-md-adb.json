@@ -6,8 +6,8 @@
   "source": "@site/docs/02-configuration/logger.md",
   "sourceDirName": "02-configuration",
   "slug": "/configuration/logger",
-  "permalink": "/docs/configuration/logger",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-configuration/logger.md",
+  "permalink": "/docs/next/configuration/logger",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/logger.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "MQTT Client",
-    "permalink": "/docs/configuration/mqtt"
+    "permalink": "/docs/next/configuration/mqtt"
   },
   "next": {
     "title": "OLED",
-    "permalink": "/docs/configuration/oled"
+    "permalink": "/docs/next/configuration/oled"
   }
 }

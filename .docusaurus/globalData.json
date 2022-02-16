@@ -4,6 +4,128 @@
       "path": "/docs",
       "versions": [
         {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "configuration/adc",
+              "path": "/docs/next/configuration/adc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/cover",
+              "path": "/docs/next/configuration/cover",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/index",
+              "path": "/docs/next/configuration/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/input",
+              "path": "/docs/next/configuration/input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/lm75",
+              "path": "/docs/next/configuration/lm75",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/logger",
+              "path": "/docs/next/configuration/logger",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/mcp23017",
+              "path": "/docs/next/configuration/mcp23017",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/mcp9808",
+              "path": "/docs/next/configuration/mcp9808",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/modbus",
+              "path": "/docs/next/configuration/modbus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/modbus-sensors",
+              "path": "/docs/next/configuration/modbus-sensors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/mqtt",
+              "path": "/docs/next/configuration/mqtt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/oled",
+              "path": "/docs/next/configuration/oled",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/output",
+              "path": "/docs/next/configuration/output",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contribute/dev-version",
+              "path": "/docs/next/contribute/dev-version",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contribute/developer",
+              "path": "/docs/next/contribute/developer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contribute/modbus",
+              "path": "/docs/next/contribute/modbus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install/first-start",
+              "path": "/docs/next/install/first-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install/update",
+              "path": "/docs/next/install/update",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install/video",
+              "path": "/docs/next/install/video",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/next/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "troubleshooting",
+              "path": "/docs/next/troubleshooting",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/next/intro",
+                "label": "intro"
+              }
+            }
+          }
+        },
+        {
           "name": "0.2.0",
           "label": "0.2.0",
           "isLast": true,

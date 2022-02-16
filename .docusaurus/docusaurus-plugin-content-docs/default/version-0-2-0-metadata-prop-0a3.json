@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "label": "0.2.0",
   "banner": null,
-  "badge": false,
+  "badge": true,
   "className": "docs-version-0.2.0",
   "isLast": true,
   "docsSidebars": {

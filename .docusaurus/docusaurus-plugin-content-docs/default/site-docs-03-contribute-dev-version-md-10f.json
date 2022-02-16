@@ -6,8 +6,8 @@
   "source": "@site/docs/03-contribute/dev-version.md",
   "sourceDirName": "03-contribute",
   "slug": "/contribute/dev-version",
-  "permalink": "/docs/contribute/dev-version",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-contribute/dev-version.md",
+  "permalink": "/docs/next/contribute/dev-version",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/03-contribute/dev-version.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Cover",
-    "permalink": "/docs/configuration/cover"
+    "permalink": "/docs/next/configuration/cover"
   },
   "next": {
     "title": "Developer guide",
-    "permalink": "/docs/contribute/developer"
+    "permalink": "/docs/next/contribute/developer"
   }
 }

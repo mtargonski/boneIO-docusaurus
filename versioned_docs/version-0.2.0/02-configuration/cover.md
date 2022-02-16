@@ -29,6 +29,6 @@ cover:
 - **close_relay** (**Required**, string) - Relay ID which close cover. It has to be set in `output` section.
 - **open_time** (**Required**, integer) - Time to open cover in seconds.
 - **close_time** (**Required**, integer) - Time to close cover in seconds.
-- **device_class** (Optional, string, allowed_values: ["awning", "blind", "curtain", "damper", "door", "garage", "gate", "shade", "shutter", "window"]) - Type of device to see in Home Assistant.
+- **device_class** (Optional, string, allowed_values: `['awning', 'blind', 'curtain', 'damper', 'door', 'garage', 'gate', 'shade', 'shutter', 'window']`) - Type of device to see in Home Assistant.
 - **show_in_ha** (**Required**, boolean, default: True) - Send autodiscovery message to Home Assistant.
 - **restore_state** (_Optional_, boolean, default: False) - You can enable restore_state option. It's bit experimental. It saves state of relay or cover in `state.json` file, which is located in same directory as your `config.json`. **If `output_type` is None, then this value is overwritten to False!**

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "troubleshooting",
+  "id": "troubleshooting",
+  "title": "Troubleshooting",
+  "description": "Most useful command to check boneio app running with systemd.",
+  "source": "@site/docs/troubleshooting.md",
+  "sourceDirName": ".",
+  "slug": "/troubleshooting",
+  "permalink": "/docs/next/troubleshooting",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modbus sensor",
+    "permalink": "/docs/next/contribute/modbus"
+  }
+}
