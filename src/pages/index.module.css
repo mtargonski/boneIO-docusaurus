@@ -11,7 +11,7 @@
 }
 
 .bonePart {
-  color: rgb(28, 27, 23);
+  color: var(--bone-part);
 }
 
 .ioPart {

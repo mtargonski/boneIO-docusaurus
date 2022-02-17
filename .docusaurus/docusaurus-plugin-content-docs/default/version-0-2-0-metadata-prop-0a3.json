@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "label": "0.2.0",
   "banner": null,
-  "badge": true,
+  "badge": false,
   "className": "docs-version-0.2.0",
   "isLast": true,
   "docsSidebars": {
@@ -146,6 +146,12 @@
             "docId": "contribute/modbus"
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Troubleshooting",
+        "href": "/docs/troubleshooting",
+        "docId": "troubleshooting"
       }
     ]
   },
@@ -268,6 +274,12 @@
       "id": "intro",
       "title": "Intro",
       "description": "Let's discover boneio application.",
+      "sidebar": "tutorialSidebar"
+    },
+    "troubleshooting": {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "description": "Most useful command to check boneio app running with systemd.",
       "sidebar": "tutorialSidebar"
     }
   }

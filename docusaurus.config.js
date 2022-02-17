@@ -77,6 +77,7 @@ const config = {
         logo: {
           alt: 'boneIO',
           src: 'img/logo.png',
+          srcDark: 'img/logo_white.png',
         },
         items: [
           {

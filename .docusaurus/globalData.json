@@ -1,130 +1,60 @@
 {
   "docusaurus-plugin-content-docs": {
-    "default": {
-      "path": "/docs",
+    "hardware": {
+      "path": "/hardware",
       "versions": [
         {
           "name": "current",
           "label": "Next",
-          "isLast": false,
-          "path": "/docs/next",
-          "mainDocId": "intro",
+          "isLast": true,
+          "path": "/hardware",
+          "mainDocId": "index",
           "docs": [
             {
-              "id": "configuration/adc",
-              "path": "/docs/next/configuration/adc",
+              "id": "case",
+              "path": "/hardware/case",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "configuration/cover",
-              "path": "/docs/next/configuration/cover",
+              "id": "index",
+              "path": "/hardware/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "configuration/index",
-              "path": "/docs/next/configuration/",
+              "id": "power",
+              "path": "/hardware/power",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "configuration/input",
-              "path": "/docs/next/configuration/input",
+              "id": "v0.2/input",
+              "path": "/hardware/v0.2/input",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "configuration/lm75",
-              "path": "/docs/next/configuration/lm75",
+              "id": "v0.2/output",
+              "path": "/hardware/v0.2/output",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "configuration/logger",
-              "path": "/docs/next/configuration/logger",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "configuration/mcp23017",
-              "path": "/docs/next/configuration/mcp23017",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "configuration/mcp9808",
-              "path": "/docs/next/configuration/mcp9808",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "configuration/modbus",
-              "path": "/docs/next/configuration/modbus",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "configuration/modbus-sensors",
-              "path": "/docs/next/configuration/modbus-sensors",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "configuration/mqtt",
-              "path": "/docs/next/configuration/mqtt",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "configuration/oled",
-              "path": "/docs/next/configuration/oled",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "configuration/output",
-              "path": "/docs/next/configuration/output",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "contribute/dev-version",
-              "path": "/docs/next/contribute/dev-version",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "contribute/developer",
-              "path": "/docs/next/contribute/developer",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "contribute/modbus",
-              "path": "/docs/next/contribute/modbus",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "install/first-start",
-              "path": "/docs/next/install/first-start",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "install/update",
-              "path": "/docs/next/install/update",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "install/video",
-              "path": "/docs/next/install/video",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "intro",
-              "path": "/docs/next/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "troubleshooting",
-              "path": "/docs/next/troubleshooting",
+              "id": "v0.3/input",
+              "path": "/hardware/v0.3/input",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/next/intro",
-                "label": "intro"
+                "path": "/hardware/",
+                "label": "index"
               }
             }
           }
-        },
+        }
+      ]
+    },
+    "default": {
+      "path": "/docs",
+      "versions": [
         {
           "name": "0.2.0",
           "label": "0.2.0",
@@ -231,6 +161,11 @@
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "troubleshooting",
+              "path": "/docs/troubleshooting",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
@@ -238,58 +173,6 @@
               "link": {
                 "path": "/docs/intro",
                 "label": "version-0.2.0/intro"
-              }
-            }
-          }
-        }
-      ]
-    },
-    "hardware": {
-      "path": "/hardware",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/hardware",
-          "mainDocId": "index",
-          "docs": [
-            {
-              "id": "case",
-              "path": "/hardware/case",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "index",
-              "path": "/hardware/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "power",
-              "path": "/hardware/power",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "v0.2/input",
-              "path": "/hardware/v0.2/input",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "v0.2/output",
-              "path": "/hardware/v0.2/output",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "v0.3/input",
-              "path": "/hardware/v0.3/input",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/hardware/",
-                "label": "index"
               }
             }
           }

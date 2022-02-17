@@ -18,5 +18,9 @@
   "previous": {
     "title": "Developer guide",
     "permalink": "/docs/contribute/developer"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/troubleshooting"
   }
 }
