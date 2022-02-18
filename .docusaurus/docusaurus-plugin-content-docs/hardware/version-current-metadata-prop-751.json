@@ -27,6 +27,12 @@
         "docId": "power"
       },
       {
+        "type": "link",
+        "label": "I2C Output Board Config",
+        "href": "/hardware/i2c",
+        "docId": "i2c"
+      },
+      {
         "type": "category",
         "label": "v0.2",
         "collapsible": true,
@@ -67,6 +73,12 @@
       "id": "case",
       "title": "Case",
       "description": "3D Model",
+      "sidebar": "tutorialSidebar"
+    },
+    "i2c": {
+      "id": "i2c",
+      "title": "I2C Output Board Config",
+      "description": "How to find config pins?",
       "sidebar": "tutorialSidebar"
     },
     "index": {

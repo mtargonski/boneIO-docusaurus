@@ -202,7 +202,7 @@ export default [
   },
   {
     path: '/hardware',
-    component: ComponentCreator('/hardware','e8c'),
+    component: ComponentCreator('/hardware','1fa'),
     routes: [
       {
         path: '/hardware/',
@@ -213,6 +213,12 @@ export default [
       {
         path: '/hardware/case',
         component: ComponentCreator('/hardware/case','243'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/hardware/i2c',
+        component: ComponentCreator('/hardware/i2c','4b1'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

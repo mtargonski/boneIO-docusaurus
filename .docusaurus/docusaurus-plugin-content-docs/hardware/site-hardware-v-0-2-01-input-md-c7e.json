@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Powering boneIO",
-    "permalink": "/hardware/power"
+    "title": "I2C Output Board Config",
+    "permalink": "/hardware/i2c"
   },
   "next": {
     "title": "Output Boards",

@@ -23,7 +23,7 @@
     "permalink": "/hardware/case"
   },
   "next": {
-    "title": "Input Board",
-    "permalink": "/hardware/v0.2/input"
+    "title": "I2C Output Board Config",
+    "permalink": "/hardware/i2c"
   }
 }

@@ -147,7 +147,7 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-troubleshooting-050-365"
   },
-  "/hardware-e8c": {
+  "/hardware-1fa": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---hardware-049-a8e"
   },
@@ -158,6 +158,10 @@
   "/hardware/case-243": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---hardware-case-3-f-6-cc4"
+  },
+  "/hardware/i2c-4b1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---hardware-i-2-c-8-e-2-d1d"
   },
   "/hardware/power-5b6": {
     "component": "component---theme-doc-item-178-a40",

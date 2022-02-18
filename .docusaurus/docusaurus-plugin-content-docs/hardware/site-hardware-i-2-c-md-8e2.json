@@ -1,0 +1,30 @@
+{
+  "unversionedId": "i2c",
+  "id": "i2c",
+  "title": "I2C Output Board Config",
+  "description": "How to find config pins?",
+  "source": "@site/hardware/i2c.md",
+  "sourceDirName": ".",
+  "slug": "/i2c",
+  "permalink": "/hardware/i2c",
+  "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/i2c.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "I2C Output Board Config"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Powering boneIO",
+    "permalink": "/hardware/power"
+  },
+  "next": {
+    "title": "Input Board",
+    "permalink": "/hardware/v0.2/input"
+  }
+}
