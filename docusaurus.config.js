@@ -152,6 +152,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: 'WZ2G7C3P84',
+        apiKey: '6ab8374ee75301ca9cb3aaece966481a',
+        indexName: 'boneio',
+      },
     }),
 };
 

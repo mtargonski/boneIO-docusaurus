@@ -327,6 +327,13 @@ export default {
       },
       "additionalLanguages": []
     },
+    "algolia": {
+      "appId": "WZ2G7C3P84",
+      "apiKey": "6ab8374ee75301ca9cb3aaece966481a",
+      "indexName": "boneio",
+      "contextualSearch": true,
+      "searchParameters": {}
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,

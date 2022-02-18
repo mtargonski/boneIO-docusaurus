@@ -1061,5 +1061,8 @@
   },
   "docusaurus-theme-classic": {
     "default": null
+  },
+  "docusaurus-theme-search-algolia": {
+    "default": null
   }
 }
