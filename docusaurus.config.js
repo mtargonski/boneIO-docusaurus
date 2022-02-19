@@ -154,7 +154,7 @@ const config = {
       },
       algolia: {
         appId: 'WZ2G7C3P84',
-        apiKey: '6ab8374ee75301ca9cb3aaece966481a',
+        apiKey: '5adfa2ec8e708c66c59e9c6d3a683e8e',
         indexName: 'boneio',
       },
     }),
