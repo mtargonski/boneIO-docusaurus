@@ -34,11 +34,11 @@ boneIO is a compact IO controller for home automation. Main features of this con
 
 You can choose from many different output boards:
 
-- Relay Board 24x16A
-- Relay Board 32x5A
-- Relay Board 24x10A
-- Shutter Board 32x10A
-- SSR Dimmer Board
+- Relay Board 24x16A - for 16A receivers (usually: sockets)
+- Relay Board 24x10A - for 10A receivers (usually: sockets)
+- Relay Board 32x5A - for 5A receivers (usually: light bulbs)
+- Shutter Board 32x10A - for switching up & down roller blinds motors
+- SSR Dimmer Board - for dimmable light bulbs
 
 Every output board use i2c interface to connect to BBB. Output board could be used inside the main controller or outside as a expansion module.
 
