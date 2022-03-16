@@ -36,7 +36,12 @@ export default {
           "sidebarPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/sidebars.js",
           "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/",
           "lastVersion": "0.2.0",
-          "includeCurrentVersion": false
+          "includeCurrentVersion": true,
+          "versions": {
+            "current": {
+              "label": "0.3.0dev2"
+            }
+          }
         },
         "blog": {
           "showReadingTime": true,
@@ -64,12 +69,6 @@ export default {
           "label": "App for BBB"
         },
         {
-          "type": "docsVersionDropdown",
-          "position": "left",
-          "dropdownItemsBefore": [],
-          "dropdownItemsAfter": []
-        },
-        {
           "to": "/hardware",
           "label": "Hardware",
           "position": "left",
@@ -79,6 +78,12 @@ export default {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
+        },
+        {
+          "type": "docsVersionDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         },
         {
           "href": "https://github.com/boneio-eu/boneIO",

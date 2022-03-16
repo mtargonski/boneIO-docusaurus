@@ -16,8 +16,8 @@ cover:
   - id: kitchen
     open_relay: mcp1-gpb5a
     close_relay: mcp1-gpb4a
-    open_time: 22
-    close_time: 22
+    open_time: 22s
+    close_time: 22s
     show_in_ha: yes
     restore_state: yes
 ```
@@ -27,8 +27,8 @@ cover:
 - **id** (**Required**, string) - ID to use for cover.
 - **open_relay** (**Required**, string) - Relay ID which open cover. It has to be set in `output` section.
 - **close_relay** (**Required**, string) - Relay ID which close cover. It has to be set in `output` section.
-- **open_time** (**Required**, integer) - Time to open cover in seconds.
-- **close_time** (**Required**, integer) - Time to close cover in seconds.
+- **open_time** (**Required**, timeperiod) - Time to open cover. Example 20 seconds.
+- **close_time** (**Required**, timeperiod) - Time to close cover. Example 30 sec.
 - **device_class** (Optional, string, allowed_values: `['awning', 'blind', 'curtain', 'damper', 'door', 'garage', 'gate', 'shade', 'shutter', 'window']`) - Type of device to see in Home Assistant.
 - **show_in_ha** (**Required**, boolean, default: True) - Send autodiscovery message to Home Assistant.
 - **restore_state** (_Optional_, boolean, default: False) - You can enable restore_state option. It's bit experimental. It saves state of relay or cover in `state.json` file, which is located in same directory as your `config.json`. **If `output_type` is None, then this value is overwritten to False!**

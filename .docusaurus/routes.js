@@ -74,6 +74,138 @@ export default [
     exact: true
   },
   {
+    path: '/docs/next',
+    component: ComponentCreator('/docs/next','287'),
+    routes: [
+      {
+        path: '/docs/next/configuration/',
+        component: ComponentCreator('/docs/next/configuration/','325'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/adc',
+        component: ComponentCreator('/docs/next/configuration/adc','31d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/cover',
+        component: ComponentCreator('/docs/next/configuration/cover','e6f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/input',
+        component: ComponentCreator('/docs/next/configuration/input','403'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/lm75',
+        component: ComponentCreator('/docs/next/configuration/lm75','248'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/logger',
+        component: ComponentCreator('/docs/next/configuration/logger','c43'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/mcp23017',
+        component: ComponentCreator('/docs/next/configuration/mcp23017','bb5'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/mcp9808',
+        component: ComponentCreator('/docs/next/configuration/mcp9808','1e9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/modbus',
+        component: ComponentCreator('/docs/next/configuration/modbus','c2c'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/modbus-sensors',
+        component: ComponentCreator('/docs/next/configuration/modbus-sensors','fea'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/mqtt',
+        component: ComponentCreator('/docs/next/configuration/mqtt','04a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/oled',
+        component: ComponentCreator('/docs/next/configuration/oled','509'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/configuration/output',
+        component: ComponentCreator('/docs/next/configuration/output','e24'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/contribute/dev-version',
+        component: ComponentCreator('/docs/next/contribute/dev-version','53d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/contribute/developer',
+        component: ComponentCreator('/docs/next/contribute/developer','295'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/contribute/modbus',
+        component: ComponentCreator('/docs/next/contribute/modbus','b4a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/install/first-start',
+        component: ComponentCreator('/docs/next/install/first-start','d1f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/install/update',
+        component: ComponentCreator('/docs/next/install/update','561'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/install/video',
+        component: ComponentCreator('/docs/next/install/video','3c1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/intro',
+        component: ComponentCreator('/docs/next/intro','8d4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/troubleshooting',
+        component: ComponentCreator('/docs/next/troubleshooting','723'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }
+    ]
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs','e53'),
     routes: [

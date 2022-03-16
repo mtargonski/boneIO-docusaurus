@@ -54,7 +54,12 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/boneIO-eu/docusaurus/tree/main/',
           lastVersion: '0.2.0',
-          includeCurrentVersion: false,
+          includeCurrentVersion: true,
+          versions: {
+            current: {
+              label: `0.3.0dev2`,
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -87,15 +92,16 @@ const config = {
             label: 'App for BBB',
           },
           {
-            type: 'docsVersionDropdown',
-          },
-          {
             to: '/hardware',
             label: 'Hardware',
             position: 'left',
             activeBaseRegex: `/hardware/`,
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/boneio-eu/boneIO',
             label: 'GitHub',
