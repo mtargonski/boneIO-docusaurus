@@ -8,7 +8,7 @@
           "label": "0.2.0",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "install/first-start",
           "docs": [
             {
               "id": "configuration/adc",
@@ -119,13 +119,14 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "version-0.2.0/intro"
+                "path": "/docs/install/first-start",
+                "label": "version-0.2.0/install/first-start"
               }
             }
           }
         }
-      ]
+      ],
+      "breadcrumbs": true
     },
     "hardware": {
       "path": "/hardware",
@@ -182,7 +183,8 @@
             }
           }
         }
-      ]
+      ],
+      "breadcrumbs": true
     }
   }
 }

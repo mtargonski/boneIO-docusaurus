@@ -40,7 +40,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/boneio-c0b": {
+  "/blog/tags/boneio-014": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -48,7 +48,8 @@
         "content": "content---blogcfd-2ec"
       }
     ],
-    "metadata": "metadata---blog-tags-boneioce-7-c26"
+    "metadata": "metadata---blog-tags-boneioce-7-c26",
+    "listMetadata": "listMetadata---blog-tags-boneioe-2-b-a24"
   },
   "/blog/welcome-f0a": {
     "component": "component---theme-blog-post-pageccc-cab",

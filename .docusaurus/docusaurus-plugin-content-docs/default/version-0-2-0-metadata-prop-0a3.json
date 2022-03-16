@@ -9,12 +9,6 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Intro",
-        "href": "/docs/intro",
-        "docId": "intro"
-      },
-      {
         "type": "category",
         "label": "Installation",
         "collapsible": true,
@@ -39,6 +33,12 @@
             "docId": "install/update"
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Intro",
+        "href": "/docs/intro",
+        "docId": "intro"
       },
       {
         "type": "category",

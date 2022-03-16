@@ -14,9 +14,9 @@
           "versionClassName": "docs-version-0.2.0",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/versioned_sidebars/version-0.2.0-sidebars.json",
-          "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/versioned_docs/version-0.2.0",
-          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/version-0.2.0",
+          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_sidebars/version-0.2.0-sidebars.json",
+          "contentPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_docs/version-0.2.0",
+          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/version-0.2.0",
           "docs": [
             {
               "unversionedId": "configuration/adc",
@@ -85,8 +85,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Software Update",
-                "permalink": "/docs/install/update"
+                "title": "Intro",
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "MQTT Client",
@@ -448,10 +448,6 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Intro",
-                "permalink": "/docs/intro"
-              },
               "next": {
                 "title": "Video guide",
                 "permalink": "/docs/install/video"
@@ -476,8 +472,8 @@
                 "permalink": "/docs/install/video"
               },
               "next": {
-                "title": "Configuration",
-                "permalink": "/docs/configuration/"
+                "title": "Intro",
+                "permalink": "/docs/intro"
               }
             },
             {
@@ -523,9 +519,13 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Software Update",
+                "permalink": "/docs/install/update"
+              },
               "next": {
-                "title": "Software Installation",
-                "permalink": "/docs/install/first-start"
+                "title": "Configuration",
+                "permalink": "/docs/configuration/"
               }
             },
             {
@@ -554,10 +554,6 @@
           "sidebars": {
             "tutorialSidebar": [
               {
-                "type": "doc",
-                "id": "version-0.2.0/intro"
-              },
-              {
                 "type": "category",
                 "label": "Installation",
                 "collapsible": true,
@@ -576,6 +572,10 @@
                     "id": "version-0.2.0/install/update"
                   }
                 ]
+              },
+              {
+                "type": "doc",
+                "id": "version-0.2.0/intro"
               },
               {
                 "type": "category",
@@ -663,7 +663,7 @@
               }
             ]
           },
-          "mainDocId": "intro",
+          "mainDocId": "install/first-start",
           "categoryGeneratedIndices": []
         }
       ]
@@ -682,9 +682,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
-          "contentPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/hardware",
-          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs-hardware/current",
+          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/sidebars.js",
+          "contentPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/hardware",
+          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs-hardware/current",
           "docs": [
             {
               "unversionedId": "case",
@@ -1009,6 +1009,9 @@
       ],
       "blogListPaginated": [
         {
+          "items": [
+            "welcome"
+          ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
@@ -1019,10 +1022,7 @@
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
-          },
-          "items": [
-            "welcome"
-          ]
+          }
         }
       ],
       "blogTags": {
@@ -1031,7 +1031,25 @@
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/boneio"
+          "permalink": "/blog/tags/boneio",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/boneio",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         }
       },
       "blogTagsListPath": "/blog/tags"

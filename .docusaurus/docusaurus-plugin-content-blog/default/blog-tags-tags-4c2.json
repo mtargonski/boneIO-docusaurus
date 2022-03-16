@@ -1,5 +1,5 @@
 {
-  "/blog/tags/boneio": {
+  "boneio": {
     "allTagsPath": "/blog/tags",
     "slug": "/blog/tags/boneio",
     "name": "boneio",

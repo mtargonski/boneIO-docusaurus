@@ -55,7 +55,7 @@ export default [
   },
   {
     path: '/blog/tags/boneio',
-    component: ComponentCreator('/blog/tags/boneio','c0b'),
+    component: ComponentCreator('/blog/tags/boneio','014'),
     exact: true
   },
   {

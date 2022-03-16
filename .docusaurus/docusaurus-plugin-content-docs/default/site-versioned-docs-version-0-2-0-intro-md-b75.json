@@ -15,8 +15,12 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Software Update",
+    "permalink": "/docs/install/update"
+  },
   "next": {
-    "title": "Software Installation",
-    "permalink": "/docs/install/first-start"
+    "title": "Configuration",
+    "permalink": "/docs/configuration/"
   }
 }

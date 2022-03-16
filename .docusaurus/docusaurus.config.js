@@ -22,7 +22,7 @@ export default {
         "routeBasePath": "hardware",
         "editCurrentVersion": true,
         "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/",
-        "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
+        "sidebarPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/sidebars.js",
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true
       }
@@ -33,7 +33,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/sidebars.js",
+          "sidebarPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/sidebars.js",
           "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/",
           "lastVersion": "0.2.0",
           "includeCurrentVersion": false
@@ -44,7 +44,7 @@ export default {
           "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/"
         },
         "theme": {
-          "customCss": "/home/poznan.tbhydro.net/admin/Projekty/prywatne/bone/docasaurus/src/css/custom.css"
+          "customCss": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/src/css/custom.css"
         }
       }
     ]
@@ -329,21 +329,16 @@ export default {
     },
     "algolia": {
       "appId": "WZ2G7C3P84",
-      "apiKey": "6ab8374ee75301ca9cb3aaece966481a",
+      "apiKey": "5adfa2ec8e708c66c59e9c6d3a683e8e",
       "indexName": "boneio",
       "contextualSearch": true,
-      "searchParameters": {}
+      "searchParameters": {},
+      "searchPagePath": "search"
     },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
-      "respectPrefersColorScheme": false,
-      "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
-      }
+      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage"

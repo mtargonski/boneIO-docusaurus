@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Software Update",
-    "permalink": "/docs/install/update"
+    "title": "Intro",
+    "permalink": "/docs/intro"
   },
   "next": {
     "title": "MQTT Client",
