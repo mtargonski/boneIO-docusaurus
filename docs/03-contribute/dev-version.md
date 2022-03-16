@@ -6,13 +6,15 @@ sidebar_position: 1
 
 ## Prepare VENV
 
-Assume test version is 0.2.1dev1
+You can check current test version here https://pypi.org/project/boneio/#history
+
+Assume test version is boneio==0.3.0.dev2
 
 ```bash
 mkdir ~/boneio_test
 python3 -m venv ~/boneio_test/venv
 source ~/boneio_test/venv/bin/activate
-pip3 install boneio==0.2.1dev1
+pip3 install boneio==0.3.0.dev2
 ```
 
 Now prepare your config according to release notes.
