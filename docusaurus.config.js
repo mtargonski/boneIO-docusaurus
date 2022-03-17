@@ -77,6 +77,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/logo.png',
       navbar: {
         // title: 'boneIO',
         logo: {
