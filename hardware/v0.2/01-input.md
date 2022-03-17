@@ -55,4 +55,61 @@ Unlinke Buck Converter you cannot choose if you want to solder from parts. In th
 
 ![RS485 Install Point](/img/rs485install.jpg)
 
-###
+### Input - PIN on BBB
+
+Table below presents which boneIO Input is PIN on BeagleBone Black and in which mode it can work.
+
+| Input Board PIN | BeagleBone PIN | Modes         |
+| --------------- | -------------- | ------------- |
+| IN_01           | P8_37          | gpio_pu       |
+| IN_02           | P8_38          | gpio_pu       |
+| IN_03           | P8_39          | gpio, gpio_pd |
+| IN_04           | P8_40          | gpio, gpio_pd |
+| IN_05           | P8_41          | gpio, gpio_pd |
+| IN_06           | P8_42          | gpio, gpio_pd |
+| IN_07           | P8_43          | gpio, gpio_pd |
+| IN_08           | P8_44          | gpio, gpio_pd |
+| IN_09           | P8_45          | gpio_pu       |
+| IN_10           | P8_46          | gpio_pu       |
+| IN_11           | P9_42          | gpio, gpio_pd |
+| IN_12           | P9_31          | gpio, gpio_pd |
+| IN_13           | P9_30          | gpio, gpio_pd |
+| IN_14           | P9_29          | gpio, gpio_pd |
+| IN_15           | P9_28          | gpio, gpio_pd |
+| IN_16           | P9_27          | gpio, gpio_pd |
+| IN_17           | P9_25          | gpio, gpio_pd |
+| IN_18           | P9_23          | gpio, gpio_pd |
+| IN_19           | P9_22          | gpio_pu       |
+| IN_20           | P9_21          | gpio_pu       |
+| IN_21           | P9_18          | gpio, gpio_pd |
+| IN_22           | P9_17          | gpio, gpio_pd |
+| IN_23           | P9_16          | gpio, gpio_pd |
+| IN_24           | P9_15          | gpio, gpio_pd |
+| IN_25           | P9_14          | gpio, gpio_pd |
+| IN_26           | P9_13          | gpio, gpio_pd |
+| IN_27           | P9_12          | gpio_pu       |
+| IN_28           | P9_11          | gpio_pu       |
+| IN_29           | P8_36          | gpio_pu       |
+| IN_30           | P8_35          | gpio_pu       |
+| IN_31           | P8_34          | gpio_pu       |
+| IN_32           | P8_33          | gpio_pu       |
+| IN_33           | P8_32          | gpio_pu       |
+| IN_34           | P8_31          | gpio_pu       |
+| IN_35           | P8_30          | gpio, gpio_pd |
+| IN_36           | P8_29          | gpio, gpio_pd |
+| IN_37           | P8_28          | gpio, gpio_pd |
+| IN_38           | P8_27          | gpio, gpio_pd |
+| IN_39           | P8_26          | gpio, gpio_pd |
+| IN_40           | P8_19          | gpio, gpio_pd |
+| IN_41           | P8_18          | gpio, gpio_pd |
+| IN_42           | P8_17          | gpio, gpio_pd |
+| IN_43           | P8_16          | gpio, gpio_pd |
+| IN_44           | P8_15          | gpio, gpio_pd |
+| IN_45           | P8_14          | gpio, gpio_pd |
+| IN_46           | P8_13          | gpio, gpio_pd |
+| IN_47           | P8_12          | gpio, gpio_pd |
+| IN_48           | P8_11          | gpio, gpio_pd |
+| IN_49           | P8_10          | gpio, gpio_pd |
+| IN_50           | P8_9           | gpio, gpio_pd |
+| IN_51           | P8_8           | gpio, gpio_pd |
+| IN_52           | P8_7           | gpio, gpio_pd |
