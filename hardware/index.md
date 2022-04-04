@@ -61,3 +61,8 @@ boneIO was designed to work with star topology. That's mean that you have specif
 Here you can find some info how to plan this kind of electrical instalation:
 
 <iframe src="https://www.youtube.com/embed/6winSE5_7IE" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="640" height="480"></iframe>
+
+## Board labels
+
+Below are labels which you can print and attach on your boneIO case.
+[Opisy](/opisy.pdf)

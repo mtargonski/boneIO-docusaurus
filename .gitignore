@@ -11,4 +11,5 @@ yarn-debug.log*
 yarn-error.log*
 .vscode
 .docusaurus
+.docusaurus*
 build
