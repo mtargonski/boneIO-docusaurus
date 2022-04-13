@@ -1,286 +1,275 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
-  },
-  "/blog-ac3": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blog-814-8ac",
+  "/blog-2a8": {
+    "component": "a6aa9e1f",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogcfd-2ec"
+        "content": "cfd61b16"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd",
+    "__routeContextModule": "96268493"
   },
-  "/blog/archive-f4c": {
-    "component": "component---theme-blog-archive-page-9-e-4-1d8",
-    "archive": "archive---blog-archiveb-2-f-393"
+  "/blog/archive-539": {
+    "component": "9e4087bc",
+    "archive": "b2f554cd",
+    "__routeContextModule": "96268493"
   },
-  "/blog/tags-e13": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
+  "/blog/tags-fe4": {
+    "component": "01a85c17",
+    "sidebar": "814f3328",
+    "tags": "a7023ddc",
+    "__routeContextModule": "96268493"
   },
-  "/blog/tags/boneio-014": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
+  "/blog/tags/boneio-39b": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogcfd-2ec"
+        "content": "cfd61b16"
       }
     ],
-    "metadata": "metadata---blog-tags-boneioce-7-c26",
-    "listMetadata": "listMetadata---blog-tags-boneioe-2-b-a24"
+    "metadata": "ce78ef4e",
+    "listMetadata": "e2b1102e",
+    "__routeContextModule": "96268493"
   },
-  "/blog/welcome-f0a": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomef-75-1fd"
+  "/blog/welcome-e7d": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "f75a3094",
+    "__routeContextModule": "96268493"
   },
-  "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+  "/markdown-page-e4c": {
+    "component": "1f391b9e",
+    "content": "393be207",
+    "__routeContextModule": "0d7d5a47"
   },
-  "/search-79a": {
-    "component": "component---theme-search-page-1-a-4-d6f"
+  "/search-3ea": {
+    "component": "1a4e3797",
+    "__routeContextModule": "696bbbe4"
   },
-  "/docs/next-cfc": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-next-935-7db"
+  "/docs/next-aff": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb",
+    "__routeContextModule": "6948db32"
   },
   "/docs/next/configuration/-325": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-b-25-2b3"
+    "component": "17896441",
+    "content": "b2583df5"
   },
   "/docs/next/configuration/adc-31d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-adc-0-fe-65d"
+    "component": "17896441",
+    "content": "0fe03fe2"
   },
   "/docs/next/configuration/cover-e6f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-cover-6-a-9-7cd"
+    "component": "17896441",
+    "content": "6a98e5f9"
   },
   "/docs/next/configuration/dallas-602": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-dallas-38-c-0d4"
+    "component": "17896441",
+    "content": "38cb94ec"
   },
   "/docs/next/configuration/ds2482-01b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-ds-2482-a-92-e9d"
+    "component": "17896441",
+    "content": "a927c1dd"
   },
   "/docs/next/configuration/input-403": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-input-639-0dd"
+    "component": "17896441",
+    "content": "63991d1a"
   },
   "/docs/next/configuration/lm75-248": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-lm-75-c-1-d-fbf"
+    "component": "17896441",
+    "content": "c1d4afa0"
   },
   "/docs/next/configuration/logger-c43": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-loggeradb-3bc"
+    "component": "17896441",
+    "content": "adbb503f"
   },
   "/docs/next/configuration/mcp23017-bb5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-mcp-230178-c-3-e5a"
+    "component": "17896441",
+    "content": "8c333540"
   },
   "/docs/next/configuration/mcp9808-1e9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-mcp-98080-a-3-346"
+    "component": "17896441",
+    "content": "0a39df60"
   },
   "/docs/next/configuration/modbus-c2c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-modbusf-7-e-38c"
+    "component": "17896441",
+    "content": "f7e84624"
   },
   "/docs/next/configuration/modbus-sensors-fea": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-modbus-sensorse-64-4ae"
+    "component": "17896441",
+    "content": "e64f5882"
   },
   "/docs/next/configuration/mqtt-04a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-mqtte-19-4be"
+    "component": "17896441",
+    "content": "e193ad37"
   },
   "/docs/next/configuration/oled-509": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-oledd-43-c8b"
+    "component": "17896441",
+    "content": "d43bc982"
   },
   "/docs/next/configuration/output-e24": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-configuration-outputfac-3fe"
+    "component": "17896441",
+    "content": "fac84176"
   },
   "/docs/next/contribute/dev-version-53d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-contribute-dev-version-10-f-0cd"
+    "component": "17896441",
+    "content": "10fbe356"
   },
   "/docs/next/contribute/developer-295": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-contribute-developer-95-c-5a2"
+    "component": "17896441",
+    "content": "95c62fef"
   },
   "/docs/next/contribute/modbus-b4a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-contribute-modbus-434-4da"
+    "component": "17896441",
+    "content": "43439b65"
   },
   "/docs/next/install/first-start-d1f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-install-first-start-43-a-9a9"
+    "component": "17896441",
+    "content": "43abd92e"
   },
   "/docs/next/install/update-561": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-install-update-784-250"
+    "component": "17896441",
+    "content": "7845c44b"
   },
   "/docs/next/install/video-3c1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-install-video-083-d76"
+    "component": "17896441",
+    "content": "0830352d"
   },
   "/docs/next/intro-8d4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-intro-0-e-3-e8b"
+    "component": "17896441",
+    "content": "0e384e19"
   },
   "/docs/next/troubleshooting-723": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-troubleshooting-9-d-9-ba2"
+    "component": "17896441",
+    "content": "9d9f8394"
   },
-  "/docs-db7": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docsae-3-b36"
+  "/docs-757": {
+    "component": "1be78505",
+    "versionMetadata": "ae31ff46",
+    "__routeContextModule": "6948db32"
   },
   "/docs/configuration/-537": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-73-c-eeb"
+    "component": "17896441",
+    "content": "73c941c1"
   },
   "/docs/configuration/adc-4d1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-adc-145-2ca"
+    "component": "17896441",
+    "content": "145bbca1"
   },
   "/docs/configuration/cover-fef": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-cover-262-0c9"
+    "component": "17896441",
+    "content": "26206922"
   },
   "/docs/configuration/input-b6a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-input-3-a-2-e21"
+    "component": "17896441",
+    "content": "3a272440"
   },
   "/docs/configuration/lm75-ed9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-lm-75-aa-3-bfa"
+    "component": "17896441",
+    "content": "aa390c29"
   },
   "/docs/configuration/logger-aa3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-loggerc-9-f-8dd"
+    "component": "17896441",
+    "content": "c9ff24d1"
   },
   "/docs/configuration/mcp23017-9a7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-mcp-2301724-c-1a6"
+    "component": "17896441",
+    "content": "24c1f873"
   },
   "/docs/configuration/mcp9808-d12": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-mcp-9808779-1aa"
+    "component": "17896441",
+    "content": "77975f3d"
   },
   "/docs/configuration/modbus-7a2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-modbuse-18-4d3"
+    "component": "17896441",
+    "content": "e1868576"
   },
   "/docs/configuration/modbus-sensors-317": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-modbus-sensors-37-c-1e5"
+    "component": "17896441",
+    "content": "37ce272c"
   },
   "/docs/configuration/mqtt-1c3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-mqtt-253-10a"
+    "component": "17896441",
+    "content": "25349fed"
   },
   "/docs/configuration/oled-743": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-oled-841-138"
+    "component": "17896441",
+    "content": "8417bae0"
   },
   "/docs/configuration/output-3cb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-output-7-e-1-64e"
+    "component": "17896441",
+    "content": "7e17b1d5"
   },
   "/docs/contribute/dev-version-058": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-contribute-dev-versiond-5-f-dd3"
+    "component": "17896441",
+    "content": "d5f4b61c"
   },
   "/docs/contribute/developer-54f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-contribute-developer-30-a-1fd"
+    "component": "17896441",
+    "content": "30a94335"
   },
   "/docs/contribute/modbus-a17": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-contribute-modbus-5-e-5-e16"
+    "component": "17896441",
+    "content": "5e53c3c9"
   },
   "/docs/install/first-start-6e2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-install-first-startf-31-853"
+    "component": "17896441",
+    "content": "f3198918"
   },
   "/docs/install/update-9a8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-install-update-2-d-0-a69"
+    "component": "17896441",
+    "content": "2d0f370d"
   },
   "/docs/install/video-a18": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-install-videoc-2-d-96c"
+    "component": "17896441",
+    "content": "c2d65069"
   },
   "/docs/intro-4e3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-65-e-94f"
+    "component": "17896441",
+    "content": "65e4cc1e"
   },
   "/docs/troubleshooting-899": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-troubleshooting-1-cc-431"
+    "component": "17896441",
+    "content": "1cce3958"
   },
-  "/hardware-1fa": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---hardware-049-a8e"
+  "/hardware-339": {
+    "component": "1be78505",
+    "versionMetadata": "049b3918",
+    "__routeContextModule": "13292201"
   },
   "/hardware/-dfa": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---hardware-cf-1-778"
+    "component": "17896441",
+    "content": "cf197334"
   },
   "/hardware/case-243": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---hardware-case-3-f-6-cc4"
+    "component": "17896441",
+    "content": "3f6a9f20"
   },
   "/hardware/i2c-4b1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---hardware-i-2-c-8-e-2-d1d"
+    "component": "17896441",
+    "content": "8e280659"
   },
   "/hardware/power-5b6": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---hardware-power-4-db-a18"
+    "component": "17896441",
+    "content": "4db3122e"
   },
   "/hardware/v0.2/input-9a1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---hardware-v-0-2-inputc-7-e-b1c"
+    "component": "17896441",
+    "content": "c7e938d3"
   },
   "/hardware/v0.2/output-47f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---hardware-v-0-2-output-237-5cb"
+    "component": "17896441",
+    "content": "237b0bcb"
   },
   "/hardware/v0.3/input-a26": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---hardware-v-0-3-input-245-ca7"
+    "component": "17896441",
+    "content": "2454da63"
   },
-  "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---5-e-9-4f3"
+  "/-8c7": {
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a",
+    "__routeContextModule": "0d7d5a47"
   }
 }

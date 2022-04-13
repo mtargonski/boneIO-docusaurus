@@ -1741,8 +1741,6 @@
             "postsPerPage": 10,
             "totalPages": 1,
             "totalCount": 1,
-            "previousPage": null,
-            "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
@@ -1766,8 +1764,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1797,13 +1793,7 @@
       }
     ]
   },
-  "docusaurus-plugin-debug": {
-    "default": null
-  },
-  "docusaurus-theme-classic": {
-    "default": null
-  },
-  "docusaurus-theme-search-algolia": {
-    "default": null
-  }
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-search-algolia": {}
 }

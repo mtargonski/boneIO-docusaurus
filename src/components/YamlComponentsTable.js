@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 
-const YamlComponentsTable = ({ elements }) => {
+const YamlComponentsTable = ({ elements = [] }) => {
   return (
     <div className="component_grid">
       {elements.map(({ img, name, url }, i) => (
