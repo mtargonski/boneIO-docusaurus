@@ -4,7 +4,7 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "0.3.0dev2",
+          "versionLabel": "0.3.x_dev",
           "versionPath": "/docs/next",
           "tagsPath": "/docs/next/tags",
           "versionEditUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs",
@@ -29,18 +29,18 @@
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/adc.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 10,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 10
+                "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Input module",
-                "permalink": "/docs/next/configuration/input"
+                "title": "Modbus sensors",
+                "permalink": "/docs/next/configuration/modbus-sensors"
               },
               "next": {
-                "title": "Cover",
-                "permalink": "/docs/next/configuration/cover"
+                "title": "LM75 temp sensor",
+                "permalink": "/docs/next/configuration/lm75"
               }
             },
             {
@@ -61,12 +61,64 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "ADC sensors",
-                "permalink": "/docs/next/configuration/adc"
+                "title": "Output module",
+                "permalink": "/docs/next/configuration/output"
               },
               "next": {
                 "title": "Testing dev version",
                 "permalink": "/docs/next/contribute/dev-version"
+              }
+            },
+            {
+              "unversionedId": "configuration/dallas",
+              "id": "configuration/dallas",
+              "title": "Dallas DS18B20",
+              "description": "Dallas",
+              "source": "@site/docs/02-configuration/dallas.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/dallas",
+              "permalink": "/docs/next/configuration/dallas",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/dallas.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DS2482 I2C One Wire Bus",
+                "permalink": "/docs/next/configuration/ds2482"
+              },
+              "next": {
+                "title": "Input module",
+                "permalink": "/docs/next/configuration/input"
+              }
+            },
+            {
+              "unversionedId": "configuration/ds2482",
+              "id": "configuration/ds2482",
+              "title": "DS2482 I2C One Wire Bus",
+              "description": "DS2482",
+              "source": "@site/docs/02-configuration/ds2482.md",
+              "sourceDirName": "02-configuration",
+              "slug": "/configuration/ds2482",
+              "permalink": "/docs/next/configuration/ds2482",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/ds2482.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MCP9808 temp sensor",
+                "permalink": "/docs/next/configuration/mcp9808"
+              },
+              "next": {
+                "title": "Dallas DS18B20",
+                "permalink": "/docs/next/configuration/dallas"
               }
             },
             {
@@ -110,12 +162,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Output module",
-                "permalink": "/docs/next/configuration/output"
+                "title": "Dallas DS18B20",
+                "permalink": "/docs/next/configuration/dallas"
               },
               "next": {
-                "title": "ADC sensors",
-                "permalink": "/docs/next/configuration/adc"
+                "title": "Output module",
+                "permalink": "/docs/next/configuration/output"
               }
             },
             {
@@ -136,8 +188,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Modbus sensors",
-                "permalink": "/docs/next/configuration/modbus-sensors"
+                "title": "ADC sensors",
+                "permalink": "/docs/next/configuration/adc"
               },
               "next": {
                 "title": "MCP23017 expander",
@@ -218,8 +270,8 @@
                 "permalink": "/docs/next/configuration/mcp23017"
               },
               "next": {
-                "title": "Output module",
-                "permalink": "/docs/next/configuration/output"
+                "title": "DS2482 I2C One Wire Bus",
+                "permalink": "/docs/next/configuration/ds2482"
               }
             },
             {
@@ -270,8 +322,8 @@
                 "permalink": "/docs/next/configuration/modbus"
               },
               "next": {
-                "title": "LM75 temp sensor",
-                "permalink": "/docs/next/configuration/lm75"
+                "title": "ADC sensors",
+                "permalink": "/docs/next/configuration/adc"
               }
             },
             {
@@ -338,18 +390,18 @@
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/output.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 8,
+              "sidebarPosition": 9,
               "frontMatter": {
-                "sidebar_position": 8
+                "sidebar_position": 9
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "MCP9808 temp sensor",
-                "permalink": "/docs/next/configuration/mcp9808"
-              },
-              "next": {
                 "title": "Input module",
                 "permalink": "/docs/next/configuration/input"
+              },
+              "next": {
+                "title": "Cover",
+                "permalink": "/docs/next/configuration/cover"
               }
             },
             {
@@ -604,6 +656,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "configuration/adc"
+                  },
+                  {
+                    "type": "doc",
                     "id": "configuration/lm75"
                   },
                   {
@@ -616,7 +672,11 @@
                   },
                   {
                     "type": "doc",
-                    "id": "configuration/output"
+                    "id": "configuration/ds2482"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/dallas"
                   },
                   {
                     "type": "doc",
@@ -624,7 +684,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "configuration/adc"
+                    "id": "configuration/output"
                   },
                   {
                     "type": "doc",
@@ -666,33 +726,33 @@
           "categoryGeneratedIndices": []
         },
         {
-          "versionName": "0.2.0",
-          "versionLabel": "0.2.0",
+          "versionName": "0.2.x",
+          "versionLabel": "0.2.x",
           "versionPath": "/docs",
           "tagsPath": "/docs/tags",
-          "versionEditUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0",
-          "versionEditUrlLocalized": "https://github.com/boneIO-eu/docusaurus/tree/main/i18n/en/docusaurus-plugin-content-docs/version-0.2.0",
+          "versionEditUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x",
+          "versionEditUrlLocalized": "https://github.com/boneIO-eu/docusaurus/tree/main/i18n/en/docusaurus-plugin-content-docs/version-0.2.x",
           "versionBanner": null,
           "versionBadge": true,
-          "versionClassName": "docs-version-0.2.0",
+          "versionClassName": "docs-version-0.2.x",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_sidebars/version-0.2.0-sidebars.json",
-          "contentPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_docs/version-0.2.0",
-          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/version-0.2.0",
+          "sidebarFilePath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_sidebars/version-0.2.x-sidebars.json",
+          "contentPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_docs/version-0.2.x",
+          "contentPathLocalized": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/version-0.2.x",
           "docs": [
             {
               "unversionedId": "configuration/adc",
-              "id": "version-0.2.0/configuration/adc",
+              "id": "version-0.2.x/configuration/adc",
               "title": "ADC sensors",
               "description": "ADC",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/adc.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/adc.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/adc",
               "permalink": "/docs/configuration/adc",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/adc.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/adc.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 10,
               "frontMatter": {
                 "sidebar_position": 10
@@ -709,16 +769,16 @@
             },
             {
               "unversionedId": "configuration/cover",
-              "id": "version-0.2.0/configuration/cover",
+              "id": "version-0.2.x/configuration/cover",
               "title": "Cover",
               "description": "Cover",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/cover.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/cover.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/cover",
               "permalink": "/docs/configuration/cover",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/cover.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/cover.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 11,
               "frontMatter": {
                 "sidebar_position": 11
@@ -735,16 +795,16 @@
             },
             {
               "unversionedId": "configuration/index",
-              "id": "version-0.2.0/configuration/index",
+              "id": "version-0.2.x/configuration/index",
               "title": "Configuration",
               "description": "Configuration is based on yaml file. By default it's called config.yaml or configuration.yaml.",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/index.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/index.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/",
               "permalink": "/docs/configuration/",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/index.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/index.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -758,16 +818,16 @@
             },
             {
               "unversionedId": "configuration/input",
-              "id": "version-0.2.0/configuration/input",
+              "id": "version-0.2.x/configuration/input",
               "title": "Input module",
               "description": "Input",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/input.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/input.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/input",
               "permalink": "/docs/configuration/input",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/input.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/input.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 9,
               "frontMatter": {
                 "sidebar_position": 9
@@ -784,16 +844,16 @@
             },
             {
               "unversionedId": "configuration/lm75",
-              "id": "version-0.2.0/configuration/lm75",
+              "id": "version-0.2.x/configuration/lm75",
               "title": "LM75 temp sensor",
               "description": "LM75",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/lm75.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/lm75.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/lm75",
               "permalink": "/docs/configuration/lm75",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/lm75.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/lm75.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 7,
               "frontMatter": {
                 "sidebar_position": 7
@@ -810,16 +870,16 @@
             },
             {
               "unversionedId": "configuration/logger",
-              "id": "version-0.2.0/configuration/logger",
+              "id": "version-0.2.x/configuration/logger",
               "title": "Logger",
               "description": "The logger component automatically logs all log messages to STDOUT.",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/logger.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/logger.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/logger",
               "permalink": "/docs/configuration/logger",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/logger.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/logger.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
@@ -836,16 +896,16 @@
             },
             {
               "unversionedId": "configuration/mcp23017",
-              "id": "version-0.2.0/configuration/mcp23017",
+              "id": "version-0.2.x/configuration/mcp23017",
               "title": "MCP23017 expander",
               "description": "MCP23017",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/mcp23017.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/mcp23017.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mcp23017",
               "permalink": "/docs/configuration/mcp23017",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/mcp23017.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/mcp23017.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 7,
               "frontMatter": {
                 "sidebar_position": 7
@@ -862,16 +922,16 @@
             },
             {
               "unversionedId": "configuration/mcp9808",
-              "id": "version-0.2.0/configuration/mcp9808",
+              "id": "version-0.2.x/configuration/mcp9808",
               "title": "MCP9808 temp sensor",
               "description": "MCP9808",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/mcp9808.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/mcp9808.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mcp9808",
               "permalink": "/docs/configuration/mcp9808",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/mcp9808.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/mcp9808.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 7,
               "frontMatter": {
                 "sidebar_position": 7
@@ -888,16 +948,16 @@
             },
             {
               "unversionedId": "configuration/modbus",
-              "id": "version-0.2.0/configuration/modbus",
+              "id": "version-0.2.x/configuration/modbus",
               "title": "Modbus",
               "description": "Modbus",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/modbus.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/modbus.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/modbus",
               "permalink": "/docs/configuration/modbus",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/modbus.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/modbus.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_position": 4
@@ -914,16 +974,16 @@
             },
             {
               "unversionedId": "configuration/modbus-sensors",
-              "id": "version-0.2.0/configuration/modbus-sensors",
+              "id": "version-0.2.x/configuration/modbus-sensors",
               "title": "Modbus sensors",
               "description": "Modbus sensors",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/modbus-sensors.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/modbus-sensors.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/modbus-sensors",
               "permalink": "/docs/configuration/modbus-sensors",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/modbus-sensors.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/modbus-sensors.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_position": 5
@@ -940,16 +1000,16 @@
             },
             {
               "unversionedId": "configuration/mqtt",
-              "id": "version-0.2.0/configuration/mqtt",
+              "id": "version-0.2.x/configuration/mqtt",
               "title": "MQTT Client",
               "description": "MQTT",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/mqtt.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mqtt",
               "permalink": "/docs/configuration/mqtt",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/mqtt.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/mqtt.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -966,16 +1026,16 @@
             },
             {
               "unversionedId": "configuration/oled",
-              "id": "version-0.2.0/configuration/oled",
+              "id": "version-0.2.x/configuration/oled",
               "title": "OLED",
               "description": "OLED",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/oled.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/oled.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/oled",
               "permalink": "/docs/configuration/oled",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/oled.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/oled.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3
@@ -992,16 +1052,16 @@
             },
             {
               "unversionedId": "configuration/output",
-              "id": "version-0.2.0/configuration/output",
+              "id": "version-0.2.x/configuration/output",
               "title": "Output module",
               "description": "Output",
-              "source": "@site/versioned_docs/version-0.2.0/02-configuration/output.md",
+              "source": "@site/versioned_docs/version-0.2.x/02-configuration/output.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/output",
               "permalink": "/docs/configuration/output",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/02-configuration/output.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/output.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 8,
               "frontMatter": {
                 "sidebar_position": 8
@@ -1018,16 +1078,16 @@
             },
             {
               "unversionedId": "contribute/dev-version",
-              "id": "version-0.2.0/contribute/dev-version",
+              "id": "version-0.2.x/contribute/dev-version",
               "title": "Testing dev version",
               "description": "Prepare VENV",
-              "source": "@site/versioned_docs/version-0.2.0/03-contribute/dev-version.md",
+              "source": "@site/versioned_docs/version-0.2.x/03-contribute/dev-version.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/dev-version",
               "permalink": "/docs/contribute/dev-version",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/03-contribute/dev-version.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/03-contribute/dev-version.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -1044,16 +1104,16 @@
             },
             {
               "unversionedId": "contribute/developer",
-              "id": "version-0.2.0/contribute/developer",
+              "id": "version-0.2.x/contribute/developer",
               "title": "Developer guide",
               "description": "Prepare VENV",
-              "source": "@site/versioned_docs/version-0.2.0/03-contribute/developer.md",
+              "source": "@site/versioned_docs/version-0.2.x/03-contribute/developer.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/developer",
               "permalink": "/docs/contribute/developer",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/03-contribute/developer.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/03-contribute/developer.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
@@ -1070,16 +1130,16 @@
             },
             {
               "unversionedId": "contribute/modbus",
-              "id": "version-0.2.0/contribute/modbus",
+              "id": "version-0.2.x/contribute/modbus",
               "title": "Modbus sensor",
               "description": "Adding modbus sensor is pretty easy.",
-              "source": "@site/versioned_docs/version-0.2.0/03-contribute/modbus.md",
+              "source": "@site/versioned_docs/version-0.2.x/03-contribute/modbus.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/modbus",
               "permalink": "/docs/contribute/modbus",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/03-contribute/modbus.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/03-contribute/modbus.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3
@@ -1096,16 +1156,16 @@
             },
             {
               "unversionedId": "install/first-start",
-              "id": "version-0.2.0/install/first-start",
+              "id": "version-0.2.x/install/first-start",
               "title": "Software Installation",
               "description": "BeagleBone shortcut is BBB.",
-              "source": "@site/versioned_docs/version-0.2.0/01-install/first-start.md",
+              "source": "@site/versioned_docs/version-0.2.x/01-install/first-start.md",
               "sourceDirName": "01-install",
               "slug": "/install/first-start",
               "permalink": "/docs/install/first-start",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/01-install/first-start.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/01-install/first-start.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -1118,16 +1178,16 @@
             },
             {
               "unversionedId": "install/update",
-              "id": "version-0.2.0/install/update",
+              "id": "version-0.2.x/install/update",
               "title": "Software Update",
               "description": "You need to know your boneIO installation path eg. ~/boneio",
-              "source": "@site/versioned_docs/version-0.2.0/01-install/update.md",
+              "source": "@site/versioned_docs/version-0.2.x/01-install/update.md",
               "sourceDirName": "01-install",
               "slug": "/install/update",
               "permalink": "/docs/install/update",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/01-install/update.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/01-install/update.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1141,16 +1201,16 @@
             },
             {
               "unversionedId": "install/video",
-              "id": "version-0.2.0/install/video",
+              "id": "version-0.2.x/install/video",
               "title": "Video guide",
               "description": "Below you will find complete instruction how to install the software and run the boneIO. If you prefer video tutorial you can find it here also:",
-              "source": "@site/versioned_docs/version-0.2.0/01-install/video.md",
+              "source": "@site/versioned_docs/version-0.2.x/01-install/video.md",
               "sourceDirName": "01-install",
               "slug": "/install/video",
               "permalink": "/docs/install/video",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/01-install/video.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/01-install/video.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -1167,16 +1227,16 @@
             },
             {
               "unversionedId": "intro",
-              "id": "version-0.2.0/intro",
+              "id": "version-0.2.x/intro",
               "title": "Intro",
               "description": "Let's discover boneio application.",
-              "source": "@site/versioned_docs/version-0.2.0/intro.md",
+              "source": "@site/versioned_docs/version-0.2.x/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/intro.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/intro.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -1193,16 +1253,16 @@
             },
             {
               "unversionedId": "troubleshooting",
-              "id": "version-0.2.0/troubleshooting",
+              "id": "version-0.2.x/troubleshooting",
               "title": "Troubleshooting",
               "description": "Most useful command to check boneio app running with systemd.",
-              "source": "@site/versioned_docs/version-0.2.0/troubleshooting.md",
+              "source": "@site/versioned_docs/version-0.2.x/troubleshooting.md",
               "sourceDirName": ".",
               "slug": "/troubleshooting",
               "permalink": "/docs/troubleshooting",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.0/troubleshooting.md",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/troubleshooting.md",
               "tags": [],
-              "version": "0.2.0",
+              "version": "0.2.x",
               "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_position": 4
@@ -1224,21 +1284,21 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/install/first-start"
+                    "id": "version-0.2.x/install/first-start"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/install/video"
+                    "id": "version-0.2.x/install/video"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/install/update"
+                    "id": "version-0.2.x/install/update"
                   }
                 ]
               },
               {
                 "type": "doc",
-                "id": "version-0.2.0/intro"
+                "id": "version-0.2.x/intro"
               },
               {
                 "type": "category",
@@ -1248,56 +1308,56 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/mqtt"
+                    "id": "version-0.2.x/configuration/mqtt"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/logger"
+                    "id": "version-0.2.x/configuration/logger"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/oled"
+                    "id": "version-0.2.x/configuration/oled"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/modbus"
+                    "id": "version-0.2.x/configuration/modbus"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/modbus-sensors"
+                    "id": "version-0.2.x/configuration/modbus-sensors"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/lm75"
+                    "id": "version-0.2.x/configuration/lm75"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/mcp23017"
+                    "id": "version-0.2.x/configuration/mcp23017"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/mcp9808"
+                    "id": "version-0.2.x/configuration/mcp9808"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/output"
+                    "id": "version-0.2.x/configuration/output"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/input"
+                    "id": "version-0.2.x/configuration/input"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/adc"
+                    "id": "version-0.2.x/configuration/adc"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/configuration/cover"
+                    "id": "version-0.2.x/configuration/cover"
                   }
                 ],
                 "link": {
                   "type": "doc",
-                  "id": "version-0.2.0/configuration/index"
+                  "id": "version-0.2.x/configuration/index"
                 }
               },
               {
@@ -1308,21 +1368,21 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/contribute/dev-version"
+                    "id": "version-0.2.x/contribute/dev-version"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/contribute/developer"
+                    "id": "version-0.2.x/contribute/developer"
                   },
                   {
                     "type": "doc",
-                    "id": "version-0.2.0/contribute/modbus"
+                    "id": "version-0.2.x/contribute/modbus"
                   }
                 ]
               },
               {
                 "type": "doc",
-                "id": "version-0.2.0/troubleshooting"
+                "id": "version-0.2.x/troubleshooting"
               }
             ]
           },

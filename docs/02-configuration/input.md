@@ -41,9 +41,9 @@ input:
 - **pin** (**Required**, string) - GPIO id of Beaglebone board eg `P9_33`.
 - **gpio_mode** (_Optional_, string, default: `gpio`, allowed_values: `['gpio', 'gpio_pu', 'gpio_pd', 'gpio_input']`) - How to run this gpio. gpio means default gpio mode. gpio_pu = gpio pull up, gpio_pd = gpio pull down, gpio_input - to be checked.
 - **bounce_time** (_Optional_, timeperiod, default: 25 ms) - bounce time for GPIO to invoke callback. Use if default doesn't work for you. Making it to high might break click events functions for switch kind.
-- **show_in_ha** (**Required**, boolean, default: True) - Send autodiscovery message to Home Assistant.
+- **show_in_ha** (_Optional_, boolean, default: True) - Send autodiscovery message to Home Assistant.
 - **kind** (_Optional_, string, default: switch, allowed_values: `['switch', 'sensor']`) - Type of device to send to Home Assistant. This kind indicate actions you can use.
-- **actions** (Optional, dictionary) - dictionary of actions.
+- **actions** (Optional, dictionary) - dictionary of predefined actions ([single, double, long], [pressed, released]).
 
 ## Action for kind SWITCH
 

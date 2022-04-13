@@ -20,7 +20,7 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
   --bone-part: rgb(238, 238, 238);
-  --ifm-color-primary: #2e7b85;
+  --ifm-color-primary: #2e919e;
   --ifm-color-primary-dark: #2187af;
   --ifm-color-primary-darker: #1f8aa5;
   --ifm-color-primary-darkest: #1a6988;

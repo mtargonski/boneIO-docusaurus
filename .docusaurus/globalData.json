@@ -5,7 +5,7 @@
       "versions": [
         {
           "name": "current",
-          "label": "0.3.0dev2",
+          "label": "0.3.x_dev",
           "isLast": false,
           "path": "/docs/next",
           "mainDocId": "install/first-start",
@@ -18,6 +18,16 @@
             {
               "id": "configuration/cover",
               "path": "/docs/next/configuration/cover",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/dallas",
+              "path": "/docs/next/configuration/dallas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configuration/ds2482",
+              "path": "/docs/next/configuration/ds2482",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -126,8 +136,8 @@
           }
         },
         {
-          "name": "0.2.0",
-          "label": "0.2.0",
+          "name": "0.2.x",
+          "label": "0.2.x",
           "isLast": true,
           "path": "/docs",
           "mainDocId": "install/first-start",
@@ -242,7 +252,7 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/docs/install/first-start",
-                "label": "version-0.2.0/install/first-start"
+                "label": "version-0.2.x/install/first-start"
               }
             }
           }
