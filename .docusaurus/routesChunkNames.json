@@ -48,191 +48,191 @@
     "component": "1a4e3797",
     "__routeContextModule": "696bbbe4"
   },
-  "/docs/next-aff": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb",
-    "__routeContextModule": "6948db32"
-  },
-  "/docs/next/configuration/-325": {
-    "component": "17896441",
-    "content": "b2583df5"
-  },
-  "/docs/next/configuration/adc-31d": {
-    "component": "17896441",
-    "content": "0fe03fe2"
-  },
-  "/docs/next/configuration/cover-e6f": {
-    "component": "17896441",
-    "content": "6a98e5f9"
-  },
-  "/docs/next/configuration/dallas-602": {
-    "component": "17896441",
-    "content": "38cb94ec"
-  },
-  "/docs/next/configuration/ds2482-01b": {
-    "component": "17896441",
-    "content": "a927c1dd"
-  },
-  "/docs/next/configuration/input-403": {
-    "component": "17896441",
-    "content": "63991d1a"
-  },
-  "/docs/next/configuration/lm75-248": {
-    "component": "17896441",
-    "content": "c1d4afa0"
-  },
-  "/docs/next/configuration/logger-c43": {
-    "component": "17896441",
-    "content": "adbb503f"
-  },
-  "/docs/next/configuration/mcp23017-bb5": {
-    "component": "17896441",
-    "content": "8c333540"
-  },
-  "/docs/next/configuration/mcp9808-1e9": {
-    "component": "17896441",
-    "content": "0a39df60"
-  },
-  "/docs/next/configuration/modbus-c2c": {
-    "component": "17896441",
-    "content": "f7e84624"
-  },
-  "/docs/next/configuration/modbus-sensors-fea": {
-    "component": "17896441",
-    "content": "e64f5882"
-  },
-  "/docs/next/configuration/mqtt-04a": {
-    "component": "17896441",
-    "content": "e193ad37"
-  },
-  "/docs/next/configuration/oled-509": {
-    "component": "17896441",
-    "content": "d43bc982"
-  },
-  "/docs/next/configuration/output-e24": {
-    "component": "17896441",
-    "content": "fac84176"
-  },
-  "/docs/next/contribute/dev-version-53d": {
-    "component": "17896441",
-    "content": "10fbe356"
-  },
-  "/docs/next/contribute/developer-295": {
-    "component": "17896441",
-    "content": "95c62fef"
-  },
-  "/docs/next/contribute/modbus-b4a": {
-    "component": "17896441",
-    "content": "43439b65"
-  },
-  "/docs/next/install/first-start-d1f": {
-    "component": "17896441",
-    "content": "43abd92e"
-  },
-  "/docs/next/install/update-561": {
-    "component": "17896441",
-    "content": "7845c44b"
-  },
-  "/docs/next/install/video-3c1": {
-    "component": "17896441",
-    "content": "0830352d"
-  },
-  "/docs/next/intro-8d4": {
-    "component": "17896441",
-    "content": "0e384e19"
-  },
-  "/docs/next/troubleshooting-723": {
-    "component": "17896441",
-    "content": "9d9f8394"
-  },
-  "/docs-757": {
+  "/docs/0.2.x-df2": {
     "component": "1be78505",
     "versionMetadata": "ae31ff46",
     "__routeContextModule": "6948db32"
   },
-  "/docs/configuration/-537": {
+  "/docs/0.2.x/configuration/-81d": {
     "component": "17896441",
     "content": "73c941c1"
   },
-  "/docs/configuration/adc-4d1": {
+  "/docs/0.2.x/configuration/adc-6a6": {
     "component": "17896441",
     "content": "145bbca1"
   },
-  "/docs/configuration/cover-fef": {
+  "/docs/0.2.x/configuration/cover-6ea": {
     "component": "17896441",
     "content": "26206922"
   },
-  "/docs/configuration/input-b6a": {
+  "/docs/0.2.x/configuration/input-36a": {
     "component": "17896441",
     "content": "3a272440"
   },
-  "/docs/configuration/lm75-ed9": {
+  "/docs/0.2.x/configuration/lm75-3f0": {
     "component": "17896441",
     "content": "aa390c29"
   },
-  "/docs/configuration/logger-aa3": {
+  "/docs/0.2.x/configuration/logger-a2e": {
     "component": "17896441",
     "content": "c9ff24d1"
   },
-  "/docs/configuration/mcp23017-9a7": {
+  "/docs/0.2.x/configuration/mcp23017-d89": {
     "component": "17896441",
     "content": "24c1f873"
   },
-  "/docs/configuration/mcp9808-d12": {
+  "/docs/0.2.x/configuration/mcp9808-3d2": {
     "component": "17896441",
     "content": "77975f3d"
   },
-  "/docs/configuration/modbus-7a2": {
+  "/docs/0.2.x/configuration/modbus-c97": {
     "component": "17896441",
     "content": "e1868576"
   },
-  "/docs/configuration/modbus-sensors-317": {
+  "/docs/0.2.x/configuration/modbus-sensors-240": {
     "component": "17896441",
     "content": "37ce272c"
   },
-  "/docs/configuration/mqtt-1c3": {
+  "/docs/0.2.x/configuration/mqtt-b3d": {
     "component": "17896441",
     "content": "25349fed"
   },
-  "/docs/configuration/oled-743": {
+  "/docs/0.2.x/configuration/oled-88c": {
     "component": "17896441",
     "content": "8417bae0"
   },
-  "/docs/configuration/output-3cb": {
+  "/docs/0.2.x/configuration/output-a05": {
     "component": "17896441",
     "content": "7e17b1d5"
   },
-  "/docs/contribute/dev-version-058": {
+  "/docs/0.2.x/contribute/dev-version-b2c": {
     "component": "17896441",
     "content": "d5f4b61c"
   },
-  "/docs/contribute/developer-54f": {
+  "/docs/0.2.x/contribute/developer-9b2": {
     "component": "17896441",
     "content": "30a94335"
   },
-  "/docs/contribute/modbus-a17": {
+  "/docs/0.2.x/contribute/modbus-8fd": {
     "component": "17896441",
     "content": "5e53c3c9"
   },
-  "/docs/install/first-start-6e2": {
+  "/docs/0.2.x/install/first-start-720": {
     "component": "17896441",
     "content": "f3198918"
   },
-  "/docs/install/update-9a8": {
+  "/docs/0.2.x/install/update-0d5": {
     "component": "17896441",
     "content": "2d0f370d"
   },
-  "/docs/install/video-a18": {
+  "/docs/0.2.x/install/video-879": {
     "component": "17896441",
     "content": "c2d65069"
   },
-  "/docs/intro-4e3": {
+  "/docs/0.2.x/intro-c0d": {
     "component": "17896441",
     "content": "65e4cc1e"
   },
-  "/docs/troubleshooting-899": {
+  "/docs/0.2.x/troubleshooting-a28": {
     "component": "17896441",
     "content": "1cce3958"
+  },
+  "/docs-437": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb",
+    "__routeContextModule": "6948db32"
+  },
+  "/docs/configuration/-d60": {
+    "component": "17896441",
+    "content": "b2583df5"
+  },
+  "/docs/configuration/adc-ae4": {
+    "component": "17896441",
+    "content": "0fe03fe2"
+  },
+  "/docs/configuration/cover-9ec": {
+    "component": "17896441",
+    "content": "6a98e5f9"
+  },
+  "/docs/configuration/dallas-8d8": {
+    "component": "17896441",
+    "content": "38cb94ec"
+  },
+  "/docs/configuration/ds2482-40d": {
+    "component": "17896441",
+    "content": "a927c1dd"
+  },
+  "/docs/configuration/input-69f": {
+    "component": "17896441",
+    "content": "63991d1a"
+  },
+  "/docs/configuration/lm75-b58": {
+    "component": "17896441",
+    "content": "c1d4afa0"
+  },
+  "/docs/configuration/logger-df4": {
+    "component": "17896441",
+    "content": "adbb503f"
+  },
+  "/docs/configuration/mcp23017-671": {
+    "component": "17896441",
+    "content": "8c333540"
+  },
+  "/docs/configuration/mcp9808-5aa": {
+    "component": "17896441",
+    "content": "0a39df60"
+  },
+  "/docs/configuration/modbus-8c2": {
+    "component": "17896441",
+    "content": "f7e84624"
+  },
+  "/docs/configuration/modbus-sensors-55f": {
+    "component": "17896441",
+    "content": "e64f5882"
+  },
+  "/docs/configuration/mqtt-8f5": {
+    "component": "17896441",
+    "content": "e193ad37"
+  },
+  "/docs/configuration/oled-749": {
+    "component": "17896441",
+    "content": "d43bc982"
+  },
+  "/docs/configuration/output-5eb": {
+    "component": "17896441",
+    "content": "fac84176"
+  },
+  "/docs/contribute/dev-version-25f": {
+    "component": "17896441",
+    "content": "10fbe356"
+  },
+  "/docs/contribute/developer-9d8": {
+    "component": "17896441",
+    "content": "95c62fef"
+  },
+  "/docs/contribute/modbus-e19": {
+    "component": "17896441",
+    "content": "43439b65"
+  },
+  "/docs/install/first-start-6a1": {
+    "component": "17896441",
+    "content": "43abd92e"
+  },
+  "/docs/install/update-1a9": {
+    "component": "17896441",
+    "content": "7845c44b"
+  },
+  "/docs/install/video-60e": {
+    "component": "17896441",
+    "content": "0830352d"
+  },
+  "/docs/intro-aed": {
+    "component": "17896441",
+    "content": "0e384e19"
+  },
+  "/docs/troubleshooting-5f7": {
+    "component": "17896441",
+    "content": "9d9f8394"
   },
   "/hardware-339": {
     "component": "1be78505",

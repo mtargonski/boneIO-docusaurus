@@ -35,11 +35,11 @@ export default {
         "docs": {
           "sidebarPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/sidebars.js",
           "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/",
-          "lastVersion": "0.2.x",
+          "lastVersion": "current",
           "includeCurrentVersion": true,
           "versions": {
             "current": {
-              "label": "0.3.x_dev"
+              "label": "0.3.x"
             }
           }
         },
