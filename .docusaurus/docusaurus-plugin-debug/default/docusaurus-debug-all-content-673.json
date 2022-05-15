@@ -4,15 +4,16 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "0.3.x_dev",
-          "versionPath": "/docs/next",
-          "tagsPath": "/docs/next/tags",
+          "versionLabel": "0.3.x",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
           "versionEditUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs",
           "versionEditUrlLocalized": "https://github.com/boneIO-eu/docusaurus/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
-          "versionBanner": "unreleased",
+          "versionBanner": null,
           "versionBadge": true,
           "versionClassName": "docs-version-current",
-          "isLast": false,
+          "isLast": true,
+          "routePriority": -1,
           "sidebarFilePath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/sidebars.js",
           "contentPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/docs",
           "contentPathLocalized": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/current",
@@ -25,7 +26,7 @@
               "source": "@site/docs/02-configuration/adc.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/adc",
-              "permalink": "/docs/next/configuration/adc",
+              "permalink": "/docs/configuration/adc",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/adc.md",
               "tags": [],
               "version": "current",
@@ -36,11 +37,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus sensors",
-                "permalink": "/docs/next/configuration/modbus-sensors"
+                "permalink": "/docs/configuration/modbus-sensors"
               },
               "next": {
                 "title": "LM75 temp sensor",
-                "permalink": "/docs/next/configuration/lm75"
+                "permalink": "/docs/configuration/lm75"
               }
             },
             {
@@ -51,7 +52,7 @@
               "source": "@site/docs/02-configuration/cover.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/cover",
-              "permalink": "/docs/next/configuration/cover",
+              "permalink": "/docs/configuration/cover",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/cover.md",
               "tags": [],
               "version": "current",
@@ -62,11 +63,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Output module",
-                "permalink": "/docs/next/configuration/output"
+                "permalink": "/docs/configuration/output"
               },
               "next": {
                 "title": "Testing dev version",
-                "permalink": "/docs/next/contribute/dev-version"
+                "permalink": "/docs/contribute/dev-version"
               }
             },
             {
@@ -77,7 +78,7 @@
               "source": "@site/docs/02-configuration/dallas.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/dallas",
-              "permalink": "/docs/next/configuration/dallas",
+              "permalink": "/docs/configuration/dallas",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/dallas.md",
               "tags": [],
               "version": "current",
@@ -88,11 +89,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "DS2482 I2C One Wire Bus",
-                "permalink": "/docs/next/configuration/ds2482"
+                "permalink": "/docs/configuration/ds2482"
               },
               "next": {
                 "title": "Input module",
-                "permalink": "/docs/next/configuration/input"
+                "permalink": "/docs/configuration/input"
               }
             },
             {
@@ -103,7 +104,7 @@
               "source": "@site/docs/02-configuration/ds2482.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/ds2482",
-              "permalink": "/docs/next/configuration/ds2482",
+              "permalink": "/docs/configuration/ds2482",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/ds2482.md",
               "tags": [],
               "version": "current",
@@ -114,11 +115,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MCP9808 temp sensor",
-                "permalink": "/docs/next/configuration/mcp9808"
+                "permalink": "/docs/configuration/mcp9808"
               },
               "next": {
                 "title": "Dallas DS18B20",
-                "permalink": "/docs/next/configuration/dallas"
+                "permalink": "/docs/configuration/dallas"
               }
             },
             {
@@ -129,7 +130,7 @@
               "source": "@site/docs/02-configuration/index.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/",
-              "permalink": "/docs/next/configuration/",
+              "permalink": "/docs/configuration/",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/index.md",
               "tags": [],
               "version": "current",
@@ -137,11 +138,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Intro",
-                "permalink": "/docs/next/intro"
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "MQTT Client",
-                "permalink": "/docs/next/configuration/mqtt"
+                "permalink": "/docs/configuration/mqtt"
               }
             },
             {
@@ -152,7 +153,7 @@
               "source": "@site/docs/02-configuration/input.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/input",
-              "permalink": "/docs/next/configuration/input",
+              "permalink": "/docs/configuration/input",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/input.md",
               "tags": [],
               "version": "current",
@@ -163,11 +164,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Dallas DS18B20",
-                "permalink": "/docs/next/configuration/dallas"
+                "permalink": "/docs/configuration/dallas"
               },
               "next": {
                 "title": "Output module",
-                "permalink": "/docs/next/configuration/output"
+                "permalink": "/docs/configuration/output"
               }
             },
             {
@@ -178,7 +179,7 @@
               "source": "@site/docs/02-configuration/lm75.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/lm75",
-              "permalink": "/docs/next/configuration/lm75",
+              "permalink": "/docs/configuration/lm75",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/lm75.md",
               "tags": [],
               "version": "current",
@@ -189,11 +190,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ADC sensors",
-                "permalink": "/docs/next/configuration/adc"
+                "permalink": "/docs/configuration/adc"
               },
               "next": {
                 "title": "MCP23017 expander",
-                "permalink": "/docs/next/configuration/mcp23017"
+                "permalink": "/docs/configuration/mcp23017"
               }
             },
             {
@@ -204,7 +205,7 @@
               "source": "@site/docs/02-configuration/logger.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/logger",
-              "permalink": "/docs/next/configuration/logger",
+              "permalink": "/docs/configuration/logger",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/logger.md",
               "tags": [],
               "version": "current",
@@ -215,11 +216,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MQTT Client",
-                "permalink": "/docs/next/configuration/mqtt"
+                "permalink": "/docs/configuration/mqtt"
               },
               "next": {
                 "title": "OLED",
-                "permalink": "/docs/next/configuration/oled"
+                "permalink": "/docs/configuration/oled"
               }
             },
             {
@@ -230,7 +231,7 @@
               "source": "@site/docs/02-configuration/mcp23017.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mcp23017",
-              "permalink": "/docs/next/configuration/mcp23017",
+              "permalink": "/docs/configuration/mcp23017",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/mcp23017.md",
               "tags": [],
               "version": "current",
@@ -241,11 +242,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "LM75 temp sensor",
-                "permalink": "/docs/next/configuration/lm75"
+                "permalink": "/docs/configuration/lm75"
               },
               "next": {
                 "title": "MCP9808 temp sensor",
-                "permalink": "/docs/next/configuration/mcp9808"
+                "permalink": "/docs/configuration/mcp9808"
               }
             },
             {
@@ -256,7 +257,7 @@
               "source": "@site/docs/02-configuration/mcp9808.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mcp9808",
-              "permalink": "/docs/next/configuration/mcp9808",
+              "permalink": "/docs/configuration/mcp9808",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/mcp9808.md",
               "tags": [],
               "version": "current",
@@ -267,11 +268,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MCP23017 expander",
-                "permalink": "/docs/next/configuration/mcp23017"
+                "permalink": "/docs/configuration/mcp23017"
               },
               "next": {
                 "title": "DS2482 I2C One Wire Bus",
-                "permalink": "/docs/next/configuration/ds2482"
+                "permalink": "/docs/configuration/ds2482"
               }
             },
             {
@@ -282,7 +283,7 @@
               "source": "@site/docs/02-configuration/modbus.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/modbus",
-              "permalink": "/docs/next/configuration/modbus",
+              "permalink": "/docs/configuration/modbus",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/modbus.md",
               "tags": [],
               "version": "current",
@@ -293,11 +294,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "OLED",
-                "permalink": "/docs/next/configuration/oled"
+                "permalink": "/docs/configuration/oled"
               },
               "next": {
                 "title": "Modbus sensors",
-                "permalink": "/docs/next/configuration/modbus-sensors"
+                "permalink": "/docs/configuration/modbus-sensors"
               }
             },
             {
@@ -308,7 +309,7 @@
               "source": "@site/docs/02-configuration/modbus-sensors.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/modbus-sensors",
-              "permalink": "/docs/next/configuration/modbus-sensors",
+              "permalink": "/docs/configuration/modbus-sensors",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/modbus-sensors.md",
               "tags": [],
               "version": "current",
@@ -319,11 +320,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus",
-                "permalink": "/docs/next/configuration/modbus"
+                "permalink": "/docs/configuration/modbus"
               },
               "next": {
                 "title": "ADC sensors",
-                "permalink": "/docs/next/configuration/adc"
+                "permalink": "/docs/configuration/adc"
               }
             },
             {
@@ -334,7 +335,7 @@
               "source": "@site/docs/02-configuration/mqtt.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mqtt",
-              "permalink": "/docs/next/configuration/mqtt",
+              "permalink": "/docs/configuration/mqtt",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/mqtt.md",
               "tags": [],
               "version": "current",
@@ -345,11 +346,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Configuration",
-                "permalink": "/docs/next/configuration/"
+                "permalink": "/docs/configuration/"
               },
               "next": {
                 "title": "Logger",
-                "permalink": "/docs/next/configuration/logger"
+                "permalink": "/docs/configuration/logger"
               }
             },
             {
@@ -360,7 +361,7 @@
               "source": "@site/docs/02-configuration/oled.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/oled",
-              "permalink": "/docs/next/configuration/oled",
+              "permalink": "/docs/configuration/oled",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/oled.md",
               "tags": [],
               "version": "current",
@@ -371,11 +372,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Logger",
-                "permalink": "/docs/next/configuration/logger"
+                "permalink": "/docs/configuration/logger"
               },
               "next": {
                 "title": "Modbus",
-                "permalink": "/docs/next/configuration/modbus"
+                "permalink": "/docs/configuration/modbus"
               }
             },
             {
@@ -386,7 +387,7 @@
               "source": "@site/docs/02-configuration/output.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/output",
-              "permalink": "/docs/next/configuration/output",
+              "permalink": "/docs/configuration/output",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/02-configuration/output.md",
               "tags": [],
               "version": "current",
@@ -397,11 +398,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Input module",
-                "permalink": "/docs/next/configuration/input"
+                "permalink": "/docs/configuration/input"
               },
               "next": {
                 "title": "Cover",
-                "permalink": "/docs/next/configuration/cover"
+                "permalink": "/docs/configuration/cover"
               }
             },
             {
@@ -412,7 +413,7 @@
               "source": "@site/docs/03-contribute/dev-version.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/dev-version",
-              "permalink": "/docs/next/contribute/dev-version",
+              "permalink": "/docs/contribute/dev-version",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/03-contribute/dev-version.md",
               "tags": [],
               "version": "current",
@@ -423,11 +424,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Cover",
-                "permalink": "/docs/next/configuration/cover"
+                "permalink": "/docs/configuration/cover"
               },
               "next": {
                 "title": "Developer guide",
-                "permalink": "/docs/next/contribute/developer"
+                "permalink": "/docs/contribute/developer"
               }
             },
             {
@@ -438,7 +439,7 @@
               "source": "@site/docs/03-contribute/developer.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/developer",
-              "permalink": "/docs/next/contribute/developer",
+              "permalink": "/docs/contribute/developer",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/03-contribute/developer.md",
               "tags": [],
               "version": "current",
@@ -449,11 +450,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Testing dev version",
-                "permalink": "/docs/next/contribute/dev-version"
+                "permalink": "/docs/contribute/dev-version"
               },
               "next": {
                 "title": "Modbus sensor",
-                "permalink": "/docs/next/contribute/modbus"
+                "permalink": "/docs/contribute/modbus"
               }
             },
             {
@@ -464,7 +465,7 @@
               "source": "@site/docs/03-contribute/modbus.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/modbus",
-              "permalink": "/docs/next/contribute/modbus",
+              "permalink": "/docs/contribute/modbus",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/03-contribute/modbus.md",
               "tags": [],
               "version": "current",
@@ -475,11 +476,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Developer guide",
-                "permalink": "/docs/next/contribute/developer"
+                "permalink": "/docs/contribute/developer"
               },
               "next": {
                 "title": "Troubleshooting",
-                "permalink": "/docs/next/troubleshooting"
+                "permalink": "/docs/troubleshooting"
               }
             },
             {
@@ -490,7 +491,7 @@
               "source": "@site/docs/01-install/first-start.md",
               "sourceDirName": "01-install",
               "slug": "/install/first-start",
-              "permalink": "/docs/next/install/first-start",
+              "permalink": "/docs/install/first-start",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/01-install/first-start.md",
               "tags": [],
               "version": "current",
@@ -501,7 +502,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Video guide",
-                "permalink": "/docs/next/install/video"
+                "permalink": "/docs/install/video"
               }
             },
             {
@@ -512,7 +513,7 @@
               "source": "@site/docs/01-install/update.md",
               "sourceDirName": "01-install",
               "slug": "/install/update",
-              "permalink": "/docs/next/install/update",
+              "permalink": "/docs/install/update",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/01-install/update.md",
               "tags": [],
               "version": "current",
@@ -520,11 +521,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Video guide",
-                "permalink": "/docs/next/install/video"
+                "permalink": "/docs/install/video"
               },
               "next": {
                 "title": "Intro",
-                "permalink": "/docs/next/intro"
+                "permalink": "/docs/intro"
               }
             },
             {
@@ -535,7 +536,7 @@
               "source": "@site/docs/01-install/video.md",
               "sourceDirName": "01-install",
               "slug": "/install/video",
-              "permalink": "/docs/next/install/video",
+              "permalink": "/docs/install/video",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/01-install/video.md",
               "tags": [],
               "version": "current",
@@ -546,11 +547,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Installation",
-                "permalink": "/docs/next/install/first-start"
+                "permalink": "/docs/install/first-start"
               },
               "next": {
                 "title": "Software Update",
-                "permalink": "/docs/next/install/update"
+                "permalink": "/docs/install/update"
               }
             },
             {
@@ -561,7 +562,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/next/intro",
+              "permalink": "/docs/intro",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -572,11 +573,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Update",
-                "permalink": "/docs/next/install/update"
+                "permalink": "/docs/install/update"
               },
               "next": {
                 "title": "Configuration",
-                "permalink": "/docs/next/configuration/"
+                "permalink": "/docs/configuration/"
               }
             },
             {
@@ -587,7 +588,7 @@
               "source": "@site/docs/troubleshooting.md",
               "sourceDirName": ".",
               "slug": "/troubleshooting",
-              "permalink": "/docs/next/troubleshooting",
+              "permalink": "/docs/troubleshooting",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/docs/troubleshooting.md",
               "tags": [],
               "version": "current",
@@ -598,7 +599,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus sensor",
-                "permalink": "/docs/next/contribute/modbus"
+                "permalink": "/docs/contribute/modbus"
               }
             }
           ],
@@ -728,15 +729,14 @@
         {
           "versionName": "0.2.x",
           "versionLabel": "0.2.x",
-          "versionPath": "/docs",
-          "tagsPath": "/docs/tags",
+          "versionPath": "/docs/0.2.x",
+          "tagsPath": "/docs/0.2.x/tags",
           "versionEditUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x",
           "versionEditUrlLocalized": "https://github.com/boneIO-eu/docusaurus/tree/main/i18n/en/docusaurus-plugin-content-docs/version-0.2.x",
-          "versionBanner": null,
+          "versionBanner": "unmaintained",
           "versionBadge": true,
           "versionClassName": "docs-version-0.2.x",
-          "isLast": true,
-          "routePriority": -1,
+          "isLast": false,
           "sidebarFilePath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_sidebars/version-0.2.x-sidebars.json",
           "contentPath": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/versioned_docs/version-0.2.x",
           "contentPathLocalized": "/home/poznan.tbhydro.net/admin/ProjektyPrywatne/bone/docasaurus/i18n/en/docusaurus-plugin-content-docs/version-0.2.x",
@@ -749,7 +749,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/adc.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/adc",
-              "permalink": "/docs/configuration/adc",
+              "permalink": "/docs/0.2.x/configuration/adc",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/adc.md",
               "tags": [],
               "version": "0.2.x",
@@ -760,11 +760,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Input module",
-                "permalink": "/docs/configuration/input"
+                "permalink": "/docs/0.2.x/configuration/input"
               },
               "next": {
                 "title": "Cover",
-                "permalink": "/docs/configuration/cover"
+                "permalink": "/docs/0.2.x/configuration/cover"
               }
             },
             {
@@ -775,7 +775,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/cover.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/cover",
-              "permalink": "/docs/configuration/cover",
+              "permalink": "/docs/0.2.x/configuration/cover",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/cover.md",
               "tags": [],
               "version": "0.2.x",
@@ -786,11 +786,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ADC sensors",
-                "permalink": "/docs/configuration/adc"
+                "permalink": "/docs/0.2.x/configuration/adc"
               },
               "next": {
                 "title": "Testing dev version",
-                "permalink": "/docs/contribute/dev-version"
+                "permalink": "/docs/0.2.x/contribute/dev-version"
               }
             },
             {
@@ -801,7 +801,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/index.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/",
-              "permalink": "/docs/configuration/",
+              "permalink": "/docs/0.2.x/configuration/",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/index.md",
               "tags": [],
               "version": "0.2.x",
@@ -809,11 +809,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Intro",
-                "permalink": "/docs/intro"
+                "permalink": "/docs/0.2.x/intro"
               },
               "next": {
                 "title": "MQTT Client",
-                "permalink": "/docs/configuration/mqtt"
+                "permalink": "/docs/0.2.x/configuration/mqtt"
               }
             },
             {
@@ -824,7 +824,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/input.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/input",
-              "permalink": "/docs/configuration/input",
+              "permalink": "/docs/0.2.x/configuration/input",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/input.md",
               "tags": [],
               "version": "0.2.x",
@@ -835,11 +835,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Output module",
-                "permalink": "/docs/configuration/output"
+                "permalink": "/docs/0.2.x/configuration/output"
               },
               "next": {
                 "title": "ADC sensors",
-                "permalink": "/docs/configuration/adc"
+                "permalink": "/docs/0.2.x/configuration/adc"
               }
             },
             {
@@ -850,7 +850,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/lm75.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/lm75",
-              "permalink": "/docs/configuration/lm75",
+              "permalink": "/docs/0.2.x/configuration/lm75",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/lm75.md",
               "tags": [],
               "version": "0.2.x",
@@ -861,11 +861,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus sensors",
-                "permalink": "/docs/configuration/modbus-sensors"
+                "permalink": "/docs/0.2.x/configuration/modbus-sensors"
               },
               "next": {
                 "title": "MCP23017 expander",
-                "permalink": "/docs/configuration/mcp23017"
+                "permalink": "/docs/0.2.x/configuration/mcp23017"
               }
             },
             {
@@ -876,7 +876,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/logger.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/logger",
-              "permalink": "/docs/configuration/logger",
+              "permalink": "/docs/0.2.x/configuration/logger",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/logger.md",
               "tags": [],
               "version": "0.2.x",
@@ -887,11 +887,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MQTT Client",
-                "permalink": "/docs/configuration/mqtt"
+                "permalink": "/docs/0.2.x/configuration/mqtt"
               },
               "next": {
                 "title": "OLED",
-                "permalink": "/docs/configuration/oled"
+                "permalink": "/docs/0.2.x/configuration/oled"
               }
             },
             {
@@ -902,7 +902,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/mcp23017.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mcp23017",
-              "permalink": "/docs/configuration/mcp23017",
+              "permalink": "/docs/0.2.x/configuration/mcp23017",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/mcp23017.md",
               "tags": [],
               "version": "0.2.x",
@@ -913,11 +913,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "LM75 temp sensor",
-                "permalink": "/docs/configuration/lm75"
+                "permalink": "/docs/0.2.x/configuration/lm75"
               },
               "next": {
                 "title": "MCP9808 temp sensor",
-                "permalink": "/docs/configuration/mcp9808"
+                "permalink": "/docs/0.2.x/configuration/mcp9808"
               }
             },
             {
@@ -928,7 +928,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/mcp9808.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mcp9808",
-              "permalink": "/docs/configuration/mcp9808",
+              "permalink": "/docs/0.2.x/configuration/mcp9808",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/mcp9808.md",
               "tags": [],
               "version": "0.2.x",
@@ -939,11 +939,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MCP23017 expander",
-                "permalink": "/docs/configuration/mcp23017"
+                "permalink": "/docs/0.2.x/configuration/mcp23017"
               },
               "next": {
                 "title": "Output module",
-                "permalink": "/docs/configuration/output"
+                "permalink": "/docs/0.2.x/configuration/output"
               }
             },
             {
@@ -954,7 +954,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/modbus.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/modbus",
-              "permalink": "/docs/configuration/modbus",
+              "permalink": "/docs/0.2.x/configuration/modbus",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/modbus.md",
               "tags": [],
               "version": "0.2.x",
@@ -965,11 +965,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "OLED",
-                "permalink": "/docs/configuration/oled"
+                "permalink": "/docs/0.2.x/configuration/oled"
               },
               "next": {
                 "title": "Modbus sensors",
-                "permalink": "/docs/configuration/modbus-sensors"
+                "permalink": "/docs/0.2.x/configuration/modbus-sensors"
               }
             },
             {
@@ -980,7 +980,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/modbus-sensors.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/modbus-sensors",
-              "permalink": "/docs/configuration/modbus-sensors",
+              "permalink": "/docs/0.2.x/configuration/modbus-sensors",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/modbus-sensors.md",
               "tags": [],
               "version": "0.2.x",
@@ -991,11 +991,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus",
-                "permalink": "/docs/configuration/modbus"
+                "permalink": "/docs/0.2.x/configuration/modbus"
               },
               "next": {
                 "title": "LM75 temp sensor",
-                "permalink": "/docs/configuration/lm75"
+                "permalink": "/docs/0.2.x/configuration/lm75"
               }
             },
             {
@@ -1006,7 +1006,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/mqtt.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/mqtt",
-              "permalink": "/docs/configuration/mqtt",
+              "permalink": "/docs/0.2.x/configuration/mqtt",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/mqtt.md",
               "tags": [],
               "version": "0.2.x",
@@ -1017,11 +1017,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Configuration",
-                "permalink": "/docs/configuration/"
+                "permalink": "/docs/0.2.x/configuration/"
               },
               "next": {
                 "title": "Logger",
-                "permalink": "/docs/configuration/logger"
+                "permalink": "/docs/0.2.x/configuration/logger"
               }
             },
             {
@@ -1032,7 +1032,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/oled.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/oled",
-              "permalink": "/docs/configuration/oled",
+              "permalink": "/docs/0.2.x/configuration/oled",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/oled.md",
               "tags": [],
               "version": "0.2.x",
@@ -1043,11 +1043,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Logger",
-                "permalink": "/docs/configuration/logger"
+                "permalink": "/docs/0.2.x/configuration/logger"
               },
               "next": {
                 "title": "Modbus",
-                "permalink": "/docs/configuration/modbus"
+                "permalink": "/docs/0.2.x/configuration/modbus"
               }
             },
             {
@@ -1058,7 +1058,7 @@
               "source": "@site/versioned_docs/version-0.2.x/02-configuration/output.md",
               "sourceDirName": "02-configuration",
               "slug": "/configuration/output",
-              "permalink": "/docs/configuration/output",
+              "permalink": "/docs/0.2.x/configuration/output",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/02-configuration/output.md",
               "tags": [],
               "version": "0.2.x",
@@ -1069,11 +1069,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MCP9808 temp sensor",
-                "permalink": "/docs/configuration/mcp9808"
+                "permalink": "/docs/0.2.x/configuration/mcp9808"
               },
               "next": {
                 "title": "Input module",
-                "permalink": "/docs/configuration/input"
+                "permalink": "/docs/0.2.x/configuration/input"
               }
             },
             {
@@ -1084,7 +1084,7 @@
               "source": "@site/versioned_docs/version-0.2.x/03-contribute/dev-version.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/dev-version",
-              "permalink": "/docs/contribute/dev-version",
+              "permalink": "/docs/0.2.x/contribute/dev-version",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/03-contribute/dev-version.md",
               "tags": [],
               "version": "0.2.x",
@@ -1095,11 +1095,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Cover",
-                "permalink": "/docs/configuration/cover"
+                "permalink": "/docs/0.2.x/configuration/cover"
               },
               "next": {
                 "title": "Developer guide",
-                "permalink": "/docs/contribute/developer"
+                "permalink": "/docs/0.2.x/contribute/developer"
               }
             },
             {
@@ -1110,7 +1110,7 @@
               "source": "@site/versioned_docs/version-0.2.x/03-contribute/developer.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/developer",
-              "permalink": "/docs/contribute/developer",
+              "permalink": "/docs/0.2.x/contribute/developer",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/03-contribute/developer.md",
               "tags": [],
               "version": "0.2.x",
@@ -1121,11 +1121,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Testing dev version",
-                "permalink": "/docs/contribute/dev-version"
+                "permalink": "/docs/0.2.x/contribute/dev-version"
               },
               "next": {
                 "title": "Modbus sensor",
-                "permalink": "/docs/contribute/modbus"
+                "permalink": "/docs/0.2.x/contribute/modbus"
               }
             },
             {
@@ -1136,7 +1136,7 @@
               "source": "@site/versioned_docs/version-0.2.x/03-contribute/modbus.md",
               "sourceDirName": "03-contribute",
               "slug": "/contribute/modbus",
-              "permalink": "/docs/contribute/modbus",
+              "permalink": "/docs/0.2.x/contribute/modbus",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/03-contribute/modbus.md",
               "tags": [],
               "version": "0.2.x",
@@ -1147,11 +1147,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Developer guide",
-                "permalink": "/docs/contribute/developer"
+                "permalink": "/docs/0.2.x/contribute/developer"
               },
               "next": {
                 "title": "Troubleshooting",
-                "permalink": "/docs/troubleshooting"
+                "permalink": "/docs/0.2.x/troubleshooting"
               }
             },
             {
@@ -1162,7 +1162,7 @@
               "source": "@site/versioned_docs/version-0.2.x/01-install/first-start.md",
               "sourceDirName": "01-install",
               "slug": "/install/first-start",
-              "permalink": "/docs/install/first-start",
+              "permalink": "/docs/0.2.x/install/first-start",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/01-install/first-start.md",
               "tags": [],
               "version": "0.2.x",
@@ -1173,7 +1173,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Video guide",
-                "permalink": "/docs/install/video"
+                "permalink": "/docs/0.2.x/install/video"
               }
             },
             {
@@ -1184,7 +1184,7 @@
               "source": "@site/versioned_docs/version-0.2.x/01-install/update.md",
               "sourceDirName": "01-install",
               "slug": "/install/update",
-              "permalink": "/docs/install/update",
+              "permalink": "/docs/0.2.x/install/update",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/01-install/update.md",
               "tags": [],
               "version": "0.2.x",
@@ -1192,11 +1192,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Video guide",
-                "permalink": "/docs/install/video"
+                "permalink": "/docs/0.2.x/install/video"
               },
               "next": {
                 "title": "Intro",
-                "permalink": "/docs/intro"
+                "permalink": "/docs/0.2.x/intro"
               }
             },
             {
@@ -1207,7 +1207,7 @@
               "source": "@site/versioned_docs/version-0.2.x/01-install/video.md",
               "sourceDirName": "01-install",
               "slug": "/install/video",
-              "permalink": "/docs/install/video",
+              "permalink": "/docs/0.2.x/install/video",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/01-install/video.md",
               "tags": [],
               "version": "0.2.x",
@@ -1218,11 +1218,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Installation",
-                "permalink": "/docs/install/first-start"
+                "permalink": "/docs/0.2.x/install/first-start"
               },
               "next": {
                 "title": "Software Update",
-                "permalink": "/docs/install/update"
+                "permalink": "/docs/0.2.x/install/update"
               }
             },
             {
@@ -1233,7 +1233,7 @@
               "source": "@site/versioned_docs/version-0.2.x/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/intro",
+              "permalink": "/docs/0.2.x/intro",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/intro.md",
               "tags": [],
               "version": "0.2.x",
@@ -1244,11 +1244,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Software Update",
-                "permalink": "/docs/install/update"
+                "permalink": "/docs/0.2.x/install/update"
               },
               "next": {
                 "title": "Configuration",
-                "permalink": "/docs/configuration/"
+                "permalink": "/docs/0.2.x/configuration/"
               }
             },
             {
@@ -1259,7 +1259,7 @@
               "source": "@site/versioned_docs/version-0.2.x/troubleshooting.md",
               "sourceDirName": ".",
               "slug": "/troubleshooting",
-              "permalink": "/docs/troubleshooting",
+              "permalink": "/docs/0.2.x/troubleshooting",
               "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/versioned_docs/version-0.2.x/troubleshooting.md",
               "tags": [],
               "version": "0.2.x",
@@ -1270,7 +1270,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus sensor",
-                "permalink": "/docs/contribute/modbus"
+                "permalink": "/docs/0.2.x/contribute/modbus"
               }
             }
           ],
@@ -1440,36 +1440,6 @@
               }
             },
             {
-              "unversionedId": "i2c",
-              "id": "i2c",
-              "title": "I2C Output Board Config",
-              "description": "How to find config pins?",
-              "source": "@site/hardware/i2c.md",
-              "sourceDirName": ".",
-              "slug": "/i2c",
-              "permalink": "/hardware/i2c",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/i2c.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4,
-                "title": "I2C Output Board Config"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Powering boneIO",
-                "permalink": "/hardware/power"
-              },
-              "next": {
-                "title": "Input Board",
-                "permalink": "/hardware/v0.2/input"
-              }
-            },
-            {
               "unversionedId": "index",
               "id": "index",
               "title": "Introduction",
@@ -1492,6 +1462,66 @@
               "next": {
                 "title": "Case",
                 "permalink": "/hardware/case"
+              }
+            },
+            {
+              "unversionedId": "Input Board BBB/v0.2",
+              "id": "Input Board BBB/v0.2",
+              "title": "v0.2",
+              "description": "Version: 0.2",
+              "source": "@site/hardware/Input Board BBB/v0.2.md",
+              "sourceDirName": "Input Board BBB",
+              "slug": "/Input Board BBB/v0.2",
+              "permalink": "/hardware/Input Board BBB/v0.2",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/Input Board BBB/v0.2.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "v0.2"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Powering boneIO",
+                "permalink": "/hardware/power"
+              },
+              "next": {
+                "title": "v0.3",
+                "permalink": "/hardware/Input Board BBB/v0.3"
+              }
+            },
+            {
+              "unversionedId": "Input Board BBB/v0.3",
+              "id": "Input Board BBB/v0.3",
+              "title": "v0.3",
+              "description": "Version: 0.3",
+              "source": "@site/hardware/Input Board BBB/v0.3.md",
+              "sourceDirName": "Input Board BBB",
+              "slug": "/Input Board BBB/v0.3",
+              "permalink": "/hardware/Input Board BBB/v0.3",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/Input Board BBB/v0.3.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "v0.3"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "v0.2",
+                "permalink": "/hardware/Input Board BBB/v0.2"
+              },
+              "next": {
+                "title": "v0.2",
+                "permalink": "/hardware/Relay Board 24x16A/v0.2"
               }
             },
             {
@@ -1519,20 +1549,20 @@
                 "permalink": "/hardware/case"
               },
               "next": {
-                "title": "I2C Output Board Config",
-                "permalink": "/hardware/i2c"
+                "title": "v0.2",
+                "permalink": "/hardware/Input Board BBB/v0.2"
               }
             },
             {
-              "unversionedId": "v0.2/input",
-              "id": "v0.2/input",
-              "title": "Input Board",
+              "unversionedId": "Relay Board 24x16A/v0.2",
+              "id": "Relay Board 24x16A/v0.2",
+              "title": "v0.2",
               "description": "Version: 0.2",
-              "source": "@site/hardware/v0.2/01-input.md",
-              "sourceDirName": "v0.2",
-              "slug": "/v0.2/input",
-              "permalink": "/hardware/v0.2/input",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/v0.2/01-input.md",
+              "source": "@site/hardware/Relay Board 24x16A/v0.2.md",
+              "sourceDirName": "Relay Board 24x16A",
+              "slug": "/Relay Board 24x16A/v0.2",
+              "permalink": "/hardware/Relay Board 24x16A/v0.2",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/Relay Board 24x16A/v0.2.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -1540,28 +1570,29 @@
               "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 2,
+                "title": "v0.2"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "I2C Output Board Config",
-                "permalink": "/hardware/i2c"
+                "title": "v0.3",
+                "permalink": "/hardware/Input Board BBB/v0.3"
               },
               "next": {
-                "title": "Output Boards",
-                "permalink": "/hardware/v0.2/output"
+                "title": "v0.2",
+                "permalink": "/hardware/Relay Board 32x5A/v0.2"
               }
             },
             {
-              "unversionedId": "v0.2/output",
-              "id": "v0.2/output",
-              "title": "Output Boards",
-              "description": "Version: 0.2",
-              "source": "@site/hardware/v0.2/02-output.md",
-              "sourceDirName": "v0.2",
-              "slug": "/v0.2/output",
-              "permalink": "/hardware/v0.2/output",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/v0.2/02-output.md",
+              "unversionedId": "Relay Board 32x5A/v0.2",
+              "id": "Relay Board 32x5A/v0.2",
+              "title": "v0.2",
+              "description": "Comming soon",
+              "source": "@site/hardware/Relay Board 32x5A/v0.2.md",
+              "sourceDirName": "Relay Board 32x5A",
+              "slug": "/Relay Board 32x5A/v0.2",
+              "permalink": "/hardware/Relay Board 32x5A/v0.2",
+              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/Relay Board 32x5A/v0.2.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -1569,41 +1600,13 @@
               "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 2,
+                "title": "v0.2"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Input Board",
-                "permalink": "/hardware/v0.2/input"
-              },
-              "next": {
-                "title": "Input Board",
-                "permalink": "/hardware/v0.3/input"
-              }
-            },
-            {
-              "unversionedId": "v0.3/input",
-              "id": "v0.3/input",
-              "title": "Input Board",
-              "description": "Version: 0.3",
-              "source": "@site/hardware/v0.3/01-input.md",
-              "sourceDirName": "v0.3",
-              "slug": "/v0.3/input",
-              "permalink": "/hardware/v0.3/input",
-              "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/v0.3/01-input.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Output Boards",
-                "permalink": "/hardware/v0.2/output"
+                "title": "v0.2",
+                "permalink": "/hardware/Relay Board 24x16A/v0.2"
               }
             }
           ],
@@ -1622,34 +1625,42 @@
                 "id": "power"
               },
               {
-                "type": "doc",
-                "id": "i2c"
-              },
-              {
                 "type": "category",
-                "label": "v0.2",
+                "label": "Input Board BBB",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "v0.2/input"
+                    "id": "Input Board BBB/v0.2"
                   },
                   {
                     "type": "doc",
-                    "id": "v0.2/output"
+                    "id": "Input Board BBB/v0.3"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "v0.3",
+                "label": "Relay Board 24x16A",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "v0.3/input"
+                    "id": "Relay Board 24x16A/v0.2"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Relay Board 32x5A",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Relay Board 32x5A/v0.2"
                   }
                 ]
               }
@@ -1701,8 +1712,8 @@
               {
                 "name": "Mariusz",
                 "title": "Case design",
-                "url": "https://github.com/Mx0xM",
-                "imageURL": "https://github.com/Mx0xM.png",
+                "url": "https://github.com/mariuszrubach",
+                "imageURL": "https://github.com/mariuszrubach.png",
                 "key": "mariusz"
               },
               {

@@ -16,13 +16,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "i2c",
-              "path": "/hardware/i2c",
+              "id": "index",
+              "path": "/hardware/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "index",
-              "path": "/hardware/",
+              "id": "Input Board BBB/v0.2",
+              "path": "/hardware/Input Board BBB/v0.2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Input Board BBB/v0.3",
+              "path": "/hardware/Input Board BBB/v0.3",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -31,18 +36,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "v0.2/input",
-              "path": "/hardware/v0.2/input",
+              "id": "Relay Board 24x16A/v0.2",
+              "path": "/hardware/Relay Board 24x16A/v0.2",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "v0.2/output",
-              "path": "/hardware/v0.2/output",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "v0.3/input",
-              "path": "/hardware/v0.3/input",
+              "id": "Relay Board 32x5A/v0.2",
+              "path": "/hardware/Relay Board 32x5A/v0.2",
               "sidebar": "tutorialSidebar"
             }
           ],

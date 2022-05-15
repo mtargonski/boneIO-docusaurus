@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','0f4'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','59a'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','edd'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','e30'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','355'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','f76'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','27e'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog','2a8'),
     exact: true
@@ -316,7 +351,7 @@ export default [
   },
   {
     path: '/hardware',
-    component: ComponentCreator('/hardware','339'),
+    component: ComponentCreator('/hardware','2b3'),
     routes: [
       {
         path: '/hardware/',
@@ -331,8 +366,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/hardware/i2c',
-        component: ComponentCreator('/hardware/i2c','4b1'),
+        path: '/hardware/Input Board BBB/v0.2',
+        component: ComponentCreator('/hardware/Input Board BBB/v0.2','6e4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/hardware/Input Board BBB/v0.3',
+        component: ComponentCreator('/hardware/Input Board BBB/v0.3','f6f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -343,20 +384,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/hardware/v0.2/input',
-        component: ComponentCreator('/hardware/v0.2/input','9a1'),
+        path: '/hardware/Relay Board 24x16A/v0.2',
+        component: ComponentCreator('/hardware/Relay Board 24x16A/v0.2','ad7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/hardware/v0.2/output',
-        component: ComponentCreator('/hardware/v0.2/output','47f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/hardware/v0.3/input',
-        component: ComponentCreator('/hardware/v0.3/input','a26'),
+        path: '/hardware/Relay Board 32x5A/v0.2',
+        component: ComponentCreator('/hardware/Relay Board 32x5A/v0.2','000'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

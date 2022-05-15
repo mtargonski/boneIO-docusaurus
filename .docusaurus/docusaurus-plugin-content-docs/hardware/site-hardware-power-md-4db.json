@@ -10,9 +10,9 @@
   "editUrl": "https://github.com/boneIO-eu/docusaurus/tree/main/hardware/power.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Paweł Szafer",
-  "lastUpdatedAt": 1644697857,
-  "formattedLastUpdatedAt": "2/12/2022",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3
@@ -23,7 +23,7 @@
     "permalink": "/hardware/case"
   },
   "next": {
-    "title": "I2C Output Board Config",
-    "permalink": "/hardware/i2c"
+    "title": "v0.2",
+    "permalink": "/hardware/Input Board BBB/v0.2"
   }
 }
