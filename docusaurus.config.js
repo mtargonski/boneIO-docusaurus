@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'boneIO',
@@ -16,6 +15,7 @@ const config = {
   organizationName: 'boneio-eu', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   plugins: [
+    // require.resolve('docusaurus-plugin-image-zoom'),
     [
       'content-docs',
       /** @type {import('@docusaurus/plugin-content-docs').Options} */
@@ -30,6 +30,7 @@ const config = {
         showLastUpdateTime: true,
       }),
     ],
+    require.resolve('docusaurus-plugin-image-zoom'),
     // [
     //   'content-docs',
     //   /** @type {import('@docusaurus/plugin-content-docs').Options} */
@@ -77,6 +78,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)',
+        },
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        config: {},
+      },
       image: 'img/boneIO_v0.2render.png',
       navbar: {
         // title: 'boneIO',
