@@ -13,5 +13,6 @@ yarn-error.log*
 .docusaurus
 .docusaurus/*
 .docusaurus*
+.docusaurus
 build
 
