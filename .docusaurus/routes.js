@@ -351,7 +351,7 @@ export default [
   },
   {
     path: '/hardware',
-    component: ComponentCreator('/hardware','2b3'),
+    component: ComponentCreator('/hardware','3cc'),
     routes: [
       {
         path: '/hardware/',
@@ -390,8 +390,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/hardware/Relay Board 32x5A/v0.2',
-        component: ComponentCreator('/hardware/Relay Board 32x5A/v0.2','000'),
+        path: '/hardware/Relay Board 32x5A/v0.3',
+        component: ComponentCreator('/hardware/Relay Board 32x5A/v0.3','1d2'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

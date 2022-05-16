@@ -68,9 +68,9 @@
         "items": [
           {
             "type": "link",
-            "label": "v0.2",
-            "href": "/hardware/Relay Board 32x5A/v0.2",
-            "docId": "Relay Board 32x5A/v0.2"
+            "label": "v0.3",
+            "href": "/hardware/Relay Board 32x5A/v0.3",
+            "docId": "Relay Board 32x5A/v0.3"
           }
         ]
       }
@@ -113,10 +113,10 @@
       "description": "Version: 0.2",
       "sidebar": "tutorialSidebar"
     },
-    "Relay Board 32x5A/v0.2": {
-      "id": "Relay Board 32x5A/v0.2",
-      "title": "v0.2",
-      "description": "Comming soon",
+    "Relay Board 32x5A/v0.3": {
+      "id": "Relay Board 32x5A/v0.3",
+      "title": "v0.3",
+      "description": "Changes from previous version",
       "sidebar": "tutorialSidebar"
     }
   }
