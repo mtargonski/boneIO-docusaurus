@@ -79,7 +79,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       zoom: {
-        selector: '.markdown :not(em) > img',
+        selector: '.plugin-docs.plugin-id-hardware .markdown :not(em) > img',
         background: {
           light: 'rgb(255, 255, 255)',
           dark: 'rgb(50, 50, 50)',

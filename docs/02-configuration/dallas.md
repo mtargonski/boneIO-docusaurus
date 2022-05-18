@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # Dallas DS18B20
 
-![Dallas](/img/ds18b20.png)
+![Dallas](/img/ds18b20.png#thumbnail)
 
 DS18B20 is 1-wire temperature sensor.
 Currently in boneIO it can be connected only through [DS2482](./ds2482).

@@ -51,7 +51,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   text-decoration: none;
 }
 
-.markdown > p:first-of-type img {
+.plugin-docs.plugin-id-default .markdown > p:first-of-type img {
   max-height: 200px;
   width: auto;
 }
