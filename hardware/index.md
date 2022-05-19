@@ -65,4 +65,15 @@ Here you can find some info how to plan this kind of electrical instalation:
 ## Board labels
 
 Below are labels which you can print and attach on your boneIO case.
-[Opisy](/opisy.pdf)
+
+### v0.2 v0.3
+
+PDF File for v0.2 and v0.3 version
+
+[Opisy](/opisy_v02_v03.pdf)
+
+### v0.4 v0.5
+
+PDF File for v0.4 and v0.5 version
+
+[Opisy](/opisy_v04_v05.pdf)
