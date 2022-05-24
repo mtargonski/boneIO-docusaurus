@@ -6,7 +6,7 @@ sidebar_position: 11
 
 ![Cover](/img/cover.png)
 
-Cover module. It can be used with cover board and relay board as well. Used for roller shutters.
+Cover module. It can be used with cover board and relay board as well.
 **This is experimental module, so testers needed!**
 
 ## Example config

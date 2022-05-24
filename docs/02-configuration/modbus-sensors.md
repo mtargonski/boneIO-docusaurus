@@ -44,4 +44,4 @@ modbus_sensors:
 - **model** (**Required**, string) - model schema to use. Check table above to get model name.
 - **update_interval** (_Optional_, timeperiod, default: 60 seconds) - update interval. Modbus connection is pretty cpu intensive so customize with care. Minimum is 1 second, but recommended minimum is 10 secs.
 
-[^1]: Those energy metters can be found in two versions and only one supports Modbus - sometimes it's marked with suffix `M` (`SDM120M` / `SDM6301M`), other time `Modbus` is mentioned in the title. Don't confuse it with cheaper version with suffix `D` (`SDM120D` / `SDM6301D`) - it doesn't support Modbus communication so it cannon't be connected with Bone.io.
+[^1]: Those energy metters can be found in two versions and only one supports Modbus - sometimes it's marked with suffix `M` (`SDM120M` / `SDM6301M`), other time `Modbus` is mentioned in the title. Don't confuse it with cheaper version with suffix `D` (`SDM120D` / `SDM6301D`) - it doesn't support Modbus communication so it can't be connected with Bone.io.
